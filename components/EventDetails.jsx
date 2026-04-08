@@ -67,9 +67,9 @@ const features = [
     <>
     <div className='bg-[#f4f4f4]'>
       <div className="py-10 w-full px-4 sm:px-8 lg:px-20 flex flex-col items-start justify-center-s">
-        <p className='p-5 max-w-3xl text-sm sm:text-base lg:text-lg'>Get Connected</p>
+        <p className='p-5 max-w-3xl text-sm sm:text-base lg:text-lg text-black'>Get Connected</p>
                <h2 className='text-center font-bold text-2xl text-black sm:text-3xl lg:text-4xl p-2'>Nest Steps</h2>
-                       <p className='p-2 max-w-3xl text-sm sm:text-base lg:text-lg'>Get Connected: Discover authentic community,
+                       <p className='p-2 max-w-3xl text-sm sm:text-base lg:text-lg text-black'>Get Connected: Discover authentic community,
                          build meaningful relationships,
                          and take your first step toward getting involved.</p>
     </div>
@@ -79,9 +79,9 @@ const features = [
          <div className="w-14 h-14 rounded-full bg-[#8d8d8d] flex items-center justify-center">
         <FontAwesomeIcon icon={features.icon} className='text-white' />
     </div>
-                <h3 className='font-bold text-lg'>{features.title}</h3>
+                <h3 className='font-bold text-lg text-black'>{features.title}</h3>
                 <p>{features.description}</p>
-             <span className="cursor-pointer font-bold text-[#8d8d8d] py-2 border-b-2 border-[#bdbdbd] hover:border-transparent transition-all duration-300 w-max">
+             <span className="cursor-pointer font-bold text-[#8d8d8d] text-2xl py-2 border-b-2 border-[#bdbdbd] hover:border-transparent transition-all duration-300 w-max">
   Learn More
 </span>
             </div>

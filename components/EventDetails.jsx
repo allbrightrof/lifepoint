@@ -79,11 +79,13 @@ const features = [
          <div className="w-14 h-14 rounded-full bg-[#8d8d8d] flex items-center justify-center">
         <FontAwesomeIcon icon={features.icon} className='text-white' />
     </div>
-                <h3 className='font-bold text-lg text-black'>{features.title}</h3>
-                <p className='font-bold text-lg text-black'>{features.description}</p>
+    <div>
+                <h3 className='font-bold text-black-200'>{features.title}</h3>
+                <p className='font-bold text-black-500 '>{features.description}</p>
              <span className="cursor-pointer font-bold text-[#8d8d8d] text-2xl py-2 border-b-2 border-[#bdbdbd] hover:border-transparent transition-all duration-300 w-max">
   Learn More
 </span>
+</div>
             </div>
         ))}
      </div>

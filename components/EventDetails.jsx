@@ -80,8 +80,8 @@ const features = [
         <FontAwesomeIcon icon={features.icon} className='text-white' />
     </div>
     <div>
-                <h3 className='font-bold text-black-200'>{features.title}</h3>
-                <p className='font-bold text-black-500 '>{features.description}</p>
+                <h3 className='font-bold text-black'>{features.title}</h3>
+                <p className='font-bold text-gray-700'>{features.description}</p>
              <span className="cursor-pointer font-bold text-[#8d8d8d] text-2xl py-2 border-b-2 border-[#bdbdbd] hover:border-transparent transition-all duration-300 w-max">
   Learn More
 </span>

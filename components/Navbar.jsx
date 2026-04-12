@@ -4,49 +4,51 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
+import Link from "next/link";
 
-const Navbar = () => {
-const [aboutOpen, setAboutOpen] = useState(false);
-const [nextStep, setNextStep] = useState(false);
-const [nextGen, setNextGen] = useState(false);
-const [events, setEvents] = useState(false);
-const [care, setCare] = useState(false);
-const [give , setGive] = useState(false);
-const [sermon , setSermon] = useState(false);
-const [home , setHome] = useState(false);
+const Navbar = ({ variant = "transparent"}) => {
+const [activeMenu, setActiveMenu] = useState(null);
 const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-const [mobileAbout, setMobileAbout] = useState(false);
-const [mobileNextStep, setMobileNextStep] = useState(false);
-const [mobileNextGen , setMobileNextGen] = useState(false);
-const [mobileEvents , setMobileEvents] = useState(false);
-const [mobileCare , setMobileCare] = useState(false);
-const [mobileGive, setMobileGive] = useState(false);
-const [mobileSermon, setMobileSermon] = useState(false);
-const [mobileHome,setMobileHome] = useState(false);
-
+const [mobileGen ,setMobileGen] = useState(null);
   return (
-    <nav className="absolute top-0 left-0 w-full z-20 ">
-      <div className=" flex md:flex mx-auto max-w-6xl justify-between pt-10 pb-5 bg-transparent text-white border-b border-white/30">
+<nav
+  className={`top-0 left-0 w-full ${
+    mobileMenuOpen ? "fixed z-50" : "absolute z-20"
+  } ${
+    variant === "transparent"
+      ? "bg-transparent text-white"
+      : "bg-white text-black"
+  }`}
+>
+      <div className="flex md:flex mx-auto max-w-6xl justify-between pt-10 pb-5 border-b border-white/30">
             <div className="text-xl font-bold mx-auto">
-               <Image src="/life-church.jpg" alt="Logo" width={200} height={200} loading="eager"/>
+              <Image
+  src={variant === "transparent" ? "/life-church.jpg" : "/black-lifepoint.jpg"}
+  alt="Logo"
+  width={200}
+  height={200}
+  loading="eager"
+/>
                 </div>
             <div className="space-x-4 hidden sm:hidden md:hidden lg:flex gap-8">
                 
-  <div className="relative" onMouseEnter={() => setAboutOpen(true)} onMouseLeave={() => setAboutOpen(false)}>
- <a
-  href="/about"
+  <div className="relative" onMouseEnter={() => setActiveMenu("about")} onMouseLeave={() => setActiveMenu(null)}>
+<Link
+  href="/"
   className="cursor-pointer py-2 border-b-2 border-transparent hover:border-white/500 transition-all duration-300"
 >
   About
-</a>
+</Link>
 
-  {aboutOpen && (
+  {activeMenu === "about" && (
     <div className="absolute left-0 top-full pt-2">
       
       <div className="h-2"></div>
 
       <div className="bg-white text-black shadow-lg min-w-max p-3 font-bold border rounded-lg border-white">
-        <a href="/about/history" className="block px-4 py-2 hover:bg-gray-100">Locations</a>
+     <Link href="/locations" className="block px-4 py-2 hover:bg-gray-100">
+  Locations
+</Link>
         <a href="/about/team" className="block px-4 py-2 hover:bg-gray-100">  Leadership</a>
         <a href="/about/contact" className="block px-4 py-2 hover:bg-gray-100">Our Beliefs</a>
             <a href="/about/contact" className="block px-4 py-2 hover:bg-gray-100">Our Missions</a>
@@ -55,15 +57,15 @@ const [mobileHome,setMobileHome] = useState(false);
   )}
 </div>
 
-    <div className="relative" onMouseEnter={() => setNextStep(true)} onMouseLeave={() => setNextStep(false)}>
- <a
+    <div className="relative" onMouseEnter={() => setActiveMenu("nextstep")} onMouseLeave={() => setActiveMenu(null)}>
+<Link
   href="/about"
   className="cursor-pointer py-2 border-b-2 border-transparent hover:border-white/500 transition-all duration-300"
 >
-    Next Step
-</a>
+  Next Step
+</Link>
 
-  {nextStep && (
+  {activeMenu === "nextstep" && (
     <div className="absolute left-0 top-full pt-2">
       
     
@@ -80,15 +82,14 @@ const [mobileHome,setMobileHome] = useState(false);
     </div>
   )}
 </div>
-                  <div className="relative" onMouseEnter={() => setNextGen(true)} onMouseLeave={() => setNextGen(false)}>
- <a
+                  <div className="relative" onMouseEnter={() => setActiveMenu("nextgen")} onMouseLeave={() => setActiveMenu(null)}>
+<Link
   href="/about"
   className="cursor-pointer py-2 border-b-2 border-transparent hover:border-white/500 transition-all duration-300"
 >
-    Next Gen 
-</a>
-
-  {nextGen&& (
+  Next Gen
+</Link>
+  {activeMenu=== "nextgen" && (
     <div className="absolute left-0 top-full pt-2">
       
       <div className="h-2"></div>
@@ -102,15 +103,15 @@ const [mobileHome,setMobileHome] = useState(false);
     </div>
   )}
 </div>
-             <div className="relative" onMouseEnter={() => setEvents(true)} onMouseLeave={() => setEvents(false)}>
-  <a
+             <div className="relative" onMouseEnter={() => setActiveMenu("events")} onMouseLeave={() => setActiveMenu(null)}>
+<Link
   href="/about"
   className="cursor-pointer py-2 border-b-2 border-transparent hover:border-white/500 transition-all duration-300"
 >
   Events
-</a>
+</Link>
 
-  {events&& (
+  {activeMenu=== "events" && (
     <div className="absolute left-0 top-full pt-2">
       
       <div className="h-2"></div>
@@ -123,10 +124,15 @@ const [mobileHome,setMobileHome] = useState(false);
     </div>
   )}
 </div>
-                      <div className="relative" onMouseEnter={() => setCare(true)} onMouseLeave={() => setCare(false)}>
-  <a href="/nextstep" className="hover:underline cursor-pointer py-2">Care</a>
+                      <div className="relative" onMouseEnter={() => setActiveMenu("care")} onMouseLeave={() => setActiveMenu(null)}>
+ <Link
+  href="/about"
+  className="cursor-pointer py-2 border-b-2 border-transparent hover:border-white/500 transition-all duration-300"
+>
+  Care
+</Link>
 
-  {care&& (
+  {activeMenu === "care" && (
     <div className="absolute left-0 top-full pt-2">
       
       <div className="h-2"></div>
@@ -139,15 +145,15 @@ const [mobileHome,setMobileHome] = useState(false);
     </div>
   )}
 </div>
-               <div className="relative" onMouseEnter={() => setGive(true)} onMouseLeave={() => setGive(false)}>
- <a
+               <div className="relative" onMouseEnter={() => setActiveMenu("give")} onMouseLeave={() => setActiveMenu(null)}>
+<Link
   href="/about"
   className="cursor-pointer py-2 border-b-2 border-transparent hover:border-white/500 transition-all duration-300"
 >
   Give
-</a>
+</Link>
 
-  {give && (
+  {activeMenu === "give" && (
     <div className="absolute left-0 top-full pt-2">
       
       <div className="h-2"></div>
@@ -160,15 +166,15 @@ const [mobileHome,setMobileHome] = useState(false);
     </div>
   )}
 </div>
-               <div className="relative" onMouseEnter={() => setSermon(true)} onMouseLeave={() => setSermon(false)}>
-  <a
+               <div className="relative" onMouseEnter={() => setActiveMenu("sermons")} onMouseLeave={() => setActiveMenu(null)}>
+<Link
   href="/about"
   className="cursor-pointer py-2 border-b-2 border-transparent hover:border-white/500 transition-all duration-300"
 >
-    Sermons
-</a>
+  Sermons
+</Link>
 
-  {sermon&& (
+  {activeMenu=== "sermons" && (
     <div className="absolute left-0 top-full pt-2">
       
       <div className="h-2"></div>
@@ -180,15 +186,15 @@ const [mobileHome,setMobileHome] = useState(false);
     </div>
   )}
 </div>
-         <div className="relative" onMouseEnter={() => setHome(true)} onMouseLeave={() => setHome(false)}>
-  <a
-  href="/about"
+         <div className="relative" onMouseEnter={() => setActiveMenu("home")} onMouseLeave={() => setActiveMenu(null)}>
+<Link
+  href="/home"
   className="cursor-pointer py-2 border-b-2 border-transparent hover:border-white/500 transition-all duration-300"
 >
-    Home
-</a>
+  Home
+</Link>
 
-  {home&& (
+  {activeMenu === "home" && (
     <div className="absolute left-0 top-full pt-2">
       
       <div className="h-2"></div>
@@ -203,7 +209,11 @@ const [mobileHome,setMobileHome] = useState(false);
      <FontAwesomeIcon
   icon={mobileMenuOpen ? faTimes : faBars}
   className={`text-2xl cursor-pointer ${
-    mobileMenuOpen ? "text-black" : "text-white"
+   mobileMenuOpen
+      ? "text-black"
+      : variant === "transparent"
+      ? "text-white"
+      : "text-black"
   }`}
 />
     </div>
@@ -213,20 +223,22 @@ const [mobileHome,setMobileHome] = useState(false);
 
   <div
     className="flex items-center justify-between cursor-pointer py-2 px-3"
-    onClick={() => setMobileAbout(!mobileAbout)}
+    onClick={() => setMobileGen(mobileGen === "about" ? null : "about")}
   >
     <span>ABOUT</span>
 
    <FontAwesomeIcon
-      icon={mobileAbout ? faChevronUp : faChevronDown}
+      icon={mobileGen === "about" ? faChevronUp : faChevronDown}
       className="transition-transform duration-300"
     />
   </div>
 
  
-  {mobileAbout && (
+  {mobileGen === "about" && (
     <div className="pl-6 flex flex-col">
-      <a href="/about/history" className="py-2">History</a>
+       <Link href="/locations" className="block px-4 py-2 hover:bg-gray-100">
+  Locations
+</Link>
       <a href="/about/team" className="py-2">Team</a>
       <a href="/about/contact" className="py-2">Contact</a>
     </div>
@@ -237,18 +249,18 @@ const [mobileHome,setMobileHome] = useState(false);
 
   <div
     className="flex items-center justify-between cursor-pointer py-2 px-3"
-    onClick={() => setMobileNextStep(!mobileNextStep)}
+    onClick={() => setMobileGen(mobileGen === "nextStep" ? null : "nextStep")}
   >
     <span> Next Step</span>
 
    <FontAwesomeIcon
-      icon={mobileNextStep ? faChevronUp : faChevronDown}
+      icon={mobileGen === "nextStep" ? faChevronUp : faChevronDown}
       className="transition-transform duration-300"
     />
   </div>
 
  
-  {mobileNextStep && (
+  {mobileGen === "nextStep" && (
     <div className="pl-6 flex flex-col">
       <a href="/about/history" className="py-2">History</a>
       <a href="/about/team" className="py-2">Team</a>
@@ -261,18 +273,18 @@ const [mobileHome,setMobileHome] = useState(false);
 
   <div
     className="flex items-center justify-between cursor-pointer py-2 px-3"
-    onClick={() => setMobileNextGen(!mobileNextGen)}
+    onClick={() => setMobileGen(mobileGen === "nextGen" ? null : "nextGen")}
   >
     <span> Next Gen</span>
 
    <FontAwesomeIcon
-      icon={mobileNextGen ? faChevronUp : faChevronDown}
+      icon={mobileGen === "nextGen" ? faChevronUp : faChevronDown}
       className="transition-transform duration-300"
     />
   </div>
 
  
-  {mobileNextGen && (
+  {mobileGen === "nextGen" && (
     <div className="pl-6 flex flex-col">
       <a href="/about/history" className="py-2">History</a>
       <a href="/about/team" className="py-2">Team</a>
@@ -285,18 +297,18 @@ const [mobileHome,setMobileHome] = useState(false);
 
   <div
     className="flex items-center justify-between cursor-pointer py-2 px-3"
-    onClick={() => setMobileEvents(!mobileEvents)}
+    onClick={() => setMobileGen(mobileGen === "events" ? null : "events")}
   >
     <span> Events</span>
 
    <FontAwesomeIcon
-      icon={mobileEvents ? faChevronUp : faChevronDown}
+      icon={mobileGen === "events" ? faChevronUp : faChevronDown}
       className="transition-transform duration-300"
     />
   </div>
 
  
-  {mobileEvents && (
+  {mobileGen === "events" && (
     <div className="pl-6 flex flex-col">
       <a href="/about/history" className="py-2">History</a>
       <a href="/about/team" className="py-2">Team</a>
@@ -310,18 +322,18 @@ const [mobileHome,setMobileHome] = useState(false);
 
   <div
     className="flex items-center justify-between cursor-pointer py-2 px-3"
-    onClick={() => setMobileCare(!mobileCare)}
+    onClick={() => setMobileGen(mobileGen === "care" ? null : "care")}
   >
     <span> Care </span>
 
    <FontAwesomeIcon
-      icon={mobileCare ? faChevronUp : faChevronDown}
+      icon={mobileGen === "care" ? faChevronUp : faChevronDown}
       className="transition-transform duration-300"
     />
   </div>
 
  
-  {mobileCare && (
+  {mobileGen === "care" && (
     <div className="pl-6 flex flex-col">
       <a href="/about/history" className="py-2">History</a>
       <a href="/about/team" className="py-2">Team</a>
@@ -334,18 +346,18 @@ const [mobileHome,setMobileHome] = useState(false);
 
   <div
     className="flex items-center justify-between cursor-pointer py-2 px-3"
-    onClick={() => setMobileGive(!mobileGive)}
+    onClick={() => setMobileGen(mobileGen === "give" ? null : "give")}
   >
     <span>  Give </span>
 
    <FontAwesomeIcon
-      icon={mobileGive ? faChevronUp : faChevronDown}
+      icon={mobileGen === "give" ? faChevronUp : faChevronDown}
       className="transition-transform duration-300"
     />
   </div>
 
  
-  {mobileGive && (
+  {mobileGen === "give" && (
     <div className="pl-6 flex flex-col">
       <a href="/about/history" className="py-2">History</a>
       <a href="/about/team" className="py-2">Team</a>
@@ -358,18 +370,18 @@ const [mobileHome,setMobileHome] = useState(false);
 
   <div
     className="flex items-center justify-between cursor-pointer py-2 px-3"
-    onClick={() => setMobileSermon(!mobileSermon)}
+    onClick={() => setMobileGen(mobileGen === "sermons" ? null : "sermons")}
   >
     <span> Sermons</span>
 
    <FontAwesomeIcon
-      icon={mobileSermon ? faChevronUp : faChevronDown}
+      icon={mobileGen === "sermons" ? faChevronUp : faChevronDown}
       className="transition-transform duration-300"
     />
   </div>
 
  
-  {mobileSermon && (
+  {mobileGen === "sermons" && (
     <div className="pl-6 flex flex-col">
       <a href="/about/history" className="py-2">History</a>
       <a href="/about/team" className="py-2">Team</a>
@@ -382,18 +394,18 @@ const [mobileHome,setMobileHome] = useState(false);
 
   <div
     className="flex items-center justify-between cursor-pointer py-2 px-3"
-    onClick={() => setMobileHome(!home)}
+    onClick={() => setMobileGen(mobileGen === "home" ? null : "home")}
   >
     <span>Home</span>
 
    <FontAwesomeIcon
-      icon={mobileHome ? faChevronUp : faChevronDown}
+      icon={mobileGen === "home" ? faChevronUp : faChevronDown}
       className="transition-transform duration-300"
     />
   </div>
 
  
-  {mobileHome && (
+  {mobileGen === "home" && (
     <div className="pl-6 flex flex-col">
       <a href="/about/history" className="py-2">History</a>
       <a href="/about/team" className="py-2">Team</a>

@@ -14,7 +14,7 @@ const page = () => {
        </div>
        </div>
        <div>
-       <div className="flex flex-col items-center max-w-2xl mx-auto">
+       <div className="flex flex-col items-center bg-white max-w-2xl mx-auto">
          <h2 className='text-center font-bold text-black text-xl sm:text-xl lg:text-5xl p-5'>Our Statements of Faith</h2>
              <p className='text-center p-5 mx-auto text-sm sm:text-base lg:text-lg'>Our beliefs are rooted in Scripture and describe
                  how we view God, 

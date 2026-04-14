@@ -13,7 +13,7 @@ const page = () => {
               <h2 className='text-center font-bold text-white text-3xl sm:text-4xl lg:text-7xl p-5'>Our Beliefs</h2>
        </div>
        </div>
-       <div>
+       <div className=" bg-white">
        <div className="flex flex-col items-center bg-white max-w-2xl mx-auto">
          <h2 className='text-center font-bold text-black text-xl sm:text-xl lg:text-5xl p-5'>Our Statements of Faith</h2>
              <p className='text-center p-5 mx-auto text-sm sm:text-base lg:text-lg'>Our beliefs are rooted in Scripture and describe
@@ -28,7 +28,7 @@ const page = () => {
       <div className="bg-[#f4f4f4]">
         <div className="flex flex-col items-center max-w-2xl mx-auto">
        <h2 className='text-center font-bold text-black text-xl sm:text-xl lg:text-5xl p-5'>What We Believe</h2>
-             <p className='text-center p-5 mx-auto text-sm sm:text-base lg:text-lg'>At Lifepoint Church, we believe in the life-changing power of Jesus Christ 
+             <p className='text-center p-5 mx-auto  text-black text-sm sm:text-base lg:text-lg'>At Lifepoint Church, we believe in the life-changing power of Jesus Christ 
                 and hold to the truth of God’s Word as our foundation for faith, hope, and purpose.</p>
                 </div>
      <BelievePar/>

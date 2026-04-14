@@ -16,10 +16,10 @@ const page = () => {
        <div className=" bg-white">
        <div className="flex flex-col items-center bg-white max-w-2xl mx-auto">
          <h2 className='text-center font-bold text-black text-xl sm:text-xl lg:text-5xl p-5'>Our Statements of Faith</h2>
-             <p className='text-center p-5 mx-auto text-sm sm:text-base lg:text-lg'>Our beliefs are rooted in Scripture and describe
+             <p className='text-center p-5 mx-auto text-black text-sm sm:text-base lg:text-lg'>Our beliefs are rooted in Scripture and describe
                  how we view God, 
                 Jesus, humanity, the Bible, and God’s redemptive work in the world.</p>
-                  <p className='text-center p-5 mx-auto text-sm sm:text-base lg:text-lg'>Whether you have a deep relationship with God or are curious, 
+                  <p className='text-center p-5 text-black mx-auto text-sm sm:text-base lg:text-lg'>Whether you have a deep relationship with God or are curious, 
                     come experience a service and feel free to ask questions. </p>
        </div>
        <div>

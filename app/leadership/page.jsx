@@ -19,11 +19,11 @@ const page = () => {
   </button>
   </div>
   </div>
-    <div className="w-full px-4 sm:px-8 lg:px-16 py-13 text-black flex flex-col md:flex-row lg:flex-row items-center justify-center gap-3">
+    <div className="w-full bg-white px-4 sm:px-8 lg:px-16 py-13 text-black flex flex-col md:flex-row lg:flex-row items-center justify-center gap-3">
         <div className="full max-w-6xl flex flex-col items-start">
            <h6 className=' font-bold text-xs text-black sm:text-xl lg:text-xl p-5'>Senior Pastors</h6>
           <h2 className='font-bold text-xs text-black sm:text-3xl lg:text-5xl p-5'>Shawn & <br />Jennifer McGill</h2>
-               <p className='p-5 max-w-3xl mx-auto text-sm sm:text-base lg:text-lg'>Pastors Shawn & Jennifer McGill serve as the Senior Pastors of Lifepoint Church, leading with a deep love for Jesus, a steady commitment to His Word, and a passion to see lives changed by the Gospel. Their lives are marked by a surrendered “yes” to God and a desire to build His Church for His glory. In 2025, through a Spirit-led process and with the full blessing of Lifepoint’s Founding Pastors, Board of Overseers, and Board of Directors, Shawn and Jennifer stepped in to lead the church. They carry the vision and heart of Lifepoint forward with humility, strength, and full confidence in the faithfulness of Jesus.</p>
+               <p className='p-5 max-w-3xl text-black mx-auto text-sm sm:text-base lg:text-lg'>Pastors Shawn & Jennifer McGill serve as the Senior Pastors of Lifepoint Church, leading with a deep love for Jesus, a steady commitment to His Word, and a passion to see lives changed by the Gospel. Their lives are marked by a surrendered “yes” to God and a desire to build His Church for His glory. In 2025, through a Spirit-led process and with the full blessing of Lifepoint’s Founding Pastors, Board of Overseers, and Board of Directors, Shawn and Jennifer stepped in to lead the church. They carry the vision and heart of Lifepoint forward with humility, strength, and full confidence in the faithfulness of Jesus.</p>
         <button className="flex items-center gap-2 bg-[#8d8d8d] text-white font-bold px-4 py-3 rounded-3xl cursor-pointer w-auto">
     More About Shawn And Jennifer<FontAwesomeIcon icon={faArrowRight} className="w-auto h-3" />
   </button>

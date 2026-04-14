@@ -2,7 +2,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import Image from "next/image";
-import TestFeatures from "@/components/TestFeatures";
+import TestFeatures from "@/components/team/TestFeatures";
 const EventCard = () => {
   
 

@@ -49,8 +49,12 @@ const [mobileGen ,setMobileGen] = useState(null);
      <Link href="/locations" className="block px-4 py-2 hover:bg-gray-100">
   Locations
 </Link>
-        <a href="/about/team" className="block px-4 py-2 hover:bg-gray-100">  Leadership</a>
-        <a href="/about/contact" className="block px-4 py-2 hover:bg-gray-100">Our Beliefs</a>
+    <Link href="/leadership" className="block px-4 py-2 hover:bg-gray-100">
+  Leadership
+</Link>
+          <Link href="/beliefs" className="block px-4 py-2 hover:bg-gray-100">
+  Our Beliefs
+</Link>
             <a href="/about/contact" className="block px-4 py-2 hover:bg-gray-100">Our Missions</a>
       </div>
     </div>
@@ -239,8 +243,12 @@ const [mobileGen ,setMobileGen] = useState(null);
        <Link href="/locations" className="block px-4 py-2 hover:bg-gray-100">
   Locations
 </Link>
-      <a href="/about/team" className="py-2">Team</a>
-      <a href="/about/contact" className="py-2">Contact</a>
+    <Link href="/leadership" className="block px-4 py-2 hover:bg-gray-100">
+  Leadership
+</Link>
+         <Link href="/beliefs" className="block px-4 py-2 hover:bg-gray-100">
+  Our Beliefs
+</Link>
     </div>
   )}
 

@@ -1,4 +1,4 @@
-import FeatureCard from "./FeatureCard";
+import FeatureCard from "@/components/evnt/FeatureCard";
 import { events } from "@/data/features";
 
 const TestFeatures = ({variant = "black"}) => {

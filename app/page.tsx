@@ -1,9 +1,9 @@
 'use client'
-import Navbar from '../components/Navbar';
-import Hero from '../components/Hero';
-import EventCard from '../components/EventCard'
-import EventDetails from '../components/EventDetails'
-import Footer from '../components/Footer'
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+import Hero from '../components/layout/Hero';
+import EventCard from '../components/evnt/EventCard'
+import EventDetails from '../components/evnt/EventDetails'
 const page = () => {
 
   return (

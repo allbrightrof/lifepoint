@@ -1,15 +1,15 @@
-import Footer from '@/components/Footer'
-import Navbar from '@/components/Navbar'
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import TestFeatures from '@/components/TestFeatures'
+import TestFeatures from '@/components/team/TestFeatures'
 import Image from 'next/image'
 const Page = () => {
   return (
     <>
     <Navbar variant="white" />
       <div className='w-full bg-[#f4f4f4] flex flex-col items-center justify-center p-3 sm:p-3 lg:p-12 gap-10'>
-        <div className='text-black py-10 w-full px-4 sm:px-8 lg:px-20'>
+        <div className='text-black sm:py-20 lg:py-12 w-full px-4 sm:px-8 lg:px-20'>
     <p className='text-center font-bold text-2xl sm:text-3xl lg:text-3xl p-5'>Our Locations</p>
     <h2 className='text-center font-bold text-3xl sm:text-4xl lg:text-7xl p-5'>One Church, <br />Multiple Locations</h2>
  </div>  

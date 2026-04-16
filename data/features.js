@@ -6,7 +6,8 @@ import {
   faHandsPraying,
   faMessage,
   faHandHoldingHeart,
-  faBible
+  faBible,
+    faStar,
 } from "@fortawesome/free-solid-svg-icons";
 
 export const events = [
@@ -354,4 +355,151 @@ Heaven is the eternal dwelling place for all believers in the gospel of Jesus Ch
 
 (Matthew 5:12, 20, 25:34; Mark 9:43-48; John 3:16, 14:17, 17:24; Romans 6:23, 8:17-18; Revelation 20:11-15; 1 Corinthians 2:7-9; 2 Corinthians 5:1; Hebrews 9:27, 11:16; 1 Peter 1:4)`
 }
+];
+
+export const values = [
+  {
+    id: 1,
+    title: "Love God",
+    icon: faHeart,
+    points: [
+      "We have intimacy with the Holy Spirit",
+      "Our love for God defines our character",
+      "Our love for God fuels our calling"
+    ]
+  },
+  {
+    id: 2,
+    title: "Love People",
+    icon: faUsers,
+    points: [
+      "We see people as they could be",
+      "We say what we see in others",
+      "We intentionally develop people"
+    ]
+  },
+  {
+    id: 3,
+    title: "Pursue Excellence",
+    icon: faStar,
+    points: [
+      "We do all things well",
+      "We do it before we are asked",
+      "We do more than is expected"
+    ]
+  },
+  {
+    id: 4,
+    title: "Be Life-Giving",
+    icon: faHandHoldingHeart,
+    points: [
+      "We are servants",
+      "We choose positivity",
+      "We are faith-filled"
+    ]
+  }
+];
+export const pictures = [
+  {
+    id: 1,
+    image: "/event1.jpg",
+    title: "Culpeper Event"
+  },
+  {
+    id: 2,
+    image: "/event2.jpg",
+    title: "Fredericksburg Event"
+  },
+  {
+    id: 3,
+    image: "/event3.jpg",
+    title: "Fredericksburg North Event"
+  },
+  {
+    id: 4,
+    image: "/event4.jpg",
+    title: "Richmond Event"
+  }
+];
+export const verses = [
+    {
+      text: `FIf you declare with your mouth, “Jesus is Lord,” and believe in your 
+      heart that God raised him from the dead, you will be saved.
+       For it is with your heart that you believe and are justified,
+        and it is with your mouth that you profess your faith and are saved.`,
+      reference: "John 3:16–17",
+    },
+    {
+      text: `If you declare with your mouth, “Jesus is Lord,” and believe in your heart that God raised him from the dead, you will be saved. For it is with your heart that you believe and are justified,
+       and it is with your mouth that you profess your faith and are saved.`,
+      reference: "Romans 10:9–10",
+    },
+    {
+      text: `Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here.`,
+      reference: "2 Corinthians 5:17",
+    },{
+      text:`But God demonstrates his own love for us in this: While we were still sinners, Christ died for us.`,
+      reference: "Romans 5:8"
+    }
+  ];
+  export const baptism = [
+    {
+      id:1,
+      name: "Culpeer",
+        image: "/baptism3.jpg",
+    },
+     {
+      id:2,
+      name: "Fredericksburg",
+        image: "/baptisim4.jpg",
+    },
+     {
+      id:3,
+      name: "FredericksburgNorth",
+        image: "/baptisim5.jpg",
+    },  {
+      id:4,
+      name: "Richmond",
+        image: "/baptisim6.jpg",
+    }, {
+      id:5,
+      name: "Spotsylvania",
+        image: "/baptisim7.jpg",
+    }, {
+      id:6,
+      name: "Richmond",
+        image: "/baptisim4.jpg",
+    }
+  ];
+  export const baptismDetails = [
+  {
+    id: 1,
+    title: "Who should be water baptized?",
+    content: `Those who have placed their faith in Jesus Christ.
+(Romans 10:9-10)`
+  },
+  {
+    id: 2,
+    title: "When should I be water baptized?",
+    content: `As soon as you decide to follow Jesus, water baptism is your next step. There is no reason to delay.
+(Acts 8:12)`
+  },
+  {
+    id: 3,
+    title: "What is full immersion water baptism?",
+    content: `The Greek word from which we get the word baptism is “baptizo”, which means “to immerse”. All water baptisms recorded in Scripture were by immersion. Jesus was baptized by being fully immersed in the water and rising out of it.
+(Matthew 3:16, Mark 1:10, Acts 8:38-39)`
+  },
+  {
+    id: 4,
+    title: "Do I need someone in church staff to perform water baptism? Who can perform baptism?",
+    content: `The Great Commission applies to all believers, teaching us to baptize disciples in the name of the Father, Son, and Holy Spirit. There is no credential for being water baptized or for being a baptizer, other than being a believer. Jesus himself was baptized by John, showing that the authority to baptize is given to all Christians.
+(Matthew 3:13-17, Matthew 28:18-20)`
+  },
+  {
+    id: 5,
+    title: "Do I need to be baptized in a church? What is the proper procedure?",
+    content: `Water baptism is not limited to a church building. It can take place anywhere there is water. The important thing is your faith in Jesus and the act of obedience. The proper procedure is full immersion in water in the name of the Father, the Son, and the Holy Spirit.
+(Matthew 28:19, Acts 8:36-38)`
+  }
 ];

@@ -1,30 +1,9 @@
 'use client'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart,  faCalendarDays,  faWater,  faUsers, faHandsPraying, faMessage} from '@fortawesome/free-solid-svg-icons';
-import Image from "next/image";
+import EvtPict from "@/components/evnt/EvtPict";
 const EventDetails = () => {
-const pictures = [
-  {
-    id: 1,
-    image: "/event1.jpg",
-    title: "Culpeper Event"
-  },
-  {
-    id: 2,
-    image: "/event2.jpg",
-    title: "Fredericksburg Event"
-  },
-  {
-    id: 3,
-    image: "/event3.jpg",
-    title: "Fredericksburg North Event"
-  },
-  {
-    id: 4,
-    image: "/event4.jpg",
-    title: "Richmond Event"
-  }
-];
+
 const features = [
   {
     id: 1,
@@ -89,13 +68,7 @@ const features = [
             </div>
         ))}
      </div>
-<div className='w-full px-4 sm:px-8 lg:px-16 py-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 bg-white'>
-       {pictures.map((picture => (
-        <div key={picture.id} >
-              <Image src={picture.image} alt={picture.title} className="rounded-lg mb-2" width={400} height={300} />
-            </div>
-       )))}
-</div>
+<EvtPict/>
     </div>
 
     </>

@@ -55,7 +55,9 @@ const [mobileGen ,setMobileGen] = useState(null);
           <Link href="/beliefs" className="block px-4 py-2 hover:bg-gray-100">
   Our Beliefs
 </Link>
-            <a href="/about/contact" className="block px-4 py-2 hover:bg-gray-100">Our Missions</a>
+               <Link href="/mission" className="block px-4 py-2 hover:bg-gray-100">
+  Our Mission
+</Link>
       </div>
     </div>
   )}
@@ -63,7 +65,7 @@ const [mobileGen ,setMobileGen] = useState(null);
 
     <div className="relative" onMouseEnter={() => setActiveMenu("nextstep")} onMouseLeave={() => setActiveMenu(null)}>
 <Link
-  href="/about"
+  href="/"
   className="cursor-pointer py-2 border-b-2 border-transparent hover:border-white/500 transition-all duration-300"
 >
   Next Step
@@ -76,8 +78,12 @@ const [mobileGen ,setMobileGen] = useState(null);
       <div className="h-2"></div>
 
       <div className="bg-white text-black shadow-lg min-w-max p-3 font-bold border rounded-lg border-white">
-        <a href="/about/history" className="block px-4 py-2 hover:bg-gray-100">Salvation</a>
-        <a href="/about/team" className="block px-4 py-2 hover:bg-gray-100">  Water Baptism</a>
+                 <Link href="/salvation" className="block px-4 py-2 hover:bg-gray-100">
+  Salvation
+</Link>
+         <Link href="/baptism" className="block px-4 py-2 hover:bg-gray-100">
+ Water Baptism
+</Link>
         <a href="/about/contact" className="block px-4 py-2 hover:bg-gray-100"> Join The Team</a>
          <a href="/about/contact" className="block px-4 py-2 hover:bg-gray-100">Small Groups</a>
          <a href="/about/contact" className="block px-4 py-2 hover:bg-gray-100">Outreach</a>
@@ -222,7 +228,7 @@ const [mobileGen ,setMobileGen] = useState(null);
 />
     </div>
   {mobileMenuOpen && (
-    <div className="md:flex lg:hidden sm:flex justify-between top-0 left-0 h-screen pt-20 fixed w-full bg-white text-black flex flex-col items-start">
+    <div className="md:flex lg:hidden sm:flex top-0 left-0 h-screen pt-20 fixed w-full bg-white text-black flex flex-col items-start">
     <div className="w-full">
 
   <div
@@ -249,6 +255,9 @@ const [mobileGen ,setMobileGen] = useState(null);
          <Link href="/beliefs" className="block px-4 py-2 hover:bg-gray-100">
   Our Beliefs
 </Link>
+   <Link href="/mission" className="block px-4 py-2 hover:bg-gray-100">
+  Our Missions
+</Link>
     </div>
   )}
 
@@ -270,8 +279,12 @@ const [mobileGen ,setMobileGen] = useState(null);
  
   {mobileGen === "nextStep" && (
     <div className="pl-6 flex flex-col">
-      <a href="/about/history" className="py-2">History</a>
-      <a href="/about/team" className="py-2">Team</a>
+     <Link href="/salvation" className="block px-4 py-2 hover:bg-gray-100">
+  Salvation
+</Link>
+     <Link href="/baptism" className="block px-4 py-2 hover:bg-gray-100">
+ Water Baptism
+</Link>
       <a href="/about/contact" className="py-2">Contact</a>
     </div>
   )}

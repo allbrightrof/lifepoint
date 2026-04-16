@@ -7,8 +7,9 @@ const BeliefCard = () => {
         {beliefs.map((belief) => (
       <div
   key={belief.id}
-  className="bg-white rounded-2xl shadow-[0_0_20px_rgba(0,0,0,0.1)] hover:shadow-[0_0_30px_rgba(0,0,0,0.15)] hover:-translate-y-1 transition duration-300 p-8 flex flex-col items-center justify-center text-center gap-4 min-h-[250px]"
+  className="bg-white rounded-2xl shadow-[0_0_20px_rgba(0,0,0,0.1)] hover:shadow-[0_0_30px_rgba(0,0,0,0.15)] hover:-translate-y-1 transition duration-300 p-8 flex flex-col items-center justify-center text-center gap-4"
 >
+    
   <div className="w-16 h-16 rounded-full bg-[#8d8d8d] flex items-center justify-center">
     <FontAwesomeIcon icon={belief.icon} className="text-white text-xl" />
   </div>
@@ -22,7 +23,7 @@ const BeliefCard = () => {
   </p>
 </div>
         ))}
-    </div>
+       </div>
   )
 }
 

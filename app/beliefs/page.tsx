@@ -2,6 +2,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import BeliefCard from "@/components/Belif/BeliefCard"
 import BelievePar from "@/components/Belif/BelievePar"
+import { baptismDetails } from "@/data/features";
 import Image from "next/image";
 const page = () => {
   return (
@@ -31,7 +32,7 @@ const page = () => {
              <p className='text-center p-5 mx-auto  text-black text-sm sm:text-base lg:text-lg'>At Lifepoint Church, we believe in the life-changing power of Jesus Christ 
                 and hold to the truth of God’s Word as our foundation for faith, hope, and purpose.</p>
                 </div>
-     <BelievePar/>
+     <BelievePar data={baptismDetails}/>
      </div>
     </div>
         <Footer />

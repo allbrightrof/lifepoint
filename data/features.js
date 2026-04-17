@@ -1,13 +1,20 @@
 import {
+  faSmile,
+  faChild,
+  faStar,
+  faBible,
+  faSlidersH,
+  faUsers,
+  faHandHoldingHeart,
+  faFaceGrinHearts,
+  faRoute,
+  faCoins,
+  faClipboardList,
+  faComments,
   faHeart,
   faCalendarDays,
-  faWater,
-  faUsers,
-  faHandsPraying,
-  faMessage,
-  faHandHoldingHeart,
-  faBible,
-    faStar,
+  faDroplet,        
+  faHandSparkles   
 } from "@fortawesome/free-solid-svg-icons";
 
 export const events = [
@@ -85,30 +92,29 @@ export const features = [
     description: "Events at Lifepoint help you grow, connect, and move forward in faith.",
     icon: faCalendarDays
   },
-  {
-    id: 3,
-    title: "Water Baptism",
-    description: "Go public with your faith and celebrate new life.",
-    icon: faWater
-  },
+{
+  id: 3,
+  title: "Water Baptism",
+  description: "Go public with your faith and celebrate new life.",
+  icon: faDroplet
+},
    {
       id: 4,
       title: "Small Groups",
       description: "Build community and grow in faith by joining a small group today.",
       icon: faUsers
     },
-    {
-      id: 5,
-      title: "Need Prayer",
-      description: "Whatever you’re facing, we believe prayer changes everything.",
-      icon: faHandsPraying
-    },
-    {
-      id: 6,
-      title: "Share Your Story",
-      description: "Your story matters. Share with us what God has done in your life.",
-      icon: faMessage
-    }
+  {
+  id: 5,
+  title: "Need Prayer",
+  description: "Whatever you’re facing, we believe prayer changes everything.",
+  icon: faHandSparkles
+},{
+  id: 6,
+  title: "Share Your Story",
+  description: "Your story matters. Share with us what God has done in your life.",
+  icon: faComments
+}
 ];
 
 export const team = [
@@ -501,5 +507,275 @@ export const verses = [
     title: "Do I need to be baptized in a church? What is the proper procedure?",
     content: `Water baptism is not limited to a church building. It can take place anywhere there is water. The important thing is your faith in Jesus and the act of obedience. The proper procedure is full immersion in water in the name of the Father, the Son, and the Holy Spirit.
 (Matthew 28:19, Acts 8:36-38)`
+  }
+];
+export const teamData = [
+  {
+    id: 1,
+    icon: faSmile,
+    title: "Guest Experience",
+    description: "Welcome people and help them feel at home from the moment they arrive."
+  },
+  {
+    id: 2,
+    icon: faChild,
+    title: "Kidspoint",
+    description: "Create safe, fun, and Jesus-centered environments where kids grow in their faith."
+  },
+  {
+    id: 3,
+    icon: faStar,
+    title: "Youth",
+    description: "Build relationships with students so they can build community and follow Jesus."
+  },
+  {
+    id: 4,
+    icon: faBible,
+    title: "Worship",
+    description: "Lead the church in moments that help people encounter the presence of God."
+  },
+  {
+    id: 5,
+    icon: faSlidersH,
+    title: "Production",
+    description: "Facilitates a distraction-free worship experience with audio, lights and video."
+  },
+  {
+    id: 6,
+    icon: faUsers,
+    title: "Small Group Leaders",
+    description: "Foster relationships that help people find freedom through community."
+  },
+  {
+    id: 7,
+    icon: faHandHoldingHeart,
+    title: "Care Teams",
+    description: "Pray for people and support them during difficult & important moments."
+  },
+{
+  id: 8,
+  icon: faFaceGrinHearts,
+  title: "Support Services",
+  description: "Serve through setup, safety, facilities, and other practical needs each week."
+},
+  {
+    id: 9,
+    icon: faRoute,
+    title: "Next Steps",
+    description: "Help people take steps like salvation, baptism, and joining the Dream Team."
+  },
+  {
+    id: 10,
+    icon: faCoins,
+    title: "Kingdom Builders",
+    description: "Advance the vision of the church through the gift of generosity."
+  },
+  {
+    id: 11,
+    icon: faClipboardList,
+    title: "Administrative",
+    description: "Help keep ministry organized through communication, planning, and support."
+  },
+  {
+    id: 12,
+    icon: faComments,
+    title: "Communications",
+    description: "Share clear messages through writing, design, and social media."
+  }
+];
+export const media = [
+  {
+    id: 1,
+    image: "/mediasquare1.jpg",
+    title: "Culpeper Event"
+  },
+  {
+    id: 2,
+    image: "/mediasquare2.jpg",
+    title: "Fredericksburg Event"
+  },
+  {
+    id: 3,
+    image: "/mediasquare3.jpg",
+    title: "Fredericksburg North Event"
+  },
+  {
+    id: 4,
+    image: "/mediasquare4.jpg",
+    title: "Richmond Event"
+  }
+];
+export const smallGrp = [
+  {
+    id: 1,
+    title: "What type of Small Groups are Available?",
+    content: `Life is busy and your time is important. That’s why we offer a variety of groups to help you find the right match. Whether you’re looking for in-person or virtual, men’s or co-ed, activity-based or a book study, try our Groups Finder to explore your options.
+
+We also offer Freedom Groups, which are designed to help you walk in true freedom as you remove every obstacle to intimacy with Jesus.`
+  },
+  {
+    id: 2,
+    title: "How often do we meet?",
+    content: `Most groups meet weekly during the Small Groups semester to help form friendships and provide the right support. Groups are available throughout the week, daytime or evening.`
+  },
+  {
+    id: 3,
+    title: "What are Small Group semesters?",
+    content: `Small Group semesters generally run from September – December, and January – June. This allows natural breaks for you to try different groups, continue with the same group, or decide to lead your own group.`
+  },
+  {
+    id: 4,
+    title: "Where do we meet?",
+    content: `Groups meet online and anywhere people gather – homes, restaurants, coffee shops, hiking trails, basketball courts, you name it!`
+  },
+  {
+    id: 5,
+    title: "What will we talk about?",
+    content: `The real question is, what won’t your group talk about? For true connection, our masks must come off. Small Groups are a place where you can be your authentic self.
+
+While groups vary based on type, the goal of all groups is to develop relationship and grow spiritually. For some groups, this means watching Monday Night Football while talking about wins and losses – not just on the field, but in life. Other groups might choose to dig into a book of the Bible over the course of the semester.`
+  },
+  {
+    id: 6,
+    title: "Is child care provided?",
+    content: `Not all Small Groups offer childcare. Some groups choose to meet this need together in different ways. This could look like having participants share responsibility in watching children, splitting the cost for a sitter on-site, or making other arrangements.`
+  },
+  {
+    id: 7,
+    title: "Once I pick a group, how long am I committed?",
+    content: `There is no long-term commitment required. The goal is to find the best group for you, which might mean exploring options. Because Small Groups meet on a semester basis with built-in breaks, this allows for group members to find a new group if their schedule or needs have changed.
+
+Freedom groups are unique, meeting 8-weeks and concluding with a one-day conference. Due to the nature of the program, these groups fill up quickly, making it harder to switch groups mid-semester.`
+  }
+];
+export const smallEvents = [
+  {
+    id: 1,
+    name: "Fred and Fred North",
+    title: "Snacks for SOL Testing",
+    date: "April 18, 2026",
+    image: "/postcard1.jpg"
+  },
+  {
+    id: 2,
+    name: "Fred and Fred North",
+    title: "Stafford Rise Motel Ministry",
+    date: "April 20, 2026",
+    image: "/postcard2.jpg"
+  },
+  {
+    id: 3,
+    name: "Richmond",
+    title: "Young Adult Serve",
+    date: "April 22, 2026",
+    image: "/postcard3.jpg"
+  },
+  {
+    id: 4,
+    name: "Spotsylvania",
+    title: "Foster Care Mentors",
+    date: "April 24, 2026",
+    image: "/postcard4.jpg"
+  },
+  {
+    id: 5,
+    name: "Richmond",
+    title: "Motel Ministry",
+    date: "April 26, 2026",
+    image: "/postcard5.jpg"
+  },
+  {
+    id: 6,
+    name: "Fredericksburg",
+    title: "Micah Community Dinner",
+    date: "April 28, 2026",
+    image: "/postcard6.jpg"
+  },
+  {
+    id: 7,
+    name: "Minna Ministry",
+    title: "Community Outreach",
+    date: "April 30, 2026",
+    image: "/postcard7.jpg"
+  },
+  {
+    id: 8,
+    name: "Richmond Adopt A Block",
+    title: "Empowering Culpeper Food Bank",
+    date: "May 2, 2026",
+    image: "/postcard4.jpg"
+  },
+   {
+    id: 9,
+    name: "John Murphy Ministry",
+    title: "Empowering CulpeperBench Bank",
+    date: "June 10, 2026",
+    image: "/postcard6.jpg"
+  }
+];
+export const missionTrips = [
+  {
+    id: 1,
+    name: "Los Angeles (Young Adult)",
+    title: "LA Dream Center (Age 18-29 years old) ",
+    date: "June 1-6, 2026",
+    image: "/variety1.jpg"
+  },
+  {
+    id: 2,
+    name: "Dominican Republic",
+    title: "GO Ministries",
+    date: "July 21-28, 2026",
+    image: "/variety2.jpg"
+  },
+  {
+    id: 3,
+    name: "Eswatini",
+    title: "Children’s Cup",
+    date: "August 2-11, 2026",
+    image: "/variety3.jpg"
+  },
+  {
+    id: 4,
+    name: "Ghana",
+    title: "Advancing Native Missions",
+    date: "August 14 - 22, 2026  ",
+    image: "/variety4.jpg"
+  },
+  {
+    id: 5,
+    name: "Bulgaria",
+    title: "Advancing Native Missions",
+    date: "ASeptember 18-26, 2026",
+    image: "/variety5.jpg"
+  },
+  {
+    id: 6,
+    name: "Dominican Republic",
+    title: "GO Ministries",
+    date: "November 14 - 21, 2026",
+    image: "/variety6.jpg"
+  }
+];
+export const mediaOne = [
+  {
+    id: 1,
+    image: "/one5.jpg",
+    title: "Culpeper Event"
+  },
+  {
+    id: 2,
+    image: "/one6.jpg",
+    title: "Fredericksburg Event"
+  },
+  {
+    id: 3,
+    image: "/one7.jpg",
+    title: "Fredericksburg North Event"
+  },
+   {
+    id: 4,
+    image: "/one6.jpg",
+    title: "Fredericksburg North Event"
   }
 ];

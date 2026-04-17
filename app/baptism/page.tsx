@@ -48,10 +48,10 @@ const page = () => {
   </div>
 </div>
 <div className="bg-[#f4f4f4] w-full lg:px-16 px-4 py-8 sm:py-8 lg:py-16">
-    <h2 className="text-2xl text-center md:text-5xl py-3 font-bold lg:max-w-xl mx-auto">
+    <h2 className="text-2xl  text-black text-center md:text-5xl py-3 font-bold lg:max-w-xl mx-auto">
      Water Baptism FAQs
     </h2>
- <BelievePar data={baptismDetails} />
+ <BelievePar data={baptismDetails} variant="dark" />
  </div>
     <Footer />
     </>

@@ -3,6 +3,7 @@ import Footer from "@/components/layout/Footer";
 import BeliefCard from "@/components/Belif/BeliefCard"
 import BelievePar from "@/components/Belif/BelievePar"
 import { baptismDetails } from "@/data/features";
+import { features } from "@/data/features";
 import Image from "next/image";
 const page = () => {
   return (
@@ -24,7 +25,7 @@ const page = () => {
                     come experience a service and feel free to ask questions. </p>
        </div>
        <div>
-      <BeliefCard />
+      <BeliefCard data={features} />
       </div>
       <div className="bg-[#f4f4f4]">
         <div className="flex flex-col items-center max-w-2xl mx-auto">

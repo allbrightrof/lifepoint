@@ -2,6 +2,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart,  faCalendarDays,  faWater,  faUsers, faHandsPraying, faMessage} from '@fortawesome/free-solid-svg-icons';
 import EvtPict from "@/components/evnt/EvtPict";
+import {pictures} from "@/data/features";
 const EventDetails = () => {
 
 const features = [
@@ -68,7 +69,7 @@ const features = [
             </div>
         ))}
      </div>
-<EvtPict/>
+<EvtPict evenData={pictures}/>
     </div>
 
     </>

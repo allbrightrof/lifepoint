@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Believe from "@/components/Belif/Believe";
 
-const BelievePar = ({ data }) => {
+const BelievePar = ({ data, variant = "dark" }) => {
   const [activeId, setActiveId] = useState(null);
 
   return (
@@ -13,6 +13,7 @@ const BelievePar = ({ data }) => {
           title={item.title}
           content={item.content}
           isOpen={activeId === item.id}
+          variant={variant}
           onClick={() =>
             setActiveId(activeId === item.id ? null : item.id)
           }

@@ -5,6 +5,7 @@ import BelievePar from "@/components/Belif/BelievePar"
 import BeliefCard from "@/components/Belif/BeliefCard"
 import ValuesSection from "../../components/Value/ValueSection";
 import EvtPict from "../../components/evnt/EvtPict"
+import {pictures} from "@/data/features";
 import { beliefDetails } from "@/data/features";
 const Page = () => {
   return (
@@ -72,7 +73,7 @@ const Page = () => {
                   <Image src="/shawnjen.jpg" alt="shawnjen" width={800} height={800}/>
                   </div>
     </div>
-<EvtPict/>
+<EvtPict evenData={pictures}/>
 
 </div>
   <Footer />

@@ -84,10 +84,18 @@ const [mobileGen ,setMobileGen] = useState(null);
          <Link href="/baptism" className="block px-4 py-2 hover:bg-gray-100">
  Water Baptism
 </Link>
-        <a href="/about/contact" className="block px-4 py-2 hover:bg-gray-100"> Join The Team</a>
-         <a href="/about/contact" className="block px-4 py-2 hover:bg-gray-100">Small Groups</a>
-         <a href="/about/contact" className="block px-4 py-2 hover:bg-gray-100">Outreach</a>
-          <a href="/about/contact" className="block px-4 py-2 hover:bg-gray-100">For The One</a>
+        <Link href="/dream-team" className="block px-4 py-2 hover:bg-gray-100">
+Join Team
+</Link>
+      <Link href="/small-group" className="block px-4 py-2 hover:bg-gray-100">
+Small Groups
+</Link>
+       <Link href="/outreach" className="block px-4 py-2 hover:bg-gray-100">
+OutReach
+</Link>
+          <Link href="/one" className="block px-4 py-2 hover:bg-gray-100">
+For The One 
+</Link>
       </div>
     </div>
   )}
@@ -285,7 +293,18 @@ const [mobileGen ,setMobileGen] = useState(null);
      <Link href="/baptism" className="block px-4 py-2 hover:bg-gray-100">
  Water Baptism
 </Link>
-      <a href="/about/contact" className="py-2">Contact</a>
+        <Link href="/dream-team" className="block px-4 py-2 hover:bg-gray-100">
+ Join Team
+</Link>
+  <Link href="/small-groups" className="block px-4 py-2 hover:bg-gray-100">
+ Small Groups
+</Link>
+ <Link href="/outreach" className="block px-4 py-2 hover:bg-gray-100">
+Out Reach
+</Link>
+ <Link href="/One" className="block px-4 py-2 hover:bg-gray-100">
+For The One
+</Link>
     </div>
   )}
 

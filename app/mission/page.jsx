@@ -3,7 +3,7 @@ import Footer from "@/components/layout/Footer";
 import Image from "next/image";
 import BelievePar from "@/components/Belif/BelievePar"
 import BeliefCard from "@/components/Belif/BeliefCard"
-import ValuesSection from "../../components/Value/ValueSection";
+import ValueSection from "../../components/Value/ValueSection";
 import EvtPict from "../../components/evnt/EvtPict"
 import {pictures} from "@/data/features";
 import { beliefDetails } from "@/data/features";
@@ -59,7 +59,7 @@ const Page = () => {
              <p className='text-center p-5 mx-auto  text-black text-sm sm:text-base lg:text-lg'>At Lifepoint Church, we believe in the life-changing power of Jesus Christ 
                 and hold to the truth of God’s Word as our foundation for faith, hope, and purpose.</p>
                 </div>
-<ValuesSection/>
+<ValueSection/>
   <div className="w-full bg-white px-4 sm:px-8 lg:px-16 py-13 text-black flex flex-col md:flex-row lg:flex-row items-center justify-center gap-3">
         <div className="full max-w-6xl flex flex-col items-start">
            <h6 className=' font-bold text-xs text-black sm:text-xl lg:text-xl p-5'>Senior Pastors</h6>

@@ -27,6 +27,7 @@ const page = () => {
              One coworker. One family member. One friend.</p>
               <p className='p-5 max-w-2xl text-center text-black mx-auto text-sm sm:text-base lg:text-lg'>A simple invitation can change one person eternity.</p>
   </div>
+  <div className="w-full p-2 bg-white">
  <TwoSection
   title="Your Part Matters"
   text3="Salvations don't happen by accident. They happen when we stay focused on the One. So let’s invite with faith and leave the outcome to God."
@@ -46,6 +47,7 @@ const page = () => {
   text3="Invite them to sit with you, not just to attend. Keep your words simple and normal. Make their first visit easy by handling the details, like where to park, where to meet, and where to sit. Then celebrate every step they take toward Jesus."
   image="/one4.jpg"
 />
+</div>
 <EvtPict evenData={mediaOne} />
 
    <div className="flex flex-col items-center bg-[#f4f4f4] w-full mx-auto">

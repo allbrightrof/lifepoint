@@ -9,16 +9,13 @@ const ReachCard = ({ item }) => {
 
         <div className="absolute inset-0 rounded-xl border border-white/40"></div>
 
-        {/* Animated Border Lines */}
-        <span className="absolute top-0 left-0 w-full h-1 bg-white origin-left scale-x-100 group-hover:scale-x-0 transition duration-500"></span>
+     <span className="absolute top-0 left-0 w-full h-1 bg-white origin-left scale-x-100 group-hover:scale-x-0 active:scale-x-0 transition duration-500"></span>
 
-        <span className="absolute bottom-0 left-0 w-full h-1 bg-white origin-right scale-x-100 group-hover:scale-x-0 transition duration-500"></span>
+<span className="absolute bottom-0 left-0 w-full h-1 bg-white origin-right scale-x-100 group-hover:scale-x-0 active:scale-x-0 transition duration-500"></span>
 
-        <span className="absolute top-0 left-0 h-full w-1 bg-white origin-top scale-y-100 group-hover:scale-y-0 transition duration-500"></span>
+<span className="absolute top-0 left-0 h-full w-1 bg-white origin-top scale-y-100 group-hover:scale-y-0 active:scale-y-0 transition duration-500"></span>
 
-        <span className="absolute top-0 right-0 h-full w-1 bg-white origin-bottom scale-y-100 group-hover:scale-y-0 transition duration-500"></span>
-
-        {/* Content */}
+<span className="absolute top-0 right-0 h-full w-1 bg-white origin-bottom scale-y-100 group-hover:scale-y-0 active:scale-y-0 transition duration-500"></span>
         <div className="relative z-10 flex flex-col gap-3">
 
           <Image

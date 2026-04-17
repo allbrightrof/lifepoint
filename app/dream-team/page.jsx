@@ -22,7 +22,7 @@ const page = () => {
   </button>
   </div>
   </div>
-<div className="w-full py-10 px-4 sm:px-4 md:px-8 lg:px-16 bg-white mx-auto flex flex-col items-center text-center">
+<div className="w-full py-10 px-4 sm:px-4 md:px-8 lg:px-16 bg-white text-black mx-auto flex flex-col items-center text-center">
   
   <p className="mt-4 max-w-2xl text-sm md:text-lg">
     Register for Join the Team <br />
@@ -64,9 +64,11 @@ const page = () => {
               but each one helps lead people far from God into a full life in Christ. 
               Take a look at the teams below and find the place that fits you best.</p>
                 </div>
-                </div>
+              <div>
                   <BeliefCard  data={teamData}/>
                   <EvtPict evenData={media}/>
+                  </div>
+                </div>
     <Footer />
     </>
   )

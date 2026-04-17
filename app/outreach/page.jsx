@@ -18,7 +18,7 @@ const page = () => {
          <h2 className='text-center font-bold text-white text-3xl sm:text-4xl lg:text-7xl p-5'>Outreach & Missions</h2>
   </div>
   </div>
- <div>
+ <div className="w-full bg-white p-2">
     <h2 className='text-center font-bold text-black text-xl sm:text-xl lg:text-5xl p-5'>Serve Locally. Love Radically</h2>
   <TwoSection
     title="Monthly Projects"

@@ -296,13 +296,13 @@ For The One
         <Link href="/dream-team" className="block px-4 py-2 hover:bg-gray-100">
  Join Team
 </Link>
-  <Link href="/small-groups" className="block px-4 py-2 hover:bg-gray-100">
+  <Link href="/small-group" className="block px-4 py-2 hover:bg-gray-100">
  Small Groups
 </Link>
  <Link href="/outreach" className="block px-4 py-2 hover:bg-gray-100">
 Out Reach
 </Link>
- <Link href="/One" className="block px-4 py-2 hover:bg-gray-100">
+ <Link href="/one" className="block px-4 py-2 hover:bg-gray-100">
 For The One
 </Link>
     </div>

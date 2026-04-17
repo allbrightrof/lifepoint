@@ -8,7 +8,7 @@ const Hero = () => {
       {/* Background video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src="/semonloop.mp4"
+        src="https://res.cloudinary.com/dth0uegpp/video/upload/v1776419078/semonloop_bqnkq9.mp4"
         autoPlay
         loop
         muted

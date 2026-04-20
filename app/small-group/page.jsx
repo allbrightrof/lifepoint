@@ -22,7 +22,7 @@ const page = () => {
              <p className='text-center p-5 mx-auto text-black text-sm sm:text-base lg:text-lg'>Small Groups exist to help you develop community built on meaningful connection, encouragement, and spiritual growth. No matter your age, stage of life, or where you are in your journey with God, we want you to find freedom and take next steps.
                  Being supported by others makes all the difference. </p>
                  </div>
-<div className="flex flex-wrap gap-4">
+<div className="flex flex-wrap gap-4 p-4 items-center">
   <button className="flex items-center gap-2 bg-[#8d8d8d] text-white px-4 py-3 rounded-3xl cursor-pointer">
     Group Finder <FontAwesomeIcon icon={faArrowRight} className="w-3 h-3" />
   </button>

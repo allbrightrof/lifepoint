@@ -33,6 +33,7 @@ const page = () => {
 </button>
 </div>
    </div>
+  <div className="bg-[#f4f4f4] w-full">
  <TwoSection
   title="Youth Groups"
   text3="Youth Groups are Small Groups that connect students to Jesus and each other."
@@ -62,7 +63,8 @@ const page = () => {
    buttons={[
   'Conference Info'                                                                                                                                                                                                                                                                                                                                                                                   
 ]}
-/>
+/> 
+</div>
     <Footer />
     </>
   )

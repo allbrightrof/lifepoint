@@ -15,8 +15,8 @@ const page = () => {
              If you or someone you know is facing an emergency, please reach out to the contacts below.</p>
   </div>
   </div>
-   <div className="bg-white p-9 lg:p-15">
-           <h2 className='text-center font-bold text-black text-3xl sm:text-4xl lg:text-4xl'>Crisis & Immediate Help</h2>
+   <div className="bg-white p-6 lg:p-15">
+           <h2 className='text-center font-bold text-black text-xl sm:text-xl lg:text-4xl'>Crisis & Immediate Help</h2>
            <h3 className='p-5 max-w-2xl font-bold text-black mx-auto text-sm sm:text-base lg:text-lg'>Quick Contacts:</h3>
          <ul className=" list-none p-5 max-w-2xl font-semibold text-black mx-auto text-sm">
   <li><span className="font-semibold text-sm sm:text-base lg:text-lg">Emergency Services:</span> Dial 911</li>
@@ -52,7 +52,7 @@ const page = () => {
 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mt-10 bg-white">
 
   <div className="p-6 flex flex-col gap-4 items-center">
-    <h3 className="text-2xl font-bold">Community Resources</h3>
+    <h3 className="text-2xl font-bold text-black">Community Resources</h3>
 
     <p className="text-black text-xl">
       Text LCCARE to 94-000 or click the button below to download a copy and keep it handy whenever you need it.
@@ -64,7 +64,7 @@ const page = () => {
   </div>
 
   <div className="p-6 flex flex-col gap-4 items-center">
-    <h3 className="text-2xl font-bold">Need Prayer</h3>
+    <h3 className="text-2xl font-bold text-black">Need Prayer</h3>
 
     <p className="text-black text-xl">
       Text LCCARE to 94-000 or click the button below to download a copy and keep it handy whenever you need it.
@@ -75,7 +75,7 @@ const page = () => {
     </button>
   </div>
 </div>
-  <div className="p-6 flex flex-col gap-4 items-center">
+  <div className="p-6 flex flex-col gap-4 items-center bg-white">
     <h3 className="text-2xl font-bold">Benevolence</h3>
 
     <p className="text-black text-xl max-w-2xl">

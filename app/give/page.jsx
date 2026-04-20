@@ -20,7 +20,7 @@ const page = () => {
   </div>
 <div className="grid grid-cols-1 gap-6 mt-10 bg-white">
   <div className="p-6 flex flex-col gap-4 max-w-2xl text-center mx-auto items-center">
-    <h3 className="text-2xl font-bold lg:text-4xl">See what God can do through your generosity.</h3>
+    <h3 className="text-2xl font-bold lg:text-4xl text-black">See what God can do through your generosity.</h3>
 
     <p className="text-black text-xl">
 Every act of generosity makes a difference—helping more people hear the Gospel, find hope, and take their next step in faith. Giving is simple and secure. 

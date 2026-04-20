@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)https://www.lifepoint.org/get-involved -->
+<html lang="en" class="" data-headlessui-focus-visible=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style type="text/css">:root, :host {
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+  --fa-font-light: normal 300 1em/1 "Font Awesome 6 Pro";
+  --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Pro";
+  --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-duotone-regular: normal 400 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-duotone-light: normal 300 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-duotone-thin: normal 100 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+  --fa-font-sharp-solid: normal 900 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-regular: normal 400 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-light: normal 300 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-thin: normal 100 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-duotone-solid: normal 900 1em/1 "Font Awesome 6 Sharp Duotone";
+  --fa-font-sharp-duotone-regular: normal 400 1em/1 "Font Awesome 6 Sharp Duotone";
+  --fa-font-sharp-duotone-light: normal 300 1em/1 "Font Awesome 6 Sharp Duotone";
+  --fa-font-sharp-duotone-thin: normal 100 1em/1 "Font Awesome 6 Sharp Duotone";
+}
+
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.svg-inline--fa.fa-2xs {
+  vertical-align: 0.1em;
+}
+.svg-inline--fa.fa-xs {
+  vertical-align: 0em;
+}
+.svg-inline--fa.fa-sm {
+  vertical-align: -0.0714285705em;
+}
+.svg-inline--fa.fa-lg {
+  vertical-align: -0.2em;
+}
+.svg-inline--fa.fa-xl {
+  vertical-align: -0.25em;
+}
+.svg-inline--fa.fa-2xl {
+  vertical-align: -0.3125em;
+}
+.svg-inline--fa.fa-pull-left {
+  margin-right: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-pull-right {
+  margin-left: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-li {
+  width: var(--fa-li-width, 2em);
+  top: 0.25em;
+}
+.svg-inline--fa.fa-fw {
+  width: var(--fa-fw-width, 1.25em);
+}
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-layers-counter, .fa-layers-text {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+.fa-layers svg.svg-inline--fa {
+  transform-origin: center center;
+}
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: center center;
+}
+
+.fa-layers-counter {
+  background-color: var(--fa-counter-background-color, #ff253a);
+  border-radius: var(--fa-counter-border-radius, 1em);
+  box-sizing: border-box;
+  color: var(--fa-inverse, #fff);
+  line-height: var(--fa-counter-line-height, 1);
+  max-width: var(--fa-counter-max-width, 5em);
+  min-width: var(--fa-counter-min-width, 1.5em);
+  overflow: hidden;
+  padding: var(--fa-counter-padding, 0.25em 0.5em);
+  right: var(--fa-right, 0);
+  text-overflow: ellipsis;
+  top: var(--fa-top, 0);
+  transform: scale(var(--fa-counter-scale, 0.25));
+  transform-origin: top right;
+}
+
+.fa-layers-bottom-right {
+  bottom: var(--fa-bottom, 0);
+  right: var(--fa-right, 0);
+  top: auto;
+  transform: scale(var(--fa-layers-scale, 0.25));
+  transform-origin: bottom right;
+}
+
+.fa-layers-bottom-left {
+  bottom: var(--fa-bottom, 0);
+  left: var(--fa-left, 0);
+  right: auto;
+  top: auto;
+  transform: scale(var(--fa-layers-scale, 0.25));
+  transform-origin: bottom left;
+}
+
+.fa-layers-top-right {
+  top: var(--fa-top, 0);
+  right: var(--fa-right, 0);
+  transform: scale(var(--fa-layers-scale, 0.25));
+  transform-origin: top right;
+}
+
+.fa-layers-top-left {
+  left: var(--fa-left, 0);
+  right: auto;
+  top: var(--fa-top, 0);
+  transform: scale(var(--fa-layers-scale, 0.25));
+  transform-origin: top left;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-2xs {
+  font-size: 0.625em;
+  line-height: 0.1em;
+  vertical-align: 0.225em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+  line-height: 0.0833333337em;
+  vertical-align: 0.125em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+  line-height: 0.0714285718em;
+  vertical-align: 0.0535714295em;
+}
+
+.fa-lg {
+  font-size: 1.25em;
+  line-height: 0.05em;
+  vertical-align: -0.075em;
+}
+
+.fa-xl {
+  font-size: 1.5em;
+  line-height: 0.0416666682em;
+  vertical-align: -0.125em;
+}
+
+.fa-2xl {
+  font-size: 2em;
+  line-height: 0.03125em;
+  vertical-align: -0.1875em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: var(--fa-li-margin, 2.5em);
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: calc(-1 * var(--fa-li-width, 2em));
+  position: absolute;
+  text-align: center;
+  width: var(--fa-li-width, 2em);
+  line-height: inherit;
+}
+
+.fa-border {
+  border-color: var(--fa-border-color, #eee);
+  border-radius: var(--fa-border-radius, 0.1em);
+  border-style: var(--fa-border-style, solid);
+  border-width: var(--fa-border-width, 0.08em);
+  padding: var(--fa-border-padding, 0.2em 0.25em 0.15em);
+}
+
+.fa-pull-left {
+  float: left;
+  margin-right: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-pull-right {
+  float: right;
+  margin-left: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-beat {
+  animation-name: fa-beat;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-bounce {
+  animation-name: fa-bounce;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+}
+
+.fa-fade {
+  animation-name: fa-fade;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-beat-fade {
+  animation-name: fa-beat-fade;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-flip {
+  animation-name: fa-flip;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-shake {
+  animation-name: fa-shake;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin {
+  animation-name: fa-spin;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 2s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin-reverse {
+  --fa-animation-direction: reverse;
+}
+
+.fa-pulse,
+.fa-spin-pulse {
+  animation-name: fa-spin;
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, steps(8));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fa-beat,
+.fa-bounce,
+.fa-fade,
+.fa-beat-fade,
+.fa-flip,
+.fa-pulse,
+.fa-shake,
+.fa-spin,
+.fa-spin-pulse {
+    animation-delay: -1ms;
+    animation-duration: 1ms;
+    animation-iteration-count: 1;
+    transition-delay: 0s;
+    transition-duration: 0s;
+  }
+}
+@keyframes fa-beat {
+  0%, 90% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@keyframes fa-bounce {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+@keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@keyframes fa-flip {
+  50% {
+    transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@keyframes fa-shake {
+  0% {
+    transform: rotate(-15deg);
+  }
+  4% {
+    transform: rotate(15deg);
+  }
+  8%, 24% {
+    transform: rotate(-18deg);
+  }
+  12%, 28% {
+    transform: rotate(18deg);
+  }
+  16% {
+    transform: rotate(-22deg);
+  }
+  20% {
+    transform: rotate(22deg);
+  }
+  32% {
+    transform: rotate(-12deg);
+  }
+  36% {
+    transform: rotate(12deg);
+  }
+  40%, 100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  transform: scale(1, -1);
+}
+
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical {
+  transform: scale(-1, -1);
+}
+
+.fa-rotate-by {
+  transform: rotate(var(--fa-rotate-angle, 0));
+}
+
+.fa-stack {
+  display: inline-block;
+  vertical-align: middle;
+  height: 2em;
+  position: relative;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: var(--fa-stack-z-index, auto);
+}
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em;
+}
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em;
+}
+
+.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}
+
+.sr-only,
+.fa-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only-focusable:not(:focus),
+.fa-sr-only-focusable:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.svg-inline--fa .fa-primary {
+  fill: var(--fa-primary-color, currentColor);
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa .fa-secondary {
+  fill: var(--fa-secondary-color, currentColor);
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-primary {
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-secondary {
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+  fill: black;
+}</style><link rel="stylesheet" href="./getInvolved6_files/612a1234f25e84c1.css" data-precedence="next"><link rel="stylesheet" href="./getInvolved6_files/1c042a1d25957036.css" data-precedence="next"><link rel="stylesheet" href="./getInvolved6_files/2fb396df4c23fe5d.css" data-precedence="next"><link rel="stylesheet" href="./getInvolved6_files/9ee808edb3a2894e.css" data-precedence="next"><link rel="stylesheet" href="./getInvolved6_files/2b83c0700bb3d8d9.css" data-precedence="next"><link rel="stylesheet" href="./getInvolved6_files/1917d342b746aec3.css" data-precedence="next"><link rel="preload" as="script" fetchpriority="low" href="./getInvolved6_files/d15b1c355de87b23.js.download"><script src="./getInvolved6_files/43f74daf138a7e0a.js.download" async=""></script><script src="./getInvolved6_files/4fa395d360c87cc3.js.download" async=""></script><script src="./getInvolved6_files/269dc890dd37ee5c.js.download" async=""></script><script src="./getInvolved6_files/b8c04864a6be8537.js.download" async=""></script><script src="./getInvolved6_files/turbopack-a0b3e74bcfe4324a.js.download" async=""></script><script src="./getInvolved6_files/01d70fb29b283750.js.download" async=""></script><script src="./getInvolved6_files/16ea27c3b926bc31.js.download" async=""></script><script src="./getInvolved6_files/9c2651d2970d7fe1.js.download" async=""></script><script src="./getInvolved6_files/c2658288e369ce93.js.download" async=""></script><script src="./getInvolved6_files/7b85766b9aa264ba.js.download" async=""></script><script src="./getInvolved6_files/72e341d9fc82a01b.js.download" async=""></script><script src="./getInvolved6_files/74e4ef9925a00461.js.download" async=""></script><script src="./getInvolved6_files/2900005c544412e8.js.download" async=""></script><script src="./getInvolved6_files/3fd913ae36196232.js.download" async=""></script><script src="./getInvolved6_files/d0ccbdfcfb68d6f3.js.download" async=""></script><script src="./getInvolved6_files/3ad3182cebbac04d.js.download" async=""></script><script src="./getInvolved6_files/f260424ec722a219.js.download" async=""></script><script src="./getInvolved6_files/18d7fc619e8b7f47.js.download" async=""></script><script src="./getInvolved6_files/758aeb36233534dc.js.download" async=""></script><script src="./getInvolved6_files/d52f3e15fd341903.js.download" async=""></script><script src="./getInvolved6_files/87ede1c643f942da.js.download" async=""></script><script src="./getInvolved6_files/bf87c25ac1566b5d.js.download" async=""></script><script src="./getInvolved6_files/792bed27c6999f29.js.download" async=""></script><script src="./getInvolved6_files/f6f750eae704a7c0.js.download" async=""></script><script src="./getInvolved6_files/168f178573890f44.js.download" async=""></script><script src="./getInvolved6_files/536a991ca4475f28.js.download" async=""></script><script src="./getInvolved6_files/72143bb0cbc27005.js.download" async=""></script><script src="./getInvolved6_files/f8250fb775a0e660.js.download" async=""></script><script src="./getInvolved6_files/055b4e064bb903a0.js.download" async=""></script><script src="./getInvolved6_files/32f1f67989fcc4e1.js.download" async=""></script><script src="./getInvolved6_files/2289af60dc5cbb69.js.download" async=""></script><script src="./getInvolved6_files/bc044e2bc54cff3b.js.download" async=""></script><script src="./getInvolved6_files/554a100f00513b06.js.download" async=""></script><script src="./getInvolved6_files/b57f5a9de68de59f.js.download" async=""></script><script src="./getInvolved6_files/c296c4cae44186e7.js.download" async=""></script><script async="" src="./getInvolved6_files/js"></script><link rel="preload" href="./getInvolved6_files/gtm.js.download" as="script"><meta name="GOOGLE-SITE-VERIFICATION" content="MF0CF8tneqs6i71pW1O3VKui56OLXQo5ZMD1v4LaIBM"><link rel="icon" href="https://media.thechurchcoassets.com/accounts/3084/67fe2065-ed4d-4e10-95a0-4fe57e03e5f3-./Life%20Point%20Church%20Favicon.png"><link rel="icon" href="https://media.thechurchcoassets.com/accounts/3084/67fe2065-ed4d-4e10-95a0-4fe57e03e5f3-./Life%20Point%20Church%20Favicon.png" type="image/png" sizes="32x32"><link rel="apple-touch-icon" href="https://media.thechurchcoassets.com/accounts/3084/67fe2065-ed4d-4e10-95a0-4fe57e03e5f3-./Life%20Point%20Church%20Favicon.png"><title>Get Involved | Lifepoint Church | Fredericksburg, VA</title><meta name="description" content="Discover ways to serve, connect, and make a difference in our church and community."><meta property="og:title" content="Get Involved | Lifepoint Church | Fredericksburg, VA"><meta property="og:description" content="Discover ways to serve, connect, and make a difference in our church and community."><meta property="og:image" content="https://api.thechurchco.com/v1/media/580655/crop/socialjpg/redirect"><meta property="og:image:alt" content="Get Involved | Lifepoint Church | Fredericksburg, VA"><meta property="og:url" content="https://www.lifepoint.org/get-involved"><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Get Involved | Lifepoint Church | Fredericksburg, VA"><meta name="twitter:description" content="Discover ways to serve, connect, and make a difference in our church and community."><meta name="twitter:image" content="https://api.thechurchco.com/v1/media/580655/crop/socialjpg/redirect"><link rel="canonical" href="https://www.lifepoint.org/get-involved"><script src="./getInvolved6_files/a6dad97d9634a72d.js.download" nomodule=""></script><style data-styled="active" data-styled-version="6.3.8"></style><script src="./getInvolved6_files/v3"></script><link href="./getInvolved6_files/helvetica-neue-55" rel="stylesheet"></head><body><div hidden=""><!--$--><!--/$--></div><div data-public-route="true" class=""><div id="banners" data-website="alerts"></div><main data-website="true" class=""><div data-top-bar="true" class="ThemedTopBar__ThemedTopBarShared-sc-5c3fa834-0 cnKMej topbar transparent top-bar-scrolling" style="--top-bar-height: 70px;"><a href="https://www.lifepoint.org/"><div data-logo="true" class="logo"><img alt="Main Logo" src="./getInvolved6_files/LC_png_Parent Logo(4) (1)__largepreview__.webp" loading="lazy" data-media-image="true"></div></a><nav class="Menu__ThemedMenuShared-sc-ddda2a65-0 bmTBcE mainmenu" type="default"><ul class="menu"><li class="menu-link"><div class="menu-link__parent"><a class="menu-link-item" href="https://www.lifepoint.org/"><span>About</span></a><button type="button" class="submemu-indicator"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></div><ul class="submenu"><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/locations"><span>Locations</span></a></li><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/our-leadership"><span>Our Pastors &amp; Leadership</span></a></li><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/our-beliefs"><span>Our Beliefs</span></a></li><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/our-mission"><span>Our Mission</span></a></li></ul></li><li class="menu-link"><div class="menu-link__parent"><a class="menu-link-item" href="https://www.lifepoint.org/get-involved"><span>Next Steps</span></a><button type="button" class="submemu-indicator"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></div><ul class="submenu"><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/salvation"><span>Salvation</span></a></li><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/baptism"><span>Water Baptism</span></a></li><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/dream-team"><span>Join the Team</span></a></li><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/small-groups"><span>Small Groups</span></a></li><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/outreach"><span>Outreach</span></a></li><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/one"><span>For the One</span></a></li></ul></li><li class="menu-link"><div class="menu-link__parent"><a class="menu-link-item" href="https://www.lifepoint.org/get-involved"><span>Next Gen</span></a><button type="button" class="submemu-indicator"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></div><ul class="submenu"><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/kidspoint"><span>Kidspoint</span></a></li><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/youth"><span>Youth</span></a></li><li class="menu-link"><a class="menu-link-item" href="https://www.lifepointcollege.org/"><span>Lifepoint College</span></a></li></ul></li><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/events"><span>Events</span></a></li><li class="menu-link"><div class="menu-link__parent"><a class="menu-link-item" href="https://www.lifepoint.org/care"><span>Care</span></a><button type="button" class="submemu-indicator"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></div><ul class="submenu"><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/care"><span>Care</span></a></li><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/pray"><span>Prayer Request</span></a></li><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/benevolence"><span>Benevolence</span></a></li></ul></li><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/give"><span>Give</span></a></li><li class="menu-link"><div class="menu-link__parent"><a class="menu-link-item" href="https://www.lifepoint.org/get-involved" target="_blank"><span>Sermons</span></a><button type="button" class="submemu-indicator"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></div><ul class="submenu"><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/sermons"><span>Sermons</span></a></li><li class="menu-link"><a class="menu-link-item" href="https://live.lifepoint.org/"><span>Watch Live</span></a></li></ul></li><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/"><span>Home</span></a></li></ul><a href="https://www.lifepoint.org/get-involved#" data-hamburger="true" class="Hamburger__ThemedHamburgerShared-sc-7f4f9c83-0 cpotzf"><span class="bar -top"></span><span class="bar -middle"></span><span class="bar -bottom"></span></a></nav></div><div id="blocks" class="flex flex-wrap renderer"><header class="bg-image align-default Render__ThemedRenderShared-sc-f61f8255-0 dwBpEZ block-id-611df5a0-8be0-45af-adf5-dcd1bf51d0d5 width-full" data-block="true" index="0"><div class="header-inner"><div data-container="true" class="Container__ThemedContainerShared-sc-14a006c2-0 fZhmhl container"><div class="header-defaults"><div class="header-defaults-wrap"><div class="rich-wrap render-rich-text"><p></p><h1>Your Next Step Starts Here.</h1><p></p><p></p></div></div></div></div></div><div class="tint"></div></header><section class="tcc-block block-imagelist RenderBlock__ThemedRenderBlockShared-sc-a50436c1-0 fIVLQv Render__ThemedRenderShared-sc-19f89b08-0 jpNLSp layout-smartcolumns  bg-color color-alt align-default width-full block-id-eeaebff9-9797-4078-a0d7-0b9f20fee17b custom-columns in-view" data-block="true" id="32f549fc-af90-4cd7-81f7-bd10da201378"><div class="row-inner"><div data-container="true" class="Container__ThemedContainerShared-sc-14a006c2-0 fZhmhl container"><div class="row-defaults"><div class="row-defaults-wrap"><div class="rich-wrap render-rich-text"><h2>Following Jesus is a journey, and there is always a next step to take.</h2><p>Whether you are new to faith or have been walking with Jesus for years, your next step matters. These steps are designed to help you grow, find community, and live out your purpose.</p></div></div></div><div class="row-content" data-imagelist="true"><div data-list="true" class="ThemedList-sc-27f03d01-0 fsgivr widget-list smartcolumns-3 shape-square columns-three layout-smartcolumns align-default"><div data-edit-list="true"><div data-listitem="true" class="shape-square align-default layout-smartcolumns ThemedListItem__ThemedListItemShared-sc-e88acacf-0 eIYNXa"><div class="feature image"><img alt="A young man with tattoos smiles warmly as he hugs another man in an outdoor baptismal pool, surrounded by a supportive crowd in front of a modern building." src="./getInvolved6_files/_JH_5589__mediumsquare__.webp" loading="lazy" data-media-image="true"></div><div class="content"><div class="rich-wrap render-rich-text"><h4>Baptism</h4><div class="ButtonRenderer__ThemedButtonRendererShared-sc-94f0fbbc-0 jDqjoj" data-buttons="true"><a id="c30cfa89-d78c-424f-aec9-1f9b465daa81" url="baptism" href="https://www.lifepoint.org/baptism" icon="[object Object]" text="Learn More" class="button-action ThemedButtonMoi-sc-85c09b8c-0 bOVZYy -brand -primary -with-icon -icon-right" data-button="true"><span class="text">Learn More</span><div data-themed-icon="true" data-icon="true" class="ThemedIcon-sc-eddd253e-0 gPUSxD"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></div></a></div></div></div></div><div data-listitem="true" class="shape-square align-default layout-smartcolumns ThemedListItem__ThemedListItemShared-sc-e88acacf-0 eIYNXa"><div class="feature image"><img alt="Join a Group" src="./getInvolved6_files/ZgfxMiwaePM__mediumsquare" loading="lazy" data-media-image="true"></div><div class="content"><div class="rich-wrap render-rich-text"><h4>Join a Group</h4><div class="ButtonRenderer__ThemedButtonRendererShared-sc-94f0fbbc-0 jDqjoj" data-buttons="true"><a id="81b33dbe-42e2-477c-af89-d200c1b8f247" url="/small-groups" href="https://www.lifepoint.org/small-groups" icon="[object Object]" text="Learn More" type="page" class="button-action ThemedButtonMoi-sc-85c09b8c-0 bOVZYy -brand -primary -with-icon -icon-right" data-button="true"><span class="text">Learn More</span><div data-themed-icon="true" data-icon="true" class="ThemedIcon-sc-eddd253e-0 gPUSxD"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></div></a></div></div></div></div><div data-listitem="true" class="shape-square align-default layout-smartcolumns ThemedListItem__ThemedListItemShared-sc-e88acacf-0 eIYNXa"><div class="feature image"><img alt="Three diverse volunteers, two women and a man, stand smiling in front of the glass doors of a modern building, wearing &#39;Dream Team&#39; lanyards." src="./getInvolved6_files/_JH_1797__mediumsquare__.webp" loading="lazy" data-media-image="true"></div><div class="content"><div class="rich-wrap render-rich-text"><h4>Join the Team</h4><div class="ButtonRenderer__ThemedButtonRendererShared-sc-94f0fbbc-0 jDqjoj" data-buttons="true"><a id="15ba981c-0403-42bc-9a7e-2715d153a627" url="/dream-team" href="https://www.lifepoint.org/dream-team" icon="[object Object]" text="Learn More" type="page" class="button-action ThemedButtonMoi-sc-85c09b8c-0 bOVZYy -brand -primary -with-icon -icon-right" data-button="true"><span class="text">Learn More</span><div data-themed-icon="true" data-icon="true" class="ThemedIcon-sc-eddd253e-0 gPUSxD"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></div></a></div></div></div></div><div data-listitem="true" class="shape-square align-default layout-smartcolumns ThemedListItem__ThemedListItemShared-sc-e88acacf-0 eIYNXa"><div class="feature image"><img alt="A woman in a pink sweater stands by a stage, placing an offering in a large wicker basket while a band performs for the congregation in the background." src="./getInvolved6_files/2M7A1591(2)__mediumsquare__.webp" loading="lazy" data-media-image="true"></div><div class="content"><div class="rich-wrap render-rich-text"><h4>Generosity</h4><div class="ButtonRenderer__ThemedButtonRendererShared-sc-94f0fbbc-0 jDqjoj" data-buttons="true"><a id="7c10513e-7383-4291-9dd2-75d78e2c1084" url="/give" href="https://www.lifepoint.org/give" icon="[object Object]" text="Learn More" type="page" class="button-action ThemedButtonMoi-sc-85c09b8c-0 bOVZYy -brand -primary -with-icon -icon-right" data-button="true"><span class="text">Learn More</span><div data-themed-icon="true" data-icon="true" class="ThemedIcon-sc-eddd253e-0 gPUSxD"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></div></a></div></div></div></div><div data-listitem="true" class="shape-square align-default layout-smartcolumns ThemedListItem__ThemedListItemShared-sc-e88acacf-0 eIYNXa"><div class="feature image"><img alt="Events" src="./getInvolved6_files/_JH_3276__mediumsquare__.webp" loading="lazy" data-media-image="true"></div><div class="content"><div class="rich-wrap render-rich-text"><h4>Events</h4><div class="ButtonRenderer__ThemedButtonRendererShared-sc-94f0fbbc-0 jDqjoj" data-buttons="true"><a id="e28578e8-391f-475d-8d39-ca699fec57d1" url="/events" href="https://www.lifepoint.org/events" icon="[object Object]" text="Learn More" type="page" class="button-action ThemedButtonMoi-sc-85c09b8c-0 bOVZYy -brand -primary -with-icon -icon-right" data-button="true"><span class="text">Learn More</span><div data-themed-icon="true" data-icon="true" class="ThemedIcon-sc-eddd253e-0 gPUSxD"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></div></a></div></div></div></div></div></div></div></div></div><div class="tint"></div></section></div><footer><div id="blocks--footer" class="flex flex-wrap renderer"><section class="tcc-block block-iconlist RenderBlock__ThemedRenderBlockShared-sc-a50436c1-0 jRRfDz Render__ThemedRenderShared-sc-5486b28a-0 kknOC  bg-color color-tertiary align-default -color-match width-full block-id-placeholder-footer-icons in-view" data-block="true"><div class="row-inner"><div data-container="true" class="Container__ThemedContainerShared-sc-14a006c2-0 fZhmhl container"><div class="row-defaults"><div class="row-defaults-wrap"><div class="rich-wrap render-rich-text"><h3><span style="line-height: 2rem;"></span><span style="font-weight: normal;"><i>We Exist to Lead People Far From God into a Full Life in Christ.</i></span></h3><h4><span style="font-weight: normal;">Know God. Find Freedom. Discover Purpose. Make a Difference.<i></i></span></h4></div></div></div><div class="row-content" data-imagelist="true"><div data-list="true" class="ThemedList-sc-27f03d01-0 fsgivr widget-list smartcolumns-3 shape-default columns-three layout-columns align-default"><div data-edit-list="true"><div data-listitem="true" class="shape-default align-default layout-columns ThemedListItem__ThemedListItemShared-sc-e88acacf-0 eIYNXa"><div class="feature icon"><div data-themed-icon="true" data-icon="true" class="ThemedIcon-sc-eddd253e-0 gPUSxD"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone" class="svg-inline--fa fa-phone " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"></path></svg></div></div><div class="content"><div class="rich-wrap render-rich-text"><h4>Call Us</h4><p><a href="tel:540-786-5111">540-786-5111</a></p></div></div></div><div data-listitem="true" class="shape-default align-default layout-columns ThemedListItem__ThemedListItemShared-sc-e88acacf-0 eIYNXa"><div class="feature icon"><div data-themed-icon="true" data-icon="true" class="ThemedIcon-sc-eddd253e-0 gPUSxD"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="location-dot" class="svg-inline--fa fa-location-dot " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"></path></svg></div></div><div class="content"><div class="rich-wrap render-rich-text"><h4>Find Us</h4><p><a href="https://maps.app.goo.gl/GMaBiZBhn5gUUdxg9" target="_blank">1400 Central Park Blvd. <br> Fredericksburg, VA 22401</a></p></div></div></div><div data-listitem="true" class="shape-default align-default layout-columns ThemedListItem__ThemedListItemShared-sc-e88acacf-0 eIYNXa"><div class="feature icon"><div data-themed-icon="true" data-icon="true" class="ThemedIcon-sc-eddd253e-0 gPUSxD"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" class="svg-inline--fa fa-envelope " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"></path></svg></div></div><div class="content"><div class="rich-wrap render-rich-text"><h4>Email</h4><p><a href="mailto:info@lifepoint.org">info@lifepoint.org</a></p></div></div></div></div></div></div></div></div></section><section class="tcc-block block-footer RenderBlock__ThemedRenderBlockShared-sc-a50436c1-0 jEACOT Render__ThemedRenderShared-sc-9c48187e-0 kAsQlR  bg-color color-tertiary align-default width-full block-id-placeholder-footer not-in-view" data-block="true"><div class="row-inner"><div data-container="true" class="Container__ThemedContainerShared-sc-14a006c2-0 fZhmhl container"><div class="row-content footer-wrap"><div class="ThemedFooterDetails-sc-f1ee5e6a-0 ONkpB rich-wrap" data-footer-content="true"><div class="social space-x-4 flex"><a href="https://www.facebook.com/lifepointva" target="_blank" rel="noreferrer noopener"><div data-themed-icon="true" data-icon="true" class="ThemedIcon-sc-eddd253e-0 gPUSxD"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"></path></svg></div></a><a href="https://www.instagram.com/lifepointva/" target="_blank" rel="noreferrer noopener"><div data-themed-icon="true" data-icon="true" class="ThemedIcon-sc-eddd253e-0 gPUSxD"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></div></a></div><nav class="Menu__ThemedMenuShared-sc-ddda2a65-0 darnKw renderMenu" type="inline"><ul class="menu"><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/our-beliefs"><span>Our Beliefs</span></a></li><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/our-mission"><span>Our Mission</span></a></li><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/give"><span>Give</span></a></li><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/events"><span>Events</span></a></li><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/locations"><span>Locations</span></a></li><li class="menu-link"><a class="menu-link-item" href="https://www.lifepoint.org/jobs" target="_blank"><span>Jobs</span></a></li></ul></nav><p class="opacity-50 mt-4 text-sm">© <!-- -->2026<!-- --> <!-- -->Lifepoint Church</p></div></div><div class="ThemedRep-sc-d889f59d-0 iFIKNV"><a href="https://thechurchco.com/?utm_source=v2site&amp;utm_campaign=footer&amp;utm_id=footer&amp;utm_medium=www.lifepoint.org" target="_blank">The Church Co</a></div></div></div></section></div></footer><div data-load-font="true">
+        
+        <style>
+            
+            
+        :root {
+            
+    
+        --body-font-family: "Christmas 205", sans-serif;
+        --body-font-weight: 100;
+    
+
+        
+            --heading-font-family: "helvetica neue", sans-serif;
+            --heading-font-weight: 700;
+        
+
+
+
+
+        --base-color-bg-dark: #cccccc;
+        --base-color-bg: #ffffff;
+        --base-color-bg-light: #ffffff;
+        --base-color-text: #000000;
+        --alt-color-bg-dark: #c4c4c4;
+        --alt-color-bg: #f4f4f4;
+        --alt-color-bg-light: #f7f7f7;
+        --alt-color-text: #000000;
+        --primary-color-bg-dark: #717171;
+        --primary-color-bg: #8D8D8D;
+        --primary-color-bg-light: #a4a4a4;
+        --primary-color-text: #ffffff;
+        --secondary-color-bg-dark: #cccccc;
+        --secondary-color-bg: #ffffff;
+        --secondary-color-bg-light: #ffffff;
+        --secondary-color-text: #ffffff;
+        --tertiary-color-bg-dark: #000000;
+        --tertiary-color-bg: #000000;
+        --tertiary-color-bg-light: #333333;
+        --tertiary-color-text: #ffffff;
+        --currentcolor-color-bg-dark: currentColor;
+        --currentcolor-color-bg: currentColor;
+        --currentcolor-color-bg-light: currentColor;
+        --currentcolor-color-text: currentColor;
+        --transparent-color-bg-dark: transparent;
+        --transparent-color-bg: transparent;
+        --transparent-color-bg-light: transparent;
+        --transparent-color-text: transparent;
+    
+            
+         
+         --theme-element-padding-vertical: 0.625rem;
+         --theme-element-padding-horizontal: 0.875rem;
+         
+         --theme-container-width: 1145px;
+         --theme-small-container-width: 800px;
+         --theme-gutter: 1em;
+         --theme-heading-one-font-size: 3.5rem;
+         --theme-heading-two-font-size: 3rem;
+         --theme-heading-three-font-size: 2.5rem;
+         --theme-heading-four-font-size: 2rem;
+         --theme-heading-five-font-size: 1.5rem;
+         --theme-heading-six-font-size: 1rem;
+         --theme-spacer: 2rem;
+
+         /** New Theming Starts Here **/
+         --theme-hero-padding-top: 6em;
+         --theme-hero-padding-left: 0em;
+         --theme-hero-padding-right: 0em;
+         --theme-hero-padding-bottom: 6em;
+         --theme-hero-padding-top-mobile: 8em;
+         --theme-hero-padding-left-mobile: 0em;
+         --theme-hero-padding-right-mobile: 0em;
+         --theme-hero-padding-bottom-mobile: 4em;
+         --theme-hero-text-align: center;
+         --theme-hero-justify: center;
+
+         --theme-row-padding-top: 4em;
+         --theme-row-padding-left: 0em;
+         --theme-row-padding-right: 0em;
+         --theme-row-padding-bottom: 4em;
+         --theme-row-padding-top-mobile: 2em;
+         --theme-row-padding-left-mobile: 0em;
+         --theme-row-padding-right-mobile: 0em;
+         --theme-row-padding-bottom-mobile: 2em;
+         
+
+         --theme-row-width: 100%;
+         --theme-row-margin-horizontal: 0em;
+         --theme-row-margin-vertical: 0em;
+         --theme-row-text-align: center;
+         --theme-row-justify: center;
+
+         --theme-border-radius: 0px;
+         --theme-border-radius-md: 0px;
+         --theme-border-radius-sm: 0px;
+
+         --theme-row-border-radius: 0px;
+         --theme-row-border-radius-md: 0px;
+         --theme-row-border-radius-sm: 0px;
+         
+
+         /* TODO: Calculate Large,Medium,Small Shasow */
+         --theme-shadow: 0px 0px 0px 0px rgba(0,0,0,0.17);
+         --theme-shadow-lg: 0px 0px 0px 0px rgba(0,0,0,0.17);
+         --theme-shadow-md: 0px 0px 0px 0px rgba(0,0,0,0.17);
+         --theme-shadow-sm: 0px 0px 0px 0px rgba(0,0,0,0.17);
+        
+         /* Buttons */
+         --theme-button-padding-top: 1rem;
+         --theme-button-padding-bottom: 1rem;
+         --theme-button-padding-left: 1.75rem;
+         --theme-button-padding-right: 1.75rem;
+         --theme-button-radius: 100px;
+
+
+         /* Form Inputs */
+         --theme-input-border-radius: 0px;
+         --theme-input-shadow: 0px 0px 0px 4px currentColor;
+         --theme-input-border: 0px solid rgba(0,0,0,0.15);
+    
+        }
+        
+
+    [data-website] .header-defaults h1 {
+        font-size: clamp(2rem,6.5vw,7rem);
+    }
+    [data-website] .header-defaults h2 {
+        font-size: clamp(2rem,3vw,5rem);
+    }
+    [data-website] .header-defaults p {
+        font-size: 1.5em;
+    }
+    html [data-website] {
+        font-size: 18px;
+    }
+    .row-defaults h3 {
+        font-size: 3rem;
+    }
+    [data-website] .rich-wrap {
+        gap: 1.5rem !important;
+    }
+
+    
+    
+    [data-website] .accordion-wrap .accordion-title {
+
+		transform: scale3d(1, 1, 1);
+        transition: all 500ms cubic-bezier(.33, 0, .19, 1);
+        font-size: 1.25rem;
+        position: relative
+    }
+    [data-website] .accordion-wrap.-theme-default .accordion-title {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    [data-website] .accordion-wrap.-theme-default .accordion-title:after {
+        content: "";
+        position: absolute;
+        top: -3px;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background-color: currentColor;
+        opacity: 1;
+    }
+    [data-website] .accordion-wrap .trigger:before,
+    [data-website] .accordion-wrap .trigger:after {
+        height: 0.25em;
+        width: 1.2em;
+    }
+
+    .notification-wrap .announcement {
+        border: 4px solid currentColor !important;
+   }
+    @container(max-width:768px){
+        [data-website] .header-defaults h1 {
+            font-size: clamp(2rem,4.5vw,6rem);
+        }
+        [data-website] .header-defaults h2 {
+            font-size: clamp(2rem,2vw,4rem);
+        }
+    }
+    
+    
+
+
+
+        
+    
+            
+            body [data-website] { 
+                font-family: "Christmas 205", sans-serif;
+font-weight: 100;
+
+                background-color: #ffffff;
+                color: #000000;
+                container-type: inline-size;
+                height: 100%;
+                position: relative;
+            }
+
+            
+                [data-website] h1, [data-website] .h1 { font-size: 4rem;
+font-family: "helvetica neue", sans-serif;
+font-weight: 700;
+ }
+                [data-website] h2, [data-website] .h2 { font-size: 3rem;
+font-family: "helvetica neue", sans-serif;
+font-weight: 700;
+ }
+                [data-website] h3, [data-website] .h3 { font-size: 1.8rem;
+font-family: "helvetica neue", sans-serif;
+font-weight: 700;
+ }
+                [data-website] h4, [data-website] .h4 { font-family: "helvetica neue", sans-serif;
+font-weight: 700;
+ }
+                [data-website] h5, [data-website] .h5 { font-family: "helvetica neue", sans-serif;
+font-weight: 400;
+ }
+                [data-website] h6, [data-website] .h6 { font-family: "helvetica neue", sans-serif;
+font-weight: 700;
+ }
+                [data-website] ul { font-family: "helvetica neue", sans-serif;
+font-weight: 400;
+list-style-type: disc;
+ }
+                [data-website] ol { font-family: "helvetica neue", sans-serif;
+font-weight: 400;
+ }
+                @container (max-width: 1024px){
+                    [data-website] h1, [data-website] .h1 { font-size:2.6rem}
+                    [data-website] h2, [data-website] .h2 { font-size:1.9500000000000002rem}
+                    [data-website] h3, [data-website] .h3 { font-size:1.1700000000000002rem}
+                    [data-website] h4, [data-website] .h4 { }
+                    [data-website] h5, [data-website] .h5 { }
+                    [data-website] h6, [data-website] .h6 { }
+                }
+            
+            
+            /** Color Helpers **/
+            /*
+            [data-website] .color-base { background-color: var(--base-color-bg); color: var(--base-color-text); }
+            [data-website] .color-alt { background-color: var(--alt-color-bg); color: var(--alt-color-text); }
+            [data-website] .color-primary { background-color: var(--primary-color-bg); color: var(--primary-color-text); }
+            [data-website] .color-secondary { background-color: var(--secondary-color-bg); color: var(--secondary-color-text); }
+            [data-website] .color-tertiary { background-color: var(--tertiary-color-bg); color: var(--tertiary-color-text); }
+            */
+            
+            [data-website] .rich-wrap {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+            }
+            [data-website] .rich-wrap img,
+            [data-website] .rich-wrap iframe,
+            [data-website] iframe,
+            [data-website] [xdata-audio-player],
+            [data-website] [data-slideshow] img,
+            [data-website] .feature-image,
+            [data-website] .feature youtube-video,
+            [data-website] .feature vimeo-video {
+                box-shadow: var(--theme-shadow-md);
+                border-radius: var(--theme-border-radius);
+            }
+            [data-website] .rich-wrap .StripeElement iframe,
+            [data-website] .StripeElement iframe {
+                box-shadow: none;
+                border-radius: 0px;
+
+            }
+            [data-website] table {
+                width: 100%;
+            }
+
+            @container (max-width:768px){
+                [data-website] .dragger.tcc-w-full,
+                [data-website] .dragger.tcc-w-half,
+                [data-website] .dragger.tcc-w-third,
+                [data-website] .dragger.tcc-w-fill {
+                    width: 100% !important;
+                }
+            }
+
+            @media(min-width: 768px){
+    .topbar.transparent{
+        width: var(--theme-container-width);
+        margin: 2em auto;
+        border-bottom: 1px solid;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+
+    .topbar.transparent + #blocks header{
+        padding-top: 12em!important;
+    }
+
+    .custom-episode .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .custom-episode .container > div{
+        margin: 0px;
+    }
+
+    .custom-episode .row-defaults *:not([data-buttons]){
+        width: 100%!important;
+    }
+
+    .custom-episode .row-content{
+        padding-left: 2em;
+                flex: 1;
+    }
+
+    .custom-episode .row-defaults{
+        width: 40%;
+    }
+
+    .image-full-width .container{
+        max-width: 100%;
+    }
+
+    .image-full-width .row-inner{
+        padding-top: 1rem;
+        padding-bottom: 0px;
+    }
+
+    .custom-bg{
+        position: relative;
+    }
+
+    .custom-bg::before{
+        content: "";
+        background-image: url("https://media.thechurchcoassets.com/accounts/3084/be42f117-8500-44fd-8c3b-313f14f254b9-./Life%20Point%20Bg.jpg");
+        background-size: 120%;
+        background-position: center;
+        display: block;
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        opacity: 0.05;
+    }
+}
+
+.custom-marquee [data-marquee]{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.custom-marquee + .block-marquee .text-container{
+    animation-direction: reverse;
+}
+
+.custom-episode .card .content *{
+    display: none;
+}
+
+.custom-episode .card .content{
+    margin-top: 0px;
+}
+
+.custom-episode .card{
+    padding: 0px;
+}
+
+.custom-episode .card::before,
+.custom-episode .card::after,
+.custom-episode .card .content::before,
+.custom-episode .card .content::after{
+    content: none;
+}
+
+.custom-columns [data-listitem]{
+    background-color: var(--base-color-bg);
+    color: var(--base-color-text);
+    box-shadow: 0px 0px 20px rgba(0,0,0, 0.1);
+    border-radius: 10px;
+}
+
+.custom-columns [data-listitem] .content{
+    padding: 1em 2em;
+}
+
+.custom-icons [data-listitem]{
+    background-color: var(--base-color-bg);
+    color: var(--base-color-text);
+    box-shadow: 0px 0px 20px rgba(0,0,0, 0.1);
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.custom-icons [data-listitem] .feature.icon [data-themed-icon]{
+    background-color: var(--primary-color-bg);
+    color: var(--primary-color-text);
+    width: 2em;
+    height: 2em;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2em;
+}
+
+.custom-marquee [data-marquee]{
+    overflow: hidden!important;
+}
+
+@media(min-width: 768px){
+    .fix-featured .card:first-child{
+        gap: 1rem;
+    }
+}
+
+footer a{
+    text-decoration: none!important;
+}
+.chicago {font-family: "Chicago", Serif !important;
+	font-weight: 400 !important;
+	font-style: normal !important;}
+            
+        </style></div></main><div data-website="alerts"><div data-announcements-wrapper="true"><div data-notifications-wrap="true" class="ThemedNotifications__ThemedNotificationsShared-sc-a13114a9-1 wvhUs announcement -enter"><div class="notification-wrap"></div></div></div></div><script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}</script><script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+
+                
+                gtag('js', new Date());
+                gtag('config', 'G-QY0HRC0982',{'groups':'globaltracking'});
+                gtag('config', 'G-JCDCQM8D0K',{'groups':'customer'});
+            </script><style>
+        
+            @font-face {
+                font-family: helvetica neue;
+                src: url('https://media.thechurchcoassets.com/accounts/3084/617dcdac-344f-460c-8c59-f837f32d7302-./Helvetica.woff') format('woff');
+                font-weight: 400;
+                
+            }
+        
+            @font-face {
+                font-family: helvetica neue;
+                src: url('https://media.thechurchcoassets.com/accounts/3084/bc90dee1-518c-4404-a444-a8f7a010f5d5-./Helvetica-Bold.woff') format('woff');
+                font-weight: 700;
+                
+            }
+        
+            @font-face {
+                font-family: Chicago;
+                src: url('https://media.thechurchcoassets.com/accounts/3084/a7d76125-10dc-48e3-81f1-54b2cc267bd4-./ChicagoAthleticSlabSerif2-8OjMn.woff') format('woff');
+                font-weight: 700;
+                font-style: normal;
+            }
+        
+            @font-face {
+                font-family: Chicago;
+                src: url('https://media.thechurchcoassets.com/accounts/3084/bf4b1f86-9a81-4ff3-8dbc-6da1bc580725-./ChicagoAthleticRegular-YqOz2.woff') format('woff');
+                font-weight: 400;
+                font-style: normal;
+            }
+        
+            @font-face {
+                font-family: Christmas 205;
+                src: url('https://media.thechurchcoassets.com/accounts/3084/1e8e5a0b-b7b3-46f8-b4e6-d6baab049d0c-./DarlineScript-AgedSlanted.otf') format('opentype');
+                font-weight: 100;
+                font-style: normal;
+            }
+        
+        .helvetica-neue-regular{font-family: "helvetica neue", sans-serif;font-weight: 400;}.helvetica-neue-bold{font-family: "helvetica neue", sans-serif;font-weight: 700;}.chicago-bold{font-family: "Chicago", Serif;font-weight: 700;font-style: normal;}.chicago-regular{font-family: "Chicago", Serif;font-weight: 400;font-style: normal;}.christmas-205-thin{font-family: "Christmas 205", sans-serif;font-weight: 100;font-style: normal;}
+    </style></div><!--$--><!--/$--><script src="./getInvolved6_files/d15b1c355de87b23.js.download" id="_R_" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n3:I[339756,[\"/_next/static/chunks/01d70fb29b283750.js\",\"/_next/static/chunks/16ea27c3b926bc31.js\"],\"default\"]\n4:I[837457,[\"/_next/static/chunks/01d70fb29b283750.js\",\"/_next/static/chunks/16ea27c3b926bc31.js\"],\"default\"]\n6:I[897367,[\"/_next/static/chunks/01d70fb29b283750.js\",\"/_next/static/chunks/16ea27c3b926bc31.js\"],\"OutletBoundary\"]\n7:\"$Sreact.suspense\"\n9:I[897367,[\"/_next/static/chunks/01d70fb29b283750.js\",\"/_next/static/chunks/16ea27c3b926bc31.js\"],\"ViewportBoundary\"]\nb:I[897367,[\"/_next/static/chunks/01d70fb29b283750.js\",\"/_next/static/chunks/16ea27c3b926bc31.js\"],\"MetadataBoundary\"]\nd:I[715750,[\"/_next/static/chunks/01d70fb29b283750.js\",\"/_next/static/chunks/16ea27c3b926bc31.js\"],\"default\"]\ne:I[314762,[\"/_next/static/chunks/9c2651d2970d7fe1.js\",\"/_next/static/chunks/c2658288e369ce93.js\"],\"default\"]\n:HL[\"/_next/static/chunks/612a1234f25e84c1.css\",\"style\"]\n:HL[\"/_next/static/chunks/1c042a1d25957036.css\",\"style\"]\n:HL[\"/_next/static/chunks/2fb396df4c23fe5d.css\",\"style\"]\n:HL[\"/_next/static/chunks/9ee808edb3a2894e.css\",\"style\"]\n:HL[\"/_next/static/chunks/2b83c0700bb3d8d9.css\",\"style\"]\n:HL[\"/_next/static/chunks/1917d342b746aec3.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"b\":\"FPM88NEIV1Nao_7iSrdfZ\",\"c\":[\"\",\"get-involved\"],\"q\":\"\",\"i\":false,\"f\":[[[\"\",{\"children\":[[\"slug\",\"get-involved\",\"c\"],{\"children\":[\"__PAGE__\",{}]}]},\"$undefined\",\"$undefined\",true],[[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/612a1234f25e84c1.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/9c2651d2970d7fe1.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-1\",{\"src\":\"/_next/static/chunks/c2658288e369ce93.js\",\"async\":true,\"nonce\":\"$undefined\"}]],\"$L2\"]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[\"$L5\",[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/1c042a1d25957036.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/2fb396df4c23fe5d.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"2\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/9ee808edb3a2894e.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"3\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/2b83c0700bb3d8d9.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"4\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/1917d342b746aec3.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/7b85766b9aa264ba.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-1\",{\"src\":\"/_next/static/chunks/72e341d9fc82a01b.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-2\",{\"src\":\"/_next/static/chunks/74e4ef9925a00461.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-3\",{\"src\":\"/_next/static/chunks/2900005c544412e8.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-4\",{\"src\":\"/_next/static/chunks/3fd913ae36196232.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-5\",{\"src\":\"/_next/static/chunks/d0ccbdfcfb68d6f3.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-6\",{\"src\":\"/_next/static/chunks/3ad3182cebbac04d.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-7\",{\"src\":\"/_next/static/chunks/f260424ec722a219.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-8\",{\"src\":\"/_next/static/chunks/18d7fc619e8b7f47.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-9\",{\"src\":\"/_next/static/chunks/758aeb36233534dc.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-10\",{\"src\":\"/_next/static/chunks/d52f3e15fd341903.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-11\",{\"src\":\"/_next/static/chunks/87ede1c643f942da.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-12\",{\"src\":\"/_next/static/chunks/bf87c25ac1566b5d.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-13\",{\"src\":\"/_next/static/chunks/792bed27c6999f29.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-14\",{\"src\":\"/_next/static/chunks/f6f750eae704a7c0.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-15\",{\"src\":\"/_next/static/chunks/168f178573890f44.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-16\",{\"src\":\"/_next/static/chunks/536a991ca4475f28.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-17\",{\"src\":\"/_next/static/chunks/72143bb0cbc27005.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-18\",{\"src\":\"/_next/static/chunks/f8250fb775a0e660.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-19\",{\"src\":\"/_next/static/chunks/055b4e064bb903a0.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-20\",{\"src\":\"/_next/static/chunks/32f1f67989fcc4e1.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-21\",{\"src\":\"/_next/static/chunks/2289af60dc5cbb69.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-22\",{\"src\":\"/_next/static/chunks/bc044e2bc54cff3b.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-23\",{\"src\":\"/_next/static/chunks/554a100f00513b06.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-24\",{\"src\":\"/_next/static/chunks/b57f5a9de68de59f.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-25\",{\"src\":\"/_next/static/chunks/c296c4cae44186e7.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"$L6\",null,{\"children\":[\"$\",\"$7\",null,{\"name\":\"Next.MetadataOutlet\",\"children\":\"$@8\"}]}]]}],{},null,false,false]},null,false,false]},null,false,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$L9\",null,{\"children\":\"$La\"}],[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$Lb\",null,{\"children\":[\"$\",\"$7\",null,{\"name\":\"Next.Metadata\",\"children\":\"$Lc\"}]}]}],null]}],false]],\"m\":\"$undefined\",\"G\":[\"$d\",[]],\"S\":false}\n"])</script><script>self.__next_f.push([1,"2:[\"$\",\"html\",null,{\"lang\":\"en\",\"className\":\"\",\"suppressHydrationWarning\":true,\"children\":[\"$\",\"body\",null,{\"children\":[\"$\",\"$Le\",null,{\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[\"$Lf\",[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/1c042a1d25957036.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/2b83c0700bb3d8d9.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"2\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/2fb396df4c23fe5d.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"3\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/9ee808edb3a2894e.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"4\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/1917d342b746aec3.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]}]}]\n"])</script><script>self.__next_f.push([1,"a:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n"])</script><script>self.__next_f.push([1,"10:I[27201,[\"/_next/static/chunks/01d70fb29b283750.js\",\"/_next/static/chunks/16ea27c3b926bc31.js\"],\"IconMark\"]\n8:null\nc:[[\"$\",\"meta\",\"0\",{\"name\":\"GOOGLE-SITE-VERIFICATION\",\"content\":\"MF0CF8tneqs6i71pW1O3VKui56OLXQo5ZMD1v4LaIBM\"}],[\"$\",\"link\",\"1\",{\"rel\":\"icon\",\"href\":\"https://media.thechurchcoassets.com/accounts/3084/67fe2065-ed4d-4e10-95a0-4fe57e03e5f3-./Life Point Church Favicon.png\"}],[\"$\",\"link\",\"2\",{\"rel\":\"icon\",\"href\":\"https://media.thechurchcoassets.com/accounts/3084/67fe2065-ed4d-4e10-95a0-4fe57e03e5f3-./Life Point Church Favicon.png\",\"type\":\"image/png\",\"sizes\":\"32x32\"}],[\"$\",\"link\",\"3\",{\"rel\":\"apple-touch-icon\",\"href\":\"https://media.thechurchcoassets.com/accounts/3084/67fe2065-ed4d-4e10-95a0-4fe57e03e5f3-./Life Point Church Favicon.png\"}],[\"$\",\"$L10\",\"4\",{}]]\n"])</script><script>self.__next_f.push([1,"11:I[18429,[\"/_next/static/chunks/9c2651d2970d7fe1.js\",\"/_next/static/chunks/c2658288e369ce93.js\",\"/_next/static/chunks/7b85766b9aa264ba.js\",\"/_next/static/chunks/72e341d9fc82a01b.js\",\"/_next/static/chunks/74e4ef9925a00461.js\",\"/_next/static/chunks/2900005c544412e8.js\",\"/_next/static/chunks/3fd913ae36196232.js\",\"/_next/static/chunks/d0ccbdfcfb68d6f3.js\",\"/_next/static/chunks/3ad3182cebbac04d.js\",\"/_next/static/chunks/f260424ec722a219.js\",\"/_next/static/chunks/18d7fc619e8b7f47.js\",\"/_next/static/chunks/758aeb36233534dc.js\",\"/_next/static/chunks/d52f3e15fd341903.js\",\"/_next/static/chunks/87ede1c643f942da.js\",\"/_next/static/chunks/bf87c25ac1566b5d.js\",\"/_next/static/chunks/792bed27c6999f29.js\",\"/_next/static/chunks/f6f750eae704a7c0.js\",\"/_next/static/chunks/168f178573890f44.js\",\"/_next/static/chunks/536a991ca4475f28.js\",\"/_next/static/chunks/72143bb0cbc27005.js\",\"/_next/static/chunks/f8250fb775a0e660.js\",\"/_next/static/chunks/055b4e064bb903a0.js\",\"/_next/static/chunks/32f1f67989fcc4e1.js\",\"/_next/static/chunks/2289af60dc5cbb69.js\",\"/_next/static/chunks/bc044e2bc54cff3b.js\",\"/_next/static/chunks/554a100f00513b06.js\",\"/_next/static/chunks/b57f5a9de68de59f.js\",\"/_next/static/chunks/c296c4cae44186e7.js\"],\"IntegrationsContextProvider\"]\n12:I[384815,[\"/_next/static/chunks/9c2651d2970d7fe1.js\",\"/_next/static/chunks/c2658288e369ce93.js\",\"/_next/static/chunks/7b85766b9aa264ba.js\",\"/_next/static/chunks/72e341d9fc82a01b.js\",\"/_next/static/chunks/74e4ef9925a00461.js\",\"/_next/static/chunks/2900005c544412e8.js\",\"/_next/static/chunks/3fd913ae36196232.js\",\"/_next/static/chunks/d0ccbdfcfb68d6f3.js\",\"/_next/static/chunks/3ad3182cebbac04d.js\",\"/_next/static/chunks/f260424ec722a219.js\",\"/_next/static/chunks/18d7fc619e8b7f47.js\",\"/_next/static/chunks/758aeb36233534dc.js\",\"/_next/static/chunks/d52f3e15fd341903.js\",\"/_next/static/chunks/87ede1c643f942da.js\",\"/_next/static/chunks/bf87c25ac1566b5d.js\",\"/_next/static/chunks/792bed27c6999f29.js\",\"/_next/static/chunks/f6f750eae704a7c0.js\",\"/_next/static/chunks/168f178573890f44.js\",\"/_next/static/chunks/536a991ca4475f28.js\",\"/_next/static/chunks/72143bb0cbc27005.js\",\"/_next/static/chunks/f8250fb775a0e660.js\",\"/_next/static/chunks/055b4e064bb903a0.js\",\"/_next/static/chunks/32f1f67989fcc4e1.js\",\"/_next/static/chunks/2289af60dc5cbb69.js\",\"/_next/static/chunks/bc044e2bc54cff3b.js\",\"/_next/static/chunks/554a100f00513b06.js\",\"/_next/static/chunks/b57f5a9de68de59f.js\",\"/_next/static/chunks/c296c4cae44186e7.js\"],\"WebsiteRendererProvider\"]\n13:I[19273,[\"/_next/static/chunks/9c2651d2970d7fe1.js\",\"/_next/static/chunks/c2658288e369ce93.js\",\"/_next/static/chunks/7b85766b9aa264ba.js\",\"/_next/static/chunks/72e341d9fc82a01b.js\",\"/_next/static/chunks/74e4ef9925a00461.js\",\"/_next/static/chunks/2900005c544412e8.js\",\"/_next/static/chunks/3fd913ae36196232.js\",\"/_next/static/chunks/d0ccbdfcfb68d6f3.js\",\"/_next/static/chunks/3ad3182cebbac04d.js\",\"/_next/static/chunks/f260424ec722a219.js\",\"/_next/static/chunks/18d7fc619e8b7f47.js\",\"/_next/static/chunks/758aeb36233534dc.js\",\"/_next/static/chunks/d52f3e15fd341903.js\",\"/_next/static/chunks/87ede1c643f942da.js\",\"/_next/static/chunks/bf87c25ac1566b5d.js\",\"/_next/static/chunks/792bed27c6999f29.js\",\"/_next/static/chunks/f6f750eae704a7c0.js\",\"/_next/static/chunks/168f178573890f44.js\",\"/_next/static/chunks/536a991ca4475f28.js\",\"/_next/static/chunks/72143bb0cbc27005.js\",\"/_next/static/chunks/f8250fb775a0e660.js\",\"/_next/static/chunks/055b4e064bb903a0.js\",\"/_next/static/chunks/32f1f67989fcc4e1.js\",\"/_next/static/chunks/2289af60dc5cbb69.js\",\"/_next/static/chunks/bc044e2bc54cff3b.js\",\"/_next/static/chunks/554a100f00513b06.js\",\"/_next/static/chunks/b57f5a9de68de59f.js\",\"/_next/static/chunks/c296c4cae44186e7.js\"],\"ThemedTopBar\"]\n"])</script><script>self.__next_f.push([1,"f:[\"$\",\"div\",null,{\"data-public-route\":true,\"className\":\"\",\"children\":[[\"$\",\"$L11\",null,{\"session\":{\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcmdzIjp7InVzZXJJZCI6bnVsbCwiYWNjb3VudElkIjozMDg0LCJuZXR3b3JrSWQiOm51bGwsInZpc2l0b3JOZXR3b3JrSWQiOjF9LCJpYXQiOjE3NzY3MDQ4ODgsImV4cCI6MTc3Njc5MTI4OH0.dj7P-TIpsdpEUCzBCMtIYLEOTH-EDKOqFrCuLobCiuc\"},\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcmdzIjp7InVzZXJJZCI6bnVsbCwiYWNjb3VudElkIjozMDg0LCJuZXR3b3JrSWQiOm51bGwsInZpc2l0b3JOZXR3b3JrSWQiOjF9LCJpYXQiOjE3NzY3MDQ4ODgsImV4cCI6MTc3Njc5MTI4OH0.dj7P-TIpsdpEUCzBCMtIYLEOTH-EDKOqFrCuLobCiuc\",\"account\":{\"id\":3084,\"name\":\"Lifepoint Church - Virginia\",\"plan\":\"thechurchco_marketing_monthly\",\"createdAt\":\"2025-02-06T01:25:23.874Z\",\"subscriptionStatus\":\"active\",\"paymentStatus\":\"paid\",\"failedPaymentCount\":0,\"meta\":{\"aquisition\":{\"utm_id\":\"footer\",\"utm_medium\":\"www.thevoyage.church\",\"utm_source\":\"v1site\",\"utm_campaign\":\"footer\"},\"launchDate\":\"2025-07-30T18:19:29.177+00:00\",\"daysToConvert\":70,\"conversionDate\":\"2025-04-17T21:41:01.039+00:00\"},\"timezone\":\"America/New_York\"},\"domain\":\"www.lifepoint.org\",\"theme\":{\"id\":\"faed9df4-114d-480f-9581-61f99fcc1ec8\",\"name\":\"theme\",\"settingType\":\"theme\",\"meta\":{\"theme\":\"moi\",\"override\":{\"moi\":{\"button\":{\"radius\":\"100\",\"paddingTop\":\"1\",\"paddingBottom\":\"1\"}}},\"wireframe\":false},\"content\":[],\"private\":null,\"createdAt\":\"2025-02-06T01:25:24.471Z\",\"updatedAt\":\"2025-04-24T09:51:30.746Z\",\"deletedAt\":null},\"network\":{\"id\":1,\"name\":\"The Church Co\",\"domain\":\"app.thechurchco.com\",\"meta\":{\"twitterpixel\":{\"enabled\":true,\"trackingId\":\"oomfi\"},\"facebookpixel\":{\"enabled\":true,\"trackingId\":\"502361229959370\"},\"googleanalytics\":{\"enabled\":true,\"trackingId\":\"G-ZDL3F2QZHY\"}},\"stripePublicKey\":\"pk_live_51Nz35dFe3lXo0IoQimvBe80bmNxzi2xdmlxZx46I6dHTywEa92hsqyvzdY1pEdgFm40GlTAzUdSSOOahznlrLHMR005f2DxNKl\",\"stripeConnectPublicKey\":\"pk_live_51OAMwIEh6IKaqLfy5iJXYrw2LNZgMmqtcZoPe6hOr6QMapxOgWWkv16FivnE9NhlItcd6g1cn4dY8KQdoWwD0qKN0060d6BUDM\",\"v1\":{\"stripePublicKey\":\"pk_live_xiraT10UZ67j3qmRj8enCnCI\"}},\"globalArgs\":{\"pageType\":\"default\"},\"brand\":\"$undefined\",\"smarttext\":\"$undefined\",\"pathname\":\"$undefined\",\"searchParams\":\"$undefined\",\"person\":\"$undefined\",\"nativeAppVersion\":\"$undefined\",\"children\":[[[\"$\",\"div\",null,{\"id\":\"banners\",\"data-website\":\"alerts\"}],[[\"$\",\"title\",null,{\"children\":\"404 | Lifepoint Church - Virginia\"}],[\"$\",\"meta\",null,{\"name\":\"description\",\"content\":\"404 | Lifepoint Church - Virginia\"}],[\"$\",\"meta\",null,{\"property\":\"og:title\",\"content\":\"404 | Lifepoint Church - Virginia\"}],[\"$\",\"meta\",null,{\"property\":\"og:description\",\"content\":\"404 | Lifepoint Church - Virginia\"}],[\"$\",\"meta\",null,{\"property\":\"og:image\",\"content\":\"https://api.thechurchco.com/v1/media/230160/crop/socialjpg/redirect\"}],[\"$\",\"meta\",null,{\"property\":\"og:image:alt\",\"content\":\"404 | Lifepoint Church - Virginia\"}],null,[\"$\",\"meta\",null,{\"property\":\"og:type\",\"content\":\"website\"}],\"\",[\"$\",\"meta\",null,{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",null,{\"name\":\"twitter:title\",\"content\":\"404 | Lifepoint Church - Virginia\"}],[\"$\",\"meta\",null,{\"name\":\"twitter:description\",\"content\":\"404 | Lifepoint Church - Virginia\"}],[\"$\",\"meta\",null,{\"name\":\"twitter:image\",\"content\":\"https://api.thechurchco.com/v1/media/230160/crop/socialjpg/redirect\"}],\"$undefined\",\"$undefined\",null],[\"$\",\"main\",null,{\"data-website\":true,\"className\":\"\",\"children\":[\"$\",\"$L12\",null,{\"children\":[[[\"$\",\"$L13\",null,{\"block\":{\"menu\":\"4643e0ae-c7b5-409f-be6c-ee845287caa4\",\"type\":\"transparent\",\"solid\":{\"bg\":{\"type\":\"brand\",\"value\":\"base\"},\"logo\":\"dark\",\"logoSize\":\"200\"},\"undefined\":{\"logo\":\"icon\"},\"transparent\":{\"logo\":\"light\",\"logoSize\":\"200\",\"textColor\":\"#ffffff\"},\"secondaryMenuEnabled\":false,\"menuItems\":[{\"id\":\"597aa66b-fb66-414f-862d-1745be066d20\",\"url\":\"/\",\"kids\":[{\"id\":\"dca6b4f6-e7de-44aa-9870-db92e3d8ab23\",\"url\":\"/locations\",\"text\":\"Locations\",\"type\":\"page\"},{\"id\":\"e12a0bcb-9e92-4e71-bd71-bb23d05c79c1\",\"url\":\"/our-leadership\",\"text\":\"Our Pastors \u0026 Leadership\",\"type\":\"page\"},{\"id\":\"7c98daed-920c-4843-96ef-94d81964d3bb\",\"url\":\"/our-beliefs\",\"text\":\"Our Beliefs\",\"type\":\"page\"},{\"id\":\"9e210a57-3231-4833-a9ee-1c45a9cebdbb\",\"url\":\"/our-mission\",\"text\":\"Our Mission\",\"type\":\"page\"}],\"text\":\"About\"},{\"id\":\"940cbd02-36b5-453d-a4d1-4cf2ddd5150b\",\"url\":\"\",\"kids\":[{\"id\":\"1d627c3d-09ee-40ea-8342-4108eea1907a\",\"url\":\"/salvation\",\"text\":\"Salvation\",\"type\":\"page\"},{\"id\":\"e80385a7-c5af-492c-ab46-2a44f1644ead\",\"url\":\"/baptism\",\"text\":\"Water Baptism\",\"type\":\"page\"},{\"id\":\"a7074111-6e57-4b28-9e74-78517c2ff998\",\"url\":\"/dream-team\",\"text\":\"Join the Team\",\"type\":\"page\"},{\"id\":\"ec93ea1a-b61b-4b30-81eb-dd8eedf94043\",\"url\":\"/small-groups\",\"text\":\"Small Groups\",\"type\":\"page\"},{\"id\":\"80fec35c-18f9-480d-b346-a35e27d340ea\",\"url\":\"/outreach\",\"text\":\"Outreach\",\"type\":\"page\"},{\"id\":\"8ea61a34-aaca-410c-a341-8407e911d9c1\",\"url\":\"/one\",\"text\":\"For the One\",\"type\":\"page\"}],\"text\":\"Next Steps\"},{\"id\":\"f436bc5b-07cc-4384-92b8-fa0f3bc581fd\",\"url\":\"\",\"kids\":[{\"id\":\"1df9b6ec-f7fd-41a9-9e30-e1115e97935b\",\"url\":\"/kidspoint\",\"text\":\"Kidspoint\",\"type\":\"page\"},{\"id\":\"39ae1b4b-b02d-4ce8-96d3-d6797bf3db0c\",\"url\":\"/youth\",\"text\":\"Youth\",\"type\":\"page\"},{\"id\":\"6bf35628-52d9-4cb6-9dbd-6630d4cffa42\",\"url\":\"https://www.lifepointcollege.org/\",\"text\":\"Lifepoint College\"}],\"text\":\"Next Gen\"},{\"id\":\"a03b2634-629f-4481-a9d4-7f6413352ede\",\"url\":\"/events\",\"kids\":[],\"text\":\"Events\",\"type\":\"page\"},{\"id\":\"c574418a-71d4-474c-972c-6a3f7dc3ca6b\",\"url\":\"/care\",\"kids\":[{\"id\":\"2278c18f-fe3c-4953-95d8-4454b391cd3c\",\"url\":\"/care\",\"text\":\"Care\",\"type\":\"page\"},{\"id\":\"87a44531-0087-4993-bd3b-53f48701a84d\",\"url\":\"/pray\",\"text\":\"Prayer Request\",\"type\":\"page\"},{\"id\":\"0e54a071-a921-4657-bd8d-4a7dd9c782fc\",\"url\":\"/benevolence\",\"text\":\"Benevolence\",\"type\":\"page\"}],\"text\":\"Care\",\"type\":\"page\"},{\"id\":\"9d4b4340-2079-45a4-ba26-5cc6a0deb159\",\"url\":\"/give\",\"kids\":[],\"text\":\"Give\",\"type\":\"page\"},{\"id\":\"559326fc-b6c8-4a9f-870e-12e5a5b24ed1\",\"url\":\"\",\"kids\":[{\"id\":\"7de18cd5-78bf-4fc1-b2ec-b87b401bba47\",\"url\":\"/sermons\",\"text\":\"Sermons\",\"type\":\"page\"},{\"id\":\"9d2d9b66-aece-4284-9d9e-c118d3f03ab2\",\"url\":\"https://live.lifepoint.org/\",\"text\":\"Watch Live\",\"type\":\"url\"}],\"text\":\"Sermons\",\"newTab\":true},{\"id\":\"e4403fb3-79eb-4b3c-afbb-717653f709f8\",\"url\":\"/\",\"kids\":[],\"text\":\"Home\"}]},\"brand\":{\"id\":\"d9a0d5be-816e-44be-9db6-5937cacc5364\",\"name\":\"brand\",\"settingType\":\"brand\",\"meta\":{\"favicon\":{\"id\":238560,\"meta\":{\"key\":\"accounts/3084/67fe2065-ed4d-4e10-95a0-4fe57e03e5f3-./Life Point Church Favicon.png\",\"path\":\"accounts/3084/67fe2065-ed4d-4e10-95a0-4fe57e03e5f3-./Life Point Church Favicon.png\",\"size\":5414,\"crops\":{\"largepreview\":{\"key\":\"accounts/3084/67fe2065-ed4d-4e10-95a0-4fe57e03e5f3-./Life Point Church Favicon__largepreview__.webp\",\"ETag\":\"47ec7d3d5c91e2157073368ed09adf90\",\"path\":\"accounts/3084/67fe2065-ed4d-4e10-95a0-4fe57e03e5f3-./Life Point Church Favicon__largepreview__.webp\",\"size\":19028}},\"mimetype\":\"image/png\",\"totalSize\":24442},\"name\":\"./Life Point Church Favicon.png\",\"createdAt\":\"2025-04-24T12:25:52.668Z\",\"deletedAt\":null,\"mediaType\":\"image\"},\"colorAlt\":\"#f4f4f4\",\"fontBody\":{\"fontSize\":\"\",\"fontFamily\":\"\\\"Christmas 205\\\", sans-serif\",\"fontWeight\":\"100\",\"_fontSource\":\"customfont\",\"_fontFamilyId\":\"Christmas 205\"},\"logoDark\":{\"id\":230151,\"meta\":{\"key\":\"accounts/3084/2abd2f33-bf9a-4d6c-9860-e061aa9cebda-./LC_png_Parent Logo(4).png\",\"path\":\"accounts/3084/2abd2f33-bf9a-4d6c-9860-e061aa9cebda-./LC_png_Parent Logo(4).png\",\"size\":5775,\"crops\":{\"largepreview\":{\"key\":\"accounts/3084/2abd2f33-bf9a-4d6c-9860-e061aa9cebda-./LC_png_Parent Logo(4)__largepreview__.webp\",\"ETag\":\"f69237831890a61ff3c2d1cd37a5e7b7\",\"path\":\"accounts/3084/2abd2f33-bf9a-4d6c-9860-e061aa9cebda-./LC_png_Parent Logo(4)__largepreview__.webp\",\"size\":21484}},\"mimetype\":\"image/png\",\"totalSize\":27259},\"name\":\"./LC_png_Parent Logo(4).png\",\"createdAt\":\"2025-04-17T22:50:12.625Z\",\"deletedAt\":null,\"mediaType\":\"image\"},\"logoIcon\":{\"id\":238560,\"meta\":{\"key\":\"accounts/3084/67fe2065-ed4d-4e10-95a0-4fe57e03e5f3-./Life Point Church Favicon.png\",\"path\":\"accounts/3084/67fe2065-ed4d-4e10-95a0-4fe57e03e5f3-./Life Point Church Favicon.png\",\"size\":5414,\"crops\":{\"largepreview\":{\"key\":\"accounts/3084/67fe2065-ed4d-4e10-95a0-4fe57e03e5f3-./Life Point Church Favicon__largepreview__.webp\",\"ETag\":\"47ec7d3d5c91e2157073368ed09adf90\",\"path\":\"accounts/3084/67fe2065-ed4d-4e10-95a0-4fe57e03e5f3-./Life Point Church Favicon__largepreview__.webp\",\"size\":19028}},\"mimetype\":\"image/png\",\"totalSize\":24442},\"name\":\"./Life Point Church Favicon.png\",\"createdAt\":\"2025-04-24T12:25:52.668Z\",\"deletedAt\":null,\"mediaType\":\"image\"},\"colorBase\":\"#ffffff\",\"fontEmbed\":\"\",\"logoColor\":{\"id\":230151,\"meta\":{\"key\":\"accounts/3084/2abd2f33-bf9a-4d6c-9860-e061aa9cebda-./LC_png_Parent Logo(4).png\",\"path\":\"accounts/3084/2abd2f33-bf9a-4d6c-9860-e061aa9cebda-./LC_png_Parent Logo(4).png\",\"size\":5775,\"crops\":{\"largepreview\":{\"key\":\"accounts/3084/2abd2f33-bf9a-4d6c-9860-e061aa9cebda-./LC_png_Parent Logo(4)__largepreview__.webp\",\"ETag\":\"f69237831890a61ff3c2d1cd37a5e7b7\",\"path\":\"accounts/3084/2abd2f33-bf9a-4d6c-9860-e061aa9cebda-./LC_png_Parent Logo(4)__largepreview__.webp\",\"size\":21484}},\"mimetype\":\"image/png\",\"totalSize\":27259},\"name\":\"./LC_png_Parent Logo(4).png\",\"createdAt\":\"2025-04-17T22:50:12.625Z\",\"deletedAt\":null,\"mediaType\":\"image\"},\"logoLight\":{\"id\":238557,\"meta\":{\"key\":\"accounts/3084/9f41f175-7920-4f69-975b-e8ef79fa9e99-./LC_png_Parent Logo(4) (1).png\",\"path\":\"accounts/3084/9f41f175-7920-4f69-975b-e8ef79fa9e99-./LC_png_Parent Logo(4) (1).png\",\"size\":4267,\"crops\":{\"largepreview\":{\"key\":\"accounts/3084/9f41f175-7920-4f69-975b-e8ef79fa9e99-./LC_png_Parent Logo(4) (1)__largepreview__.webp\",\"ETag\":\"e2209ec7979a2465bd36a249b0fca330\",\"path\":\"accounts/3084/9f41f175-7920-4f69-975b-e8ef79fa9e99-./LC_png_Parent Logo(4) (1)__largepreview__.webp\",\"size\":22588}},\"mimetype\":\"image/png\",\"totalSize\":26855},\"name\":\"./LC_png_Parent Logo(4) (1).png\",\"createdAt\":\"2025-04-24T12:21:37.045Z\",\"deletedAt\":null,\"mediaType\":\"image\"},\"fontHeading\":{\"fontFamily\":\"\\\"Poppins\\\", sans-serif\",\"fontWeight\":\"800\",\"_fontSource\":\"google-fonts\",\"_fontFamilyId\":\"Poppins\",\"_fontVariants\":[\"100\",\"100italic\",\"200\",\"200italic\",\"300\",\"300italic\",\"regular\",\"italic\",\"500\",\"500italic\",\"600\",\"600italic\",\"700\",\"700italic\",\"800\",\"800italic\",\"900\",\"900italic\"]},\"colorAltText\":\"#000000\",\"colorPrimary\":\"#8D8D8D\",\"colorBaseText\":\"#000000\",\"colorTertiary\":\"#000000\",\"fontHeadingH1\":{\"fontSize\":\"4rem\",\"fontFamily\":\"\\\"helvetica neue\\\", sans-serif\",\"fontWeight\":\"700\",\"_fontSource\":\"customfont\",\"_fontFamilyId\":\"helvetica neue\"},\"fontHeadingH2\":{\"fontSize\":\"3rem\",\"fontFamily\":\"\\\"helvetica neue\\\", sans-serif\",\"fontWeight\":\"700\",\"_fontSource\":\"customfont\",\"_fontFamilyId\":\"helvetica neue\"},\"fontHeadingH3\":{\"fontSize\":\"1.8rem\",\"fontFamily\":\"\\\"helvetica neue\\\", sans-serif\",\"fontWeight\":\"700\",\"_fontSource\":\"customfont\",\"_fontFamilyId\":\"helvetica neue\"},\"fontHeadingH4\":{\"fontFamily\":\"\\\"helvetica neue\\\", sans-serif\",\"fontWeight\":\"700\",\"_fontSource\":\"customfont\",\"_fontFamilyId\":\"helvetica neue\"},\"fontHeadingH5\":{\"fontFamily\":\"\\\"helvetica neue\\\", sans-serif\",\"fontWeight\":\"400\",\"_fontSource\":\"customfont\",\"_fontFamilyId\":\"helvetica neue\"},\"fontHeadingH6\":{\"fontFamily\":\"\\\"helvetica neue\\\", sans-serif\",\"fontWeight\":\"700\",\"_fontSource\":\"customfont\",\"_fontFamilyId\":\"helvetica neue\"},\"colorSecondary\":\"#ffffff\",\"fontSubheading\":{\"fontStyle\":\"regular\",\"fontFamily\":\"\\\"Inter\\\", sans-serif\",\"fontSource\":\"google-fonts\",\"fontWeight\":\"700\",\"fontFamilyId\":\"Inter\",\"textTransform\":\"none\"},\"fontOrderedList\":{\"fontFamily\":\"\\\"helvetica neue\\\", sans-serif\",\"fontWeight\":\"400\",\"_fontSource\":\"customfont\",\"_fontFamilyId\":\"helvetica neue\"},\"colorPrimaryText\":\"#ffffff\",\"fontSettingsType\":\"advanced\",\"colorTertiaryText\":\"#ffffff\",\"fontUnorderedList\":{\"fontSize\":\"\",\"fontFamily\":\"\\\"helvetica neue\\\", sans-serif\",\"fontWeight\":\"400\",\"_fontSource\":\"customfont\",\"_fontFamilyId\":\"helvetica neue\",\"listStyleType\":\"disc\"},\"colorSecondaryText\":\"#ffffff\"},\"content\":null,\"private\":null,\"createdAt\":\"2025-02-06T01:25:24.471Z\",\"updatedAt\":\"2026-01-13T23:31:10.291Z\",\"deletedAt\":null},\"pageoverride\":\"solid\"}],\"$L14\",\"$L15\",false,\"$L16\"],\"$L17\",\"$L18\"]}]}],\"$L19\",\"$L1a\"],\"$undefined\",\"$L1b\",\"$undefined\",\"$undefined\",\"$undefined\",\"$undefined\",\"$undefined\",\"$undefined\",\"$undefined\",\"$undefined\",\"$undefined\",\"$undefined\",\"$undefined\",\"$undefined\",\"$L1c\"]}],\"$L1d\"]}]\n"])</script><script>self.__next_f.push([1,"1e:I[658484,[\"/_next/static/chunks/9c2651d2970d7fe1.js\",\"/_next/static/chunks/c2658288e369ce93.js\",\"/_next/static/chunks/7b85766b9aa264ba.js\",\"/_next/static/chunks/72e341d9fc82a01b.js\",\"/_next/static/chunks/74e4ef9925a00461.js\",\"/_next/static/chunks/2900005c544412e8.js\",\"/_next/static/chunks/3fd913ae36196232.js\",\"/_next/static/chunks/d0ccbdfcfb68d6f3.js\",\"/_next/static/chunks/3ad3182cebbac04d.js\",\"/_next/static/chunks/f260424ec722a219.js\",\"/_next/static/chunks/18d7fc619e8b7f47.js\",\"/_next/static/chunks/758aeb36233534dc.js\",\"/_next/static/chunks/d52f3e15fd341903.js\",\"/_next/static/chunks/87ede1c643f942da.js\",\"/_next/static/chunks/bf87c25ac1566b5d.js\",\"/_next/static/chunks/792bed27c6999f29.js\",\"/_next/static/chunks/f6f750eae704a7c0.js\",\"/_next/static/chunks/168f178573890f44.js\",\"/_next/static/chunks/536a991ca4475f28.js\",\"/_next/static/chunks/72143bb0cbc27005.js\",\"/_next/static/chunks/f8250fb775a0e660.js\",\"/_next/static/chunks/055b4e064bb903a0.js\",\"/_next/static/chunks/32f1f67989fcc4e1.js\",\"/_next/static/chunks/2289af60dc5cbb69.js\",\"/_next/static/chunks/bc044e2bc54cff3b.js\",\"/_next/static/chunks/554a100f00513b06.js\",\"/_next/static/chunks/b57f5a9de68de59f.js\",\"/_next/static/chunks/c296c4cae44186e7.js\"],\"ThemedBlockRenderer\"]\n1f:I[995280,[\"/_next/static/chunks/9c2651d2970d7fe1.js\",\"/_next/static/chunks/c2658288e369ce93.js\",\"/_next/static/chunks/7b85766b9aa264ba.js\",\"/_next/static/chunks/72e341d9fc82a01b.js\",\"/_next/static/chunks/74e4ef9925a00461.js\",\"/_next/static/chunks/2900005c544412e8.js\",\"/_next/static/chunks/3fd913ae36196232.js\",\"/_next/static/chunks/d0ccbdfcfb68d6f3.js\",\"/_next/static/chunks/3ad3182cebbac04d.js\",\"/_next/static/chunks/f260424ec722a219.js\",\"/_next/static/chunks/18d7fc619e8b7f47.js\",\"/_next/static/chunks/758aeb36233534dc.js\",\"/_next/static/chunks/d52f3e15fd341903.js\",\"/_next/static/chunks/87ede1c643f942da.js\",\"/_next/static/chunks/bf87c25ac1566b5d.js\",\"/_next/static/chunks/792bed27c6999f29.js\",\"/_next/static/chunks/f6f750eae704a7c0.js\",\"/_next/static/chunks/168f178573890f44.js\",\"/_next/static/chunks/536a991ca4475f28.js\",\"/_next/static/chunks/72143bb0cbc27005.js\",\"/_next/static/chunks/f8250fb775a0e660.js\",\"/_next/static/chunks/055b4e064bb903a0.js\",\"/_next/static/chunks/32f1f67989fcc4e1.js\",\"/_next/static/chunks/2289af60dc5cbb69.js\",\"/_next/static/chunks/bc044e2bc54cff3b.js\",\"/_next/static/chunks/554a100f00513b06.js\",\"/_next/static/chunks/b57f5a9de68de59f.js\",\"/_next/static/chunks/c296c4cae44186e7.js\"],\"ThemedFooter\"]\n20:I[390648,[\"/_next/static/chunks/9c2651d2970d7fe1.js\",\"/_next/static/chunks/c2658288e369ce93.js\",\"/_next/static/chunks/7b85766b9aa264ba.js\",\"/_next/static/chunks/72e341d9fc82a01b.js\",\"/_next/static/chunks/74e4ef9925a00461.js\",\"/_next/static/chunks/2900005c544412e8.js\",\"/_next/static/chunks/3fd913ae36196232.js\",\"/_next/static/chunks/d0ccbdfcfb68d6f3.js\",\"/_next/static/chunks/3ad3182cebbac04d.js\",\"/_next/static/chunks/f260424ec722a219.js\",\"/_next/static/chunks/18d7fc619e8b7f47.js\",\"/_next/static/chunks/758aeb36233534dc.js\",\"/_next/static/chunks/d52f3e15fd341903.js\",\"/_next/static/chunks/87ede1c643f942da.js\",\"/_next/static/chunks/bf87c25ac1566b5d.js\",\"/_next/static/chunks/792bed27c6999f29.js\",\"/_next/static/chunks/f6f750eae704a7c0.js\",\"/_next/static/chunks/168f178573890f44.js\",\"/_next/static/chunks/536a991ca4475f28.js\",\"/_next/static/chunks/72143bb0cbc27005.js\",\"/_next/static/chunks/f8250fb775a0e660.js\",\"/_next/static/chunks/055b4e064bb903a0.js\",\"/_next/static/chunks/32f1f67989fcc4e1.js\",\"/_next/static/chunks/2289af60dc5cbb69.js\",\"/_next/static/chunks/bc044e2bc54cff3b.js\",\"/_next/static/chunks/554a100f00513b06.js\",\"/_next/static/chunks/b57f5a9de68de59f.js\",\"/_next/static/chunks/c296c4cae44186e7.js\"],\"CSSStylesRenderer\"]\n23:I[652310,[\"/_next/static/chunks/9c2651d2970d7fe1.js\",\"/_next/static/chunks/c2658288e369ce93.js\",\"/_next/static/chunks/7b85766b9aa264ba.js\",\"/_next/static/chunks/72e341d9fc82a01b.js\",\"/_next/static/chunks/74e4ef9925a00461.js\",\"/_next/static/chunks/2900005c544412e8.js\",\"/_next/static/chunks/3fd913ae36196232.js\",\"/_next/static/chunks/d0ccbdfcfb68d6f3.js\",\"/_next/static/chunks/3ad"])</script><script>self.__next_f.push([1,"3182cebbac04d.js\",\"/_next/static/chunks/f260424ec722a219.js\",\"/_next/static/chunks/18d7fc619e8b7f47.js\",\"/_next/static/chunks/758aeb36233534dc.js\",\"/_next/static/chunks/d52f3e15fd341903.js\",\"/_next/static/chunks/87ede1c643f942da.js\",\"/_next/static/chunks/bf87c25ac1566b5d.js\",\"/_next/static/chunks/792bed27c6999f29.js\",\"/_next/static/chunks/f6f750eae704a7c0.js\",\"/_next/static/chunks/168f178573890f44.js\",\"/_next/static/chunks/536a991ca4475f28.js\",\"/_next/static/chunks/72143bb0cbc27005.js\",\"/_next/static/chunks/f8250fb775a0e660.js\",\"/_next/static/chunks/055b4e064bb903a0.js\",\"/_next/static/chunks/32f1f67989fcc4e1.js\",\"/_next/static/chunks/2289af60dc5cbb69.js\",\"/_next/static/chunks/bc044e2bc54cff3b.js\",\"/_next/static/chunks/554a100f00513b06.js\",\"/_next/static/chunks/b57f5a9de68de59f.js\",\"/_next/static/chunks/c296c4cae44186e7.js\"],\"ThemedCookieController\"]\n24:I[753286,[\"/_next/static/chunks/9c2651d2970d7fe1.js\",\"/_next/static/chunks/c2658288e369ce93.js\",\"/_next/static/chunks/7b85766b9aa264ba.js\",\"/_next/static/chunks/72e341d9fc82a01b.js\",\"/_next/static/chunks/74e4ef9925a00461.js\",\"/_next/static/chunks/2900005c544412e8.js\",\"/_next/static/chunks/3fd913ae36196232.js\",\"/_next/static/chunks/d0ccbdfcfb68d6f3.js\",\"/_next/static/chunks/3ad3182cebbac04d.js\",\"/_next/static/chunks/f260424ec722a219.js\",\"/_next/static/chunks/18d7fc619e8b7f47.js\",\"/_next/static/chunks/758aeb36233534dc.js\",\"/_next/static/chunks/d52f3e15fd341903.js\",\"/_next/static/chunks/87ede1c643f942da.js\",\"/_next/static/chunks/bf87c25ac1566b5d.js\",\"/_next/static/chunks/792bed27c6999f29.js\",\"/_next/static/chunks/f6f750eae704a7c0.js\",\"/_next/static/chunks/168f178573890f44.js\",\"/_next/static/chunks/536a991ca4475f28.js\",\"/_next/static/chunks/72143bb0cbc27005.js\",\"/_next/static/chunks/f8250fb775a0e660.js\",\"/_next/static/chunks/055b4e064bb903a0.js\",\"/_next/static/chunks/32f1f67989fcc4e1.js\",\"/_next/static/chunks/2289af60dc5cbb69.js\",\"/_next/static/chunks/bc044e2bc54cff3b.js\",\"/_next/static/chunks/554a100f00513b06.js\",\"/_next/static/chunks/b57f5a9de68de59f.js\",\"/_next/static/chunks/c296c4cae44186e7.js\"],\"ThemedLauncherLoader\"]\n14:[\"$\",\"$L1e\",null,{\"blocks\":[{\"id\":\"placeholder-404\",\"type\":\"html\",\"data\":{\"intro\":{\"blocks\":[{\"id\":\"147529c4-6f01-4736-8416-ffc91ab47ef6\",\"type\":\"heading\",\"data\":{\"text\":\"404\",\"level\":3}},{\"id\":\"56e72b0c-6c09-43ae-9130-9126a97e9d0a\",\"type\":\"paragraph\",\"data\":{\"text\":\"Sorry we couldn't find the page your were looking for.\"}},{\"id\":\"15260280-b8c6-4f9d-a729-f1758f3f01bb\",\"type\":\"buttons\",\"data\":{\"buttons\":[{\"id\":\"c5ee9202-dd84-4e61-9d06-9b0d89297e07\",\"text\":\"Go Back Home\",\"href\":\"#hello\",\"target\":\"\",\"variant\":\"action\",\"color\":{\"value\":\"primary\",\"type\":\"brand\"}}]}}]},\"styles\":{\"align\":\"default\",\"bg\":{\"type\":\"color\",\"color\":{\"type\":\"brand\",\"value\":\"base\"}}},\"settings\":{\"id\":\"\",\"classes\":\"\"}}}],\"account\":\"$f:props:children:0:props:account\"}]\n"])</script><script>self.__next_f.push([1,"15:[\"$\",\"$L1f\",null,{\"footer\":{\"id\":\"fb3901ba-60a6-4ae3-a14e-5f3ab62c19d7\",\"name\":\"footer\",\"settingType\":\"footer\",\"meta\":{},\"content\":[{\"id\":\"placeholder-footer-icons\",\"data\":{\"intro\":{\"blocks\":[{\"id\":\"0bcbfc95-2978-45d4-b1a4-5558e6f20727\",\"data\":{\"text\":\"\u003cspan style=\\\"line-height: 2rem;\\\"\u003e\u003c/span\u003e\u003cspan style=\\\"font-weight: normal;\\\"\u003e\u003ci\u003eWe Exist to Lead People Far From God into a Full Life in Christ.\u003c/i\u003e\u003c/span\u003e\",\"level\":3},\"type\":\"heading\",\"tagName\":\"h3\"},{\"id\":\"8eefdd1c-6062-4aef-9a10-a45408eda3dc\",\"data\":{\"text\":\"\u003cspan style=\\\"font-weight: normal;\\\"\u003eKnow God. Find Freedom. Discover Purpose. Make a Difference.\u003ci\u003e\u003c/i\u003e\u003c/span\u003e\",\"level\":4},\"type\":\"heading\",\"tagName\":\"h4\"}]},\"outro\":{},\"styles\":{\"bg\":{\"type\":\"color\",\"color\":{\"type\":\"brand\",\"value\":\"tertiary\"}},\"align\":\"default\"},\"content\":{\"align\":\"default\",\"items\":[{\"id\":\"list-2\",\"Icon\":{\"iconId\":\"phone\",\"library\":\"fa\"},\"blocks\":[{\"id\":\"7278aefa-4810-458a-b593-28e040f8aa72\",\"data\":{\"text\":\"Call Us\",\"level\":4},\"type\":\"heading\"},{\"id\":\"1af2cf39-aa9c-4b8d-b69c-eb23a16e713d\",\"data\":{\"text\":\"\u003ca href=\\\"tel:540-786-5111\\\"\u003e540-786-5111\u003c/a\u003e\"},\"type\":\"paragraph\"}]},{\"id\":\"list-3\",\"Icon\":{\"iconId\":\"map=marker-alt\",\"library\":\"fa\"},\"blocks\":[{\"id\":\"01ecc295-3f59-4206-afb5-d09d4a7edf47\",\"data\":{\"text\":\"Find Us\",\"level\":4},\"type\":\"heading\"},{\"id\":\"e8812208-5168-4ff4-b298-873bc023e383\",\"data\":{\"text\":\"\u003ca href=\\\"https://maps.app.goo.gl/GMaBiZBhn5gUUdxg9\\\" target=\\\"_blank\\\"\u003e1400 Central Park Blvd. \u003cbr\u003e Fredericksburg, VA 22401\u003c/a\u003e\"},\"type\":\"paragraph\"}]},{\"id\":\"list-1\",\"Icon\":{\"iconId\":\"envelope\",\"library\":\"fa\"},\"blocks\":[{\"id\":\"h\",\"data\":{\"text\":\"Email\",\"level\":4},\"type\":\"heading\"},{\"id\":\"p\",\"data\":{\"text\":\"\u003ca href=\\\"mailto:info@lifepoint.org\\\"\u003einfo@lifepoint.org\u003c/a\u003e\"},\"type\":\"paragraph\"}]}],\"shape\":\"default\",\"layout\":\"columns\"},\"settings\":{\"classes\":\"\"}},\"type\":\"iconlist\"},{\"id\":\"placeholder-footer\",\"data\":{\"styles\":{\"bg\":{\"type\":\"color\",\"color\":{\"type\":\"brand\",\"value\":\"tertiary\"}},\"adv\":true,\"align\":\"default\",\"padding\":{\"t\":2}},\"content\":{\"menu\":\"f7199761-b0b5-4586-8234-9a70b8a10dea\",\"social\":[{\"id\":\"c3455c15-aad9-4abd-bee9-007ef6e2c632\",\"url\":\"https://www.facebook.com/lifepointva\",\"icon\":{\"id\":\"facebook\",\"library\":\"fab\"}},{\"id\":\"d0c643e3-5d19-47c0-a2ac-703706348ac4\",\"url\":\"https://www.instagram.com/lifepointva/\",\"icon\":{\"id\":\"instagram\",\"library\":\"fab\"}}],\"copyright\":\"Lifepoint Church\"}},\"type\":\"footer\"}],\"private\":null,\"createdAt\":\"2025-02-06T01:25:24.471Z\",\"updatedAt\":\"2026-02-23T12:43:50.882Z\",\"deletedAt\":null},\"account\":\"$f:props:children:0:props:account\"}]\n"])</script><script>self.__next_f.push([1,"16:null\n21:Tc0a,"])</script><script>self.__next_f.push([1,"@media(min-width: 768px){\r\n    .topbar.transparent{\r\n        width: var(--theme-container-width);\r\n        margin: 2em auto;\r\n        border-bottom: 1px solid;\r\n        left: 50%;\r\n        transform: translatex(-50%);\r\n    }\r\n\r\n    .topbar.transparent + #blocks header{\r\n        padding-top: 12em!important;\r\n    }\r\n\r\n    .custom-episode .container{\r\n        display: flex;\r\n        flex-direction: row;\r\n        align-items: center;\r\n    }\r\n\r\n    .custom-episode .container \u003e div{\r\n        margin: 0px;\r\n    }\r\n\r\n    .custom-episode .row-defaults *:not([data-buttons]){\r\n        width: 100%!important;\r\n    }\r\n\r\n    .custom-episode .row-content{\r\n        padding-left: 2em;\r\n                flex: 1;\r\n    }\r\n\r\n    .custom-episode .row-defaults{\r\n        width: 40%;\r\n    }\r\n\r\n    .image-full-width .container{\r\n        max-width: 100%;\r\n    }\r\n\r\n    .image-full-width .row-inner{\r\n        padding-top: 1rem;\r\n        padding-bottom: 0px;\r\n    }\r\n\r\n    .custom-bg{\r\n        position: relative;\r\n    }\r\n\r\n    .custom-bg::before{\r\n        content: \"\";\r\n        background-image: url(\"https://media.thechurchcoassets.com/accounts/3084/be42f117-8500-44fd-8c3b-313f14f254b9-./Life%20Point%20Bg.jpg\");\r\n        background-size: 120%;\r\n        background-position: center;\r\n        display: block;\r\n        position: absolute;\r\n        top: 0px;\r\n        bottom: 0px;\r\n        left: 0px;\r\n        right: 0px;\r\n        opacity: 0.05;\r\n    }\r\n}\r\n\r\n.custom-marquee [data-marquee]{\r\n    padding-top: 2em;\r\n    padding-bottom: 2em;\r\n}\r\n\r\n.custom-marquee + .block-marquee .text-container{\r\n    animation-direction: reverse;\r\n}\r\n\r\n.custom-episode .card .content *{\r\n    display: none;\r\n}\r\n\r\n.custom-episode .card .content{\r\n    margin-top: 0px;\r\n}\r\n\r\n.custom-episode .card{\r\n    padding: 0px;\r\n}\r\n\r\n.custom-episode .card::before,\r\n.custom-episode .card::after,\r\n.custom-episode .card .content::before,\r\n.custom-episode .card .content::after{\r\n    content: none;\r\n}\r\n\r\n.custom-columns [data-listitem]{\r\n    background-color: var(--base-color-bg);\r\n    color: var(--base-color-text);\r\n    box-shadow: 0px 0px 20px rgba(0,0,0, 0.1);\r\n    border-radius: 10px;\r\n}\r\n\r\n.custom-columns [data-listitem] .content{\r\n    padding: 1em 2em;\r\n}\r\n\r\n.custom-icons [data-listitem]{\r\n    background-color: var(--base-color-bg);\r\n    color: var(--base-color-text);\r\n    box-shadow: 0px 0px 20px rgba(0,0,0, 0.1);\r\n    padding: 2em;\r\n    border-radius: 10px;\r\n}\r\n\r\n.custom-icons [data-listitem] .feature.icon [data-themed-icon]{\r\n    background-color: var(--primary-color-bg);\r\n    color: var(--primary-color-text);\r\n    width: 2em;\r\n    height: 2em;\r\n    border-radius: 100px;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    padding: 1.2em;\r\n}\r\n\r\n.custom-marquee [data-marquee]{\r\n    overflow: hidden!important;\r\n}\r\n\r\n@media(min-width: 768px){\r\n    .fix-featured .card:first-child{\r\n        gap: 1rem;\r\n    }\r\n}\r\n\r\nfooter a{\r\n    text-decoration: none!important;\r\n}\r\n.chicago {font-family: \"Chicago\", Serif !important;\r\n\tfont-weight: 400 !important;\r\n\tfont-style: normal !important;}"])</script><script>self.__next_f.push([1,"17:[\"$\",\"$L20\",null,{\"brand\":\"$f:props:children:0:props:children:0:2:props:children:props:children:0:0:props:brand\",\"customCSS\":{\"id\":\"b3133892-282a-46d2-a489-4b555081ae1d\",\"name\":\"customcss\",\"settingType\":\"customcss\",\"meta\":{\"css\":\"$21\"},\"content\":[],\"private\":null,\"createdAt\":\"2025-02-06T01:39:23.951Z\",\"updatedAt\":\"2025-07-28T20:59:40.204Z\",\"deletedAt\":null},\"theme\":\"$f:props:children:0:props:theme\",\"inAdmin\":false}]\n18:false\n19:[\"$\",\"div\",null,{\"data-website\":\"alerts\",\"children\":[\"$L22\",[\"$\",\"$L23\",null,{\"account\":\"$f:props:children:0:props:account\"}],[\"$\",\"$L24\",null,{\"account\":\"$f:props:children:0:props:account\"}]]}]\n"])</script><script>self.__next_f.push([1,"25:I[318529,[\"/_next/static/chunks/9c2651d2970d7fe1.js\",\"/_next/static/chunks/c2658288e369ce93.js\",\"/_next/static/chunks/7b85766b9aa264ba.js\",\"/_next/static/chunks/72e341d9fc82a01b.js\",\"/_next/static/chunks/74e4ef9925a00461.js\",\"/_next/static/chunks/2900005c544412e8.js\",\"/_next/static/chunks/3fd913ae36196232.js\",\"/_next/static/chunks/d0ccbdfcfb68d6f3.js\",\"/_next/static/chunks/3ad3182cebbac04d.js\",\"/_next/static/chunks/f260424ec722a219.js\",\"/_next/static/chunks/18d7fc619e8b7f47.js\",\"/_next/static/chunks/758aeb36233534dc.js\",\"/_next/static/chunks/d52f3e15fd341903.js\",\"/_next/static/chunks/87ede1c643f942da.js\",\"/_next/static/chunks/bf87c25ac1566b5d.js\",\"/_next/static/chunks/792bed27c6999f29.js\",\"/_next/static/chunks/f6f750eae704a7c0.js\",\"/_next/static/chunks/168f178573890f44.js\",\"/_next/static/chunks/536a991ca4475f28.js\",\"/_next/static/chunks/72143bb0cbc27005.js\",\"/_next/static/chunks/f8250fb775a0e660.js\",\"/_next/static/chunks/055b4e064bb903a0.js\",\"/_next/static/chunks/32f1f67989fcc4e1.js\",\"/_next/static/chunks/2289af60dc5cbb69.js\",\"/_next/static/chunks/bc044e2bc54cff3b.js\",\"/_next/static/chunks/554a100f00513b06.js\",\"/_next/static/chunks/b57f5a9de68de59f.js\",\"/_next/static/chunks/c296c4cae44186e7.js\"],\"CustomCodeRenderHead\"]\n26:I[19598,[\"/_next/static/chunks/9c2651d2970d7fe1.js\",\"/_next/static/chunks/c2658288e369ce93.js\",\"/_next/static/chunks/7b85766b9aa264ba.js\",\"/_next/static/chunks/72e341d9fc82a01b.js\",\"/_next/static/chunks/74e4ef9925a00461.js\",\"/_next/static/chunks/2900005c544412e8.js\",\"/_next/static/chunks/3fd913ae36196232.js\",\"/_next/static/chunks/d0ccbdfcfb68d6f3.js\",\"/_next/static/chunks/3ad3182cebbac04d.js\",\"/_next/static/chunks/f260424ec722a219.js\",\"/_next/static/chunks/18d7fc619e8b7f47.js\",\"/_next/static/chunks/758aeb36233534dc.js\",\"/_next/static/chunks/d52f3e15fd341903.js\",\"/_next/static/chunks/87ede1c643f942da.js\",\"/_next/static/chunks/bf87c25ac1566b5d.js\",\"/_next/static/chunks/792bed27c6999f29.js\",\"/_next/static/chunks/f6f750eae704a7c0.js\",\"/_next/static/chunks/168f178573890f44.js\",\"/_next/static/chunks/536a991ca4475f28.js\",\"/_next/static/chunks/72143bb0cbc27005.js\",\"/_next/static/chunks/f8250fb775a0e660.js\",\"/_next/static/chunks/055b4e064bb903a0.js\",\"/_next/static/chunks/32f1f67989fcc4e1.js\",\"/_next/static/chunks/2289af60dc5cbb69.js\",\"/_next/static/chunks/bc044e2bc54cff3b.js\",\"/_next/static/chunks/554a100f00513b06.js\",\"/_next/static/chunks/b57f5a9de68de59f.js\",\"/_next/static/chunks/c296c4cae44186e7.js\"],\"GoogleTagManager\"]\n1a:[[\"$\",\"$L25\",null,{\"code\":\"\u003clink href=\\\"https://fonts.cdnfonts.com/css/helvetica-neue-55\\\" rel=\\\"stylesheet\\\"\u003e\"}],false,\"\"]\n1b:[[\"$\",\"script\",null,{\"children\":\"window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}\"}],[\"$\",\"$L26\",null,{\"gtmId\":\"GTM-54TJ56QN\"}]]\n1c:[[\"$\",\"script\",null,{\"async\":true,\"src\":\"https://www.googletagmanager.com/gtag/js?id=G-QY0HRC0982\"}],[\"$\",\"script\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"\\n                window.dataLayer = window.dataLayer || [];\\n                function gtag(){dataLayer.push(arguments);}\\n\\n                \\n                gtag('js', new Date());\\n                gtag('config', 'G-QY0HRC0982',{'groups':'globaltracking'});\\n                gtag('config', 'G-JCDCQM8D0K',{'groups':'customer'});\\n            \"}}]]\n"])</script><script>self.__next_f.push([1,"27:T7e2,"])</script><script>self.__next_f.push([1,"\n        \n            @font-face {\n                font-family: helvetica neue;\n                src: url('https://media.thechurchcoassets.com/accounts/3084/617dcdac-344f-460c-8c59-f837f32d7302-./Helvetica.woff') format('woff');\n                font-weight: 400;\n                \n            }\n        \n            @font-face {\n                font-family: helvetica neue;\n                src: url('https://media.thechurchcoassets.com/accounts/3084/bc90dee1-518c-4404-a444-a8f7a010f5d5-./Helvetica-Bold.woff') format('woff');\n                font-weight: 700;\n                \n            }\n        \n            @font-face {\n                font-family: Chicago;\n                src: url('https://media.thechurchcoassets.com/accounts/3084/a7d76125-10dc-48e3-81f1-54b2cc267bd4-./ChicagoAthleticSlabSerif2-8OjMn.woff') format('woff');\n                font-weight: 700;\n                font-style: normal;\n            }\n        \n            @font-face {\n                font-family: Chicago;\n                src: url('https://media.thechurchcoassets.com/accounts/3084/bf4b1f86-9a81-4ff3-8dbc-6da1bc580725-./ChicagoAthleticRegular-YqOz2.woff') format('woff');\n                font-weight: 400;\n                font-style: normal;\n            }\n        \n            @font-face {\n                font-family: Christmas 205;\n                src: url('https://media.thechurchcoassets.com/accounts/3084/1e8e5a0b-b7b3-46f8-b4e6-d6baab049d0c-./DarlineScript-AgedSlanted.otf') format('opentype');\n                font-weight: 100;\n                font-style: normal;\n            }\n        \n        .helvetica-neue-regular{font-family: \"helvetica neue\", sans-serif;font-weight: 400;}.helvetica-neue-bold{font-family: \"helvetica neue\", sans-serif;font-weight: 700;}.chicago-bold{font-family: \"Chicago\", Serif;font-weight: 700;font-style: normal;}.chicago-regular{font-family: \"Chicago\", Serif;font-weight: 400;font-style: normal;}.christmas-205-thin{font-family: \"Christmas 205\", sans-serif;font-weight: 100;font-style: normal;}\n    "])</script><script>self.__next_f.push([1,"1d:[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"$27\"}}]\n"])</script><script>self.__next_f.push([1,"28:I[722239,[\"/_next/static/chunks/9c2651d2970d7fe1.js\",\"/_next/static/chunks/c2658288e369ce93.js\",\"/_next/static/chunks/7b85766b9aa264ba.js\",\"/_next/static/chunks/72e341d9fc82a01b.js\",\"/_next/static/chunks/74e4ef9925a00461.js\",\"/_next/static/chunks/2900005c544412e8.js\",\"/_next/static/chunks/3fd913ae36196232.js\",\"/_next/static/chunks/d0ccbdfcfb68d6f3.js\",\"/_next/static/chunks/3ad3182cebbac04d.js\",\"/_next/static/chunks/f260424ec722a219.js\",\"/_next/static/chunks/18d7fc619e8b7f47.js\",\"/_next/static/chunks/758aeb36233534dc.js\",\"/_next/static/chunks/d52f3e15fd341903.js\",\"/_next/static/chunks/87ede1c643f942da.js\",\"/_next/static/chunks/bf87c25ac1566b5d.js\",\"/_next/static/chunks/792bed27c6999f29.js\",\"/_next/static/chunks/f6f750eae704a7c0.js\",\"/_next/static/chunks/168f178573890f44.js\",\"/_next/static/chunks/536a991ca4475f28.js\",\"/_next/static/chunks/72143bb0cbc27005.js\",\"/_next/static/chunks/f8250fb775a0e660.js\",\"/_next/static/chunks/055b4e064bb903a0.js\",\"/_next/static/chunks/32f1f67989fcc4e1.js\",\"/_next/static/chunks/2289af60dc5cbb69.js\",\"/_next/static/chunks/bc044e2bc54cff3b.js\",\"/_next/static/chunks/554a100f00513b06.js\",\"/_next/static/chunks/b57f5a9de68de59f.js\",\"/_next/static/chunks/c296c4cae44186e7.js\"],\"ThemedAnnouncements\"]\n22:[\"$\",\"$L28\",null,{\"notifications\":[],\"banners\":[],\"popups\":[]}]\n"])</script><script>self.__next_f.push([1,"5:[\"$\",\"div\",null,{\"data-public-route\":true,\"className\":\"\",\"children\":[[\"$\",\"$L11\",null,{\"session\":{\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcmdzIjp7InVzZXJJZCI6bnVsbCwiYWNjb3VudElkIjozMDg0LCJuZXR3b3JrSWQiOm51bGwsInZpc2l0b3JOZXR3b3JrSWQiOjF9LCJpYXQiOjE3NzY3MDQ4ODgsImV4cCI6MTc3Njc5MTI4OH0.dj7P-TIpsdpEUCzBCMtIYLEOTH-EDKOqFrCuLobCiuc\"},\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcmdzIjp7InVzZXJJZCI6bnVsbCwiYWNjb3VudElkIjozMDg0LCJuZXR3b3JrSWQiOm51bGwsInZpc2l0b3JOZXR3b3JrSWQiOjF9LCJpYXQiOjE3NzY3MDQ4ODgsImV4cCI6MTc3Njc5MTI4OH0.dj7P-TIpsdpEUCzBCMtIYLEOTH-EDKOqFrCuLobCiuc\",\"account\":{\"id\":3084,\"name\":\"Lifepoint Church - Virginia\",\"plan\":\"thechurchco_marketing_monthly\",\"createdAt\":\"2025-02-06T01:25:23.874Z\",\"subscriptionStatus\":\"active\",\"paymentStatus\":\"paid\",\"failedPaymentCount\":0,\"meta\":{\"aquisition\":{\"utm_id\":\"footer\",\"utm_medium\":\"www.thevoyage.church\",\"utm_source\":\"v1site\",\"utm_campaign\":\"footer\"},\"launchDate\":\"2025-07-30T18:19:29.177+00:00\",\"daysToConvert\":70,\"conversionDate\":\"2025-04-17T21:41:01.039+00:00\"},\"timezone\":\"America/New_York\"},\"domain\":\"www.lifepoint.org\",\"theme\":{\"id\":\"faed9df4-114d-480f-9581-61f99fcc1ec8\",\"name\":\"theme\",\"settingType\":\"theme\",\"meta\":{\"theme\":\"moi\",\"override\":{\"moi\":{\"button\":{\"radius\":\"100\",\"paddingTop\":\"1\",\"paddingBottom\":\"1\"}}},\"wireframe\":false},\"content\":[],\"private\":null,\"createdAt\":\"2025-02-06T01:25:24.471Z\",\"updatedAt\":\"2025-04-24T09:51:30.746Z\",\"deletedAt\":null},\"network\":{\"id\":1,\"name\":\"The Church Co\",\"domain\":\"app.thechurchco.com\",\"meta\":{\"twitterpixel\":{\"enabled\":true,\"trackingId\":\"oomfi\"},\"facebookpixel\":{\"enabled\":true,\"trackingId\":\"502361229959370\"},\"googleanalytics\":{\"enabled\":true,\"trackingId\":\"G-ZDL3F2QZHY\"}},\"stripePublicKey\":\"pk_live_51Nz35dFe3lXo0IoQimvBe80bmNxzi2xdmlxZx46I6dHTywEa92hsqyvzdY1pEdgFm40GlTAzUdSSOOahznlrLHMR005f2DxNKl\",\"stripeConnectPublicKey\":\"pk_live_51OAMwIEh6IKaqLfy5iJXYrw2LNZgMmqtcZoPe6hOr6QMapxOgWWkv16FivnE9NhlItcd6g1cn4dY8KQdoWwD0qKN0060d6BUDM\",\"v1\":{\"stripePublicKey\":\"pk_live_xiraT10UZ67j3qmRj8enCnCI\"}},\"globalArgs\":{\"pageType\":\"default\"},\"brand\":{\"id\":\"d9a0d5be-816e-44be-9db6-5937cacc5364\",\"name\":\"brand\",\"settingType\":\"brand\",\"meta\":{\"favicon\":{\"id\":238560,\"meta\":{\"key\":\"accounts/3084/67fe2065-ed4d-4e10-95a0-4fe57e03e5f3-./Life Point Church Favicon.png\",\"path\":\"accounts/3084/67fe2065-ed4d-4e10-95a0-4fe57e03e5f3-./Life Point Church Favicon.png\",\"size\":5414,\"crops\":{\"largepreview\":{\"key\":\"accounts/3084/67fe2065-ed4d-4e10-95a0-4fe57e03e5f3-./Life Point Church Favicon__largepreview__.webp\",\"ETag\":\"47ec7d3d5c91e2157073368ed09adf90\",\"path\":\"accounts/3084/67fe2065-ed4d-4e10-95a0-4fe57e03e5f3-./Life Point Church Favicon__largepreview__.webp\",\"size\":19028}},\"mimetype\":\"image/png\",\"totalSize\":24442},\"name\":\"./Life Point Church Favicon.png\",\"createdAt\":\"2025-04-24T12:25:52.668Z\",\"deletedAt\":null,\"mediaType\":\"image\"},\"colorAlt\":\"#f4f4f4\",\"fontBody\":{\"fontSize\":\"\",\"fontFamily\":\"\\\"Christmas 205\\\", sans-serif\",\"fontWeight\":\"100\",\"_fontSource\":\"customfont\",\"_fontFamilyId\":\"Christmas 205\"},\"logoDark\":{\"id\":230151,\"meta\":{\"key\":\"accounts/3084/2abd2f33-bf9a-4d6c-9860-e061aa9cebda-./LC_png_Parent Logo(4).png\",\"path\":\"accounts/3084/2abd2f33-bf9a-4d6c-9860-e061aa9cebda-./LC_png_Parent Logo(4).png\",\"size\":5775,\"crops\":{\"largepreview\":{\"key\":\"accounts/3084/2abd2f33-bf9a-4d6c-9860-e061aa9cebda-./LC_png_Parent Logo(4)__largepreview__.webp\",\"ETag\":\"f69237831890a61ff3c2d1cd37a5e7b7\",\"path\":\"accounts/3084/2abd2f33-bf9a-4d6c-9860-e061aa9cebda-./LC_png_Parent Logo(4)__largepreview__.webp\",\"size\":21484}},\"mimetype\":\"image/png\",\"totalSize\":27259},\"name\":\"./LC_png_Parent Logo(4).png\",\"createdAt\":\"2025-04-17T22:50:12.625Z\",\"deletedAt\":null,\"mediaType\":\"image\"},\"logoIcon\":{\"id\":238560,\"meta\":{\"key\":\"accounts/3084/67fe2065-ed4d-4e10-95a0-4fe57e03e5f3-./Life Point Church Favicon.png\",\"path\":\"accounts/3084/67fe2065-ed4d-4e10-95a0-4fe57e03e5f3-./Life Point Church Favicon.png\",\"size\":5414,\"crops\":{\"largepreview\":{\"key\":\"accounts/3084/67fe2065-ed4d-4e10-95a0-4fe57e03e5f3-./Life Point Church Favicon__largepreview__.webp\",\"ETag\":\"47ec7d3d5c91e2157073368ed09adf90\",\"path\":\"accounts/3084/67fe2065-ed4d-4e10-95a0-4fe57e03e5f3-./Life Point Church Favicon__largepreview__.webp\",\"size\":19028}},\"mimetype\":\"image/png\",\"totalSize\":24442},\"name\":\"./Life Point Church Favicon.png\",\"createdAt\":\"2025-04-24T12:25:52.668Z\",\"deletedAt\":null,\"mediaType\":\"image\"},\"colorBase\":\"#ffffff\",\"fontEmbed\":\"\",\"logoColor\":{\"id\":230151,\"meta\":{\"key\":\"accounts/3084/2abd2f33-bf9a-4d6c-9860-e061aa9cebda-./LC_png_Parent Logo(4).png\",\"path\":\"accounts/3084/2abd2f33-bf9a-4d6c-9860-e061aa9cebda-./LC_png_Parent Logo(4).png\",\"size\":5775,\"crops\":{\"largepreview\":{\"key\":\"accounts/3084/2abd2f33-bf9a-4d6c-9860-e061aa9cebda-./LC_png_Parent Logo(4)__largepreview__.webp\",\"ETag\":\"f69237831890a61ff3c2d1cd37a5e7b7\",\"path\":\"accounts/3084/2abd2f33-bf9a-4d6c-9860-e061aa9cebda-./LC_png_Parent Logo(4)__largepreview__.webp\",\"size\":21484}},\"mimetype\":\"image/png\",\"totalSize\":27259},\"name\":\"./LC_png_Parent Logo(4).png\",\"createdAt\":\"2025-04-17T22:50:12.625Z\",\"deletedAt\":null,\"mediaType\":\"image\"},\"logoLight\":{\"id\":238557,\"meta\":{\"key\":\"accounts/3084/9f41f175-7920-4f69-975b-e8ef79fa9e99-./LC_png_Parent Logo(4) (1).png\",\"path\":\"accounts/3084/9f41f175-7920-4f69-975b-e8ef79fa9e99-./LC_png_Parent Logo(4) (1).png\",\"size\":4267,\"crops\":{\"largepreview\":{\"key\":\"accounts/3084/9f41f175-7920-4f69-975b-e8ef79fa9e99-./LC_png_Parent Logo(4) (1)__largepreview__.webp\",\"ETag\":\"e2209ec7979a2465bd36a249b0fca330\",\"path\":\"accounts/3084/9f41f175-7920-4f69-975b-e8ef79fa9e99-./LC_png_Parent Logo(4) (1)__largepreview__.webp\",\"size\":22588}},\"mimetype\":\"image/png\",\"totalSize\":26855},\"name\":\"./LC_png_Parent Logo(4) (1).png\",\"createdAt\":\"2025-04-24T12:21:37.045Z\",\"deletedAt\":null,\"mediaType\":\"image\"},\"fontHeading\":{\"fontFamily\":\"\\\"Poppins\\\", sans-serif\",\"fontWeight\":\"800\",\"_fontSource\":\"google-fonts\",\"_fontFamilyId\":\"Poppins\",\"_fontVariants\":[\"100\",\"100italic\",\"200\",\"200italic\",\"300\",\"300italic\",\"regular\",\"italic\",\"500\",\"500italic\",\"600\",\"600italic\",\"700\",\"700italic\",\"800\",\"800italic\",\"900\",\"900italic\"]},\"colorAltText\":\"#000000\",\"colorPrimary\":\"#8D8D8D\",\"colorBaseText\":\"#000000\",\"colorTertiary\":\"#000000\",\"fontHeadingH1\":{\"fontSize\":\"4rem\",\"fontFamily\":\"\\\"helvetica neue\\\", sans-serif\",\"fontWeight\":\"700\",\"_fontSource\":\"customfont\",\"_fontFamilyId\":\"helvetica neue\"},\"fontHeadingH2\":{\"fontSize\":\"3rem\",\"fontFamily\":\"\\\"helvetica neue\\\", sans-serif\",\"fontWeight\":\"700\",\"_fontSource\":\"customfont\",\"_fontFamilyId\":\"helvetica neue\"},\"fontHeadingH3\":{\"fontSize\":\"1.8rem\",\"fontFamily\":\"\\\"helvetica neue\\\", sans-serif\",\"fontWeight\":\"700\",\"_fontSource\":\"customfont\",\"_fontFamilyId\":\"helvetica neue\"},\"fontHeadingH4\":{\"fontFamily\":\"\\\"helvetica neue\\\", sans-serif\",\"fontWeight\":\"700\",\"_fontSource\":\"customfont\",\"_fontFamilyId\":\"helvetica neue\"},\"fontHeadingH5\":{\"fontFamily\":\"\\\"helvetica neue\\\", sans-serif\",\"fontWeight\":\"400\",\"_fontSource\":\"customfont\",\"_fontFamilyId\":\"helvetica neue\"},\"fontHeadingH6\":{\"fontFamily\":\"\\\"helvetica neue\\\", sans-serif\",\"fontWeight\":\"700\",\"_fontSource\":\"customfont\",\"_fontFamilyId\":\"helvetica neue\"},\"colorSecondary\":\"#ffffff\",\"fontSubheading\":{\"fontStyle\":\"regular\",\"fontFamily\":\"\\\"Inter\\\", sans-serif\",\"fontSource\":\"google-fonts\",\"fontWeight\":\"700\",\"fontFamilyId\":\"Inter\",\"textTransform\":\"none\"},\"fontOrderedList\":{\"fontFamily\":\"\\\"helvetica neue\\\", sans-serif\",\"fontWeight\":\"400\",\"_fontSource\":\"customfont\",\"_fontFamilyId\":\"helvetica neue\"},\"colorPrimaryText\":\"#ffffff\",\"fontSettingsType\":\"advanced\",\"colorTertiaryText\":\"#ffffff\",\"fontUnorderedList\":{\"fontSize\":\"\",\"fontFamily\":\"\\\"helvetica neue\\\", sans-serif\",\"fontWeight\":\"400\",\"_fontSource\":\"customfont\",\"_fontFamilyId\":\"helvetica neue\",\"listStyleType\":\"disc\"},\"colorSecondaryText\":\"#ffffff\"},\"content\":null,\"private\":null,\"createdAt\":\"2025-02-06T01:25:24.471Z\",\"updatedAt\":\"2026-01-13T23:31:10.291Z\",\"deletedAt\":null},\"smarttext\":{\"id\":\"fe808f3a-df4c-453e-ba12-05b13d17ca42\",\"name\":\"smarttext\",\"settingType\":\"smarttext\",\"meta\":null,\"content\":null,\"private\":null,\"createdAt\":\"2025-08-04T20:23:06.907Z\",\"updatedAt\":\"2025-08-04T20:23:06.907Z\",\"deletedAt\":null},\"pathname\":\"/get-involved\",\"searchParams\":{},\"person\":null,\"nativeAppVersion\":0,\"children\":[[\"$L29\",\"$L2a\",\"$L2b\",\"$L2c\",\"$L2d\"],\"$undefined\",\"$L2e\",\"$undefined\",\"$undefined\",\"$undefined\",\"$undefined\",\"$undefined\",\"$undefined\",\"$undefined\",\"$undefined\",\"$undefined\",\"$undefined\",\"$undefined\",\"$undefined\",\"$L2f\"]}],\"$L30\"]}]\n"])</script><script>self.__next_f.push([1,"29:[\"$\",\"div\",null,{\"id\":\"banners\",\"data-website\":\"alerts\"}]\n"])</script><script>self.__next_f.push([1,"2a:[[\"$\",\"title\",null,{\"children\":\"Get Involved | Lifepoint Church | Fredericksburg, VA\"}],[\"$\",\"meta\",null,{\"name\":\"description\",\"content\":\"Discover ways to serve, connect, and make a difference in our church and community.\"}],[\"$\",\"meta\",null,{\"property\":\"og:title\",\"content\":\"Get Involved | Lifepoint Church | Fredericksburg, VA\"}],[\"$\",\"meta\",null,{\"property\":\"og:description\",\"content\":\"Discover ways to serve, connect, and make a difference in our church and community.\"}],[\"$\",\"meta\",null,{\"property\":\"og:image\",\"content\":\"https://api.thechurchco.com/v1/media/580655/crop/socialjpg/redirect\"}],[\"$\",\"meta\",null,{\"property\":\"og:image:alt\",\"content\":\"Get Involved | Lifepoint Church | Fredericksburg, VA\"}],[\"$\",\"meta\",null,{\"property\":\"og:url\",\"content\":\"https://www.lifepoint.org/get-involved\"}],[\"$\",\"meta\",null,{\"property\":\"og:type\",\"content\":\"website\"}],\"\",[\"$\",\"meta\",null,{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",null,{\"name\":\"twitter:title\",\"content\":\"Get Involved | Lifepoint Church | Fredericksburg, VA\"}],[\"$\",\"meta\",null,{\"name\":\"twitter:description\",\"content\":\"Discover ways to serve, connect, and make a difference in our church and community.\"}],[\"$\",\"meta\",null,{\"name\":\"twitter:image\",\"content\":\"https://api.thechurchco.com/v1/media/580655/crop/socialjpg/redirect\"}],\"$undefined\",[\"$\",\"link\",null,{\"rel\":\"canonical\",\"href\":\"https://www.lifepoint.org/get-involved\"}],null]\n"])</script><script>self.__next_f.push([1,"2b:[\"$\",\"main\",null,{\"data-website\":true,\"className\":\"\",\"children\":[\"$\",\"$L12\",null,{\"children\":[[[\"$\",\"$L13\",null,{\"block\":{\"menu\":\"4643e0ae-c7b5-409f-be6c-ee845287caa4\",\"type\":\"transparent\",\"solid\":{\"bg\":{\"type\":\"brand\",\"value\":\"base\"},\"logo\":\"dark\",\"logoSize\":\"200\"},\"undefined\":{\"logo\":\"icon\"},\"transparent\":{\"logo\":\"light\",\"logoSize\":\"200\",\"textColor\":\"#ffffff\"},\"secondaryMenuEnabled\":false,\"menuItems\":[{\"id\":\"597aa66b-fb66-414f-862d-1745be066d20\",\"url\":\"/\",\"kids\":[{\"id\":\"dca6b4f6-e7de-44aa-9870-db92e3d8ab23\",\"url\":\"/locations\",\"text\":\"Locations\",\"type\":\"page\"},{\"id\":\"e12a0bcb-9e92-4e71-bd71-bb23d05c79c1\",\"url\":\"/our-leadership\",\"text\":\"Our Pastors \u0026 Leadership\",\"type\":\"page\"},{\"id\":\"7c98daed-920c-4843-96ef-94d81964d3bb\",\"url\":\"/our-beliefs\",\"text\":\"Our Beliefs\",\"type\":\"page\"},{\"id\":\"9e210a57-3231-4833-a9ee-1c45a9cebdbb\",\"url\":\"/our-mission\",\"text\":\"Our Mission\",\"type\":\"page\"}],\"text\":\"About\"},{\"id\":\"940cbd02-36b5-453d-a4d1-4cf2ddd5150b\",\"url\":\"\",\"kids\":[{\"id\":\"1d627c3d-09ee-40ea-8342-4108eea1907a\",\"url\":\"/salvation\",\"text\":\"Salvation\",\"type\":\"page\"},{\"id\":\"e80385a7-c5af-492c-ab46-2a44f1644ead\",\"url\":\"/baptism\",\"text\":\"Water Baptism\",\"type\":\"page\"},{\"id\":\"a7074111-6e57-4b28-9e74-78517c2ff998\",\"url\":\"/dream-team\",\"text\":\"Join the Team\",\"type\":\"page\"},{\"id\":\"ec93ea1a-b61b-4b30-81eb-dd8eedf94043\",\"url\":\"/small-groups\",\"text\":\"Small Groups\",\"type\":\"page\"},{\"id\":\"80fec35c-18f9-480d-b346-a35e27d340ea\",\"url\":\"/outreach\",\"text\":\"Outreach\",\"type\":\"page\"},{\"id\":\"8ea61a34-aaca-410c-a341-8407e911d9c1\",\"url\":\"/one\",\"text\":\"For the One\",\"type\":\"page\"}],\"text\":\"Next Steps\"},{\"id\":\"f436bc5b-07cc-4384-92b8-fa0f3bc581fd\",\"url\":\"\",\"kids\":[{\"id\":\"1df9b6ec-f7fd-41a9-9e30-e1115e97935b\",\"url\":\"/kidspoint\",\"text\":\"Kidspoint\",\"type\":\"page\"},{\"id\":\"39ae1b4b-b02d-4ce8-96d3-d6797bf3db0c\",\"url\":\"/youth\",\"text\":\"Youth\",\"type\":\"page\"},{\"id\":\"6bf35628-52d9-4cb6-9dbd-6630d4cffa42\",\"url\":\"https://www.lifepointcollege.org/\",\"text\":\"Lifepoint College\"}],\"text\":\"Next Gen\"},{\"id\":\"a03b2634-629f-4481-a9d4-7f6413352ede\",\"url\":\"/events\",\"kids\":[],\"text\":\"Events\",\"type\":\"page\"},{\"id\":\"c574418a-71d4-474c-972c-6a3f7dc3ca6b\",\"url\":\"/care\",\"kids\":[{\"id\":\"2278c18f-fe3c-4953-95d8-4454b391cd3c\",\"url\":\"/care\",\"text\":\"Care\",\"type\":\"page\"},{\"id\":\"87a44531-0087-4993-bd3b-53f48701a84d\",\"url\":\"/pray\",\"text\":\"Prayer Request\",\"type\":\"page\"},{\"id\":\"0e54a071-a921-4657-bd8d-4a7dd9c782fc\",\"url\":\"/benevolence\",\"text\":\"Benevolence\",\"type\":\"page\"}],\"text\":\"Care\",\"type\":\"page\"},{\"id\":\"9d4b4340-2079-45a4-ba26-5cc6a0deb159\",\"url\":\"/give\",\"kids\":[],\"text\":\"Give\",\"type\":\"page\"},{\"id\":\"559326fc-b6c8-4a9f-870e-12e5a5b24ed1\",\"url\":\"\",\"kids\":[{\"id\":\"7de18cd5-78bf-4fc1-b2ec-b87b401bba47\",\"url\":\"/sermons\",\"text\":\"Sermons\",\"type\":\"page\"},{\"id\":\"9d2d9b66-aece-4284-9d9e-c118d3f03ab2\",\"url\":\"https://live.lifepoint.org/\",\"text\":\"Watch Live\",\"type\":\"url\"}],\"text\":\"Sermons\",\"newTab\":true},{\"id\":\"e4403fb3-79eb-4b3c-afbb-717653f709f8\",\"url\":\"/\",\"kids\":[],\"text\":\"Home\"}]},\"brand\":\"$5:props:children:0:props:brand\",\"pageoverride\":\"$undefined\"}],[\"$\",\"$L1e\",null,{\"blocks\":[{\"id\":\"611df5a0-8be0-45af-adf5-dcd1bf51d0d5\",\"data\":{\"intro\":{\"blocks\":[{\"id\":\"99af9d0e-89a3-4ee5-98ad-e84537fe066b\",\"data\":{\"text\":\"\"},\"type\":\"paragraph\",\"tagName\":\"p\"},{\"id\":\"d9af855f-0005-4467-9d00-968a0d08b6b5\",\"data\":{\"text\":\"Your Next Step Starts Here.\",\"level\":1},\"type\":\"heading\"},{\"id\":\"5322ad24-b4f3-475d-89ed-5a0d916cc447\",\"data\":{\"text\":\"\"},\"type\":\"paragraph\",\"tagName\":\"p\"},{\"id\":\"b3d5ac1e-5072-48cc-ba18-6e2a66eb9ce2\",\"data\":{\"text\":\"\"},\"type\":\"paragraph\",\"tagName\":\"p\"}]},\"styles\":{\"bg\":{\"id\":867595,\"full\":{\"id\":867595,\"meta\":{\"key\":\"accounts/3084/810dcdd7-dba2-47ee-b94b-967e5e2f4dc3-./_JH_5445.jpg\",\"path\":\"accounts/3084/810dcdd7-dba2-47ee-b94b-967e5e2f4dc3-./_JH_5445.jpg\",\"size\":1573224,\"altText\":\"Two women stand in a portable baptismal pool in a parking lot, one smiling brightly, during a baptism ceremony as a man in a safety vest claps.\",\"mimetype\":\"image/jpeg\",\"totalSize\":1573224},\"name\":\"A Joyful Outdoor Baptism Ceremony\",\"createdAt\":\"2026-04-12T21:23:26.901Z\",\"deletedAt\":null,\"mediaType\":\"image\"},\"path\":\"accounts/3084/810dcdd7-dba2-47ee-b94b-967e5e2f4dc3-./_JH_5445.jpg\",\"tint\":true,\"type\":\"image\",\"overlay\":{\"o\":0.5,\"color\":{\"type\":\"custom\",\"value\":\"#000\"}},\"focalPoint\":{\"x\":\"56.32\",\"y\":\"33.62\"}},\"align\":\"default\"}},\"type\":\"hero\"},{\"id\":\"eeaebff9-9797-4078-a0d7-0b9f20fee17b\",\"data\":{\"intro\":{\"blocks\":[{\"id\":\"0ee23a2a-5273-4edd-851a-2335e638d80c\",\"data\":{\"text\":\"Following Jesus is a journey, and there is always a next step to take.\",\"level\":2},\"type\":\"heading\",\"tagName\":\"h2\"},{\"id\":\"fcd277c7-f45d-4e6b-a8db-7770efa044c7\",\"data\":{\"text\":\"Whether you are new to faith or have been walking with Jesus for years, your next step matters. These steps are designed to help you grow, find community, and live out your purpose.\"},\"type\":\"paragraph\",\"tagName\":\"p\"}]},\"outro\":{},\"styles\":{\"bg\":{\"id\":\"08e7f0be-067f-4b48-ad0c-cd594c33536a\",\"full\":{\"id\":\"9ac9a8b2-f23a-4ae9-b624-a23200094611\",\"meta\":{\"key\":\"accounts/3084/e2978733-50a4-4465-a376-d9803cec09d6-./IMG_6741(3).jpg\",\"path\":\"accounts/3084/e2978733-50a4-4465-a376-d9803cec09d6-./IMG_6741(3).jpg\",\"size\":868068,\"crops\":{\"largepreview\":{\"key\":\"accounts/3084/e2978733-50a4-4465-a376-d9803cec09d6-./IMG_6741(3)__largepreview__.webp\",\"ETag\":\"de23f5ab74696bedb700235d49eb30e7\",\"path\":\"accounts/3084/e2978733-50a4-4465-a376-d9803cec09d6-./IMG_6741(3)__largepreview__.webp\",\"size\":310848},\"mediumsquare\":{\"key\":\"accounts/3084/e2978733-50a4-4465-a376-d9803cec09d6-./IMG_6741(3)__mediumsquare__.webp\",\"ETag\":\"855f29129056e5a404bfd74bf706bbeb\",\"path\":\"accounts/3084/e2978733-50a4-4465-a376-d9803cec09d6-./IMG_6741(3)__mediumsquare__.webp\",\"size\":83630}},\"mimetype\":\"image/jpeg\",\"totalSize\":1262546},\"name\":\"./IMG_6741(3).jpg\",\"createdAt\":\"2025-04-17T22:50:51.727Z\",\"deletedAt\":null,\"mediaType\":\"image\"},\"path\":\"accounts/3084/e2978733-50a4-4465-a376-d9803cec09d6-./IMG_6741(3)__largepreview__.webp\",\"tint\":true,\"type\":\"color\",\"color\":{\"type\":\"brand\",\"value\":\"alt\"},\"overlay\":{\"o\":\"0.87\",\"color\":{\"type\":\"brand\",\"value\":\"tertiary\"}}},\"adv\":true,\"align\":\"default\",\"padding\":{\"t\":\"\"}},\"content\":{\"align\":\"default\",\"items\":[{\"id\":\"303d2e38-c295-4803-90d5-b5725a59710a\",\"Media\":{\"id\":867603,\"meta\":{\"key\":\"accounts/3084/06cc01e7-809d-4316-a676-13b343b9b743-./_JH_5589.jpg\",\"path\":\"accounts/3084/06cc01e7-809d-4316-a676-13b343b9b743-./_JH_5589.jpg\",\"size\":1257071,\"crops\":{\"mediumsquare\":{\"key\":\"accounts/3084/06cc01e7-809d-4316-a676-13b343b9b743-./_JH_5589__mediumsquare__.webp\",\"ETag\":\"b8979ef806b4d3e31b1cd6186f91c681\",\"path\":\"accounts/3084/06cc01e7-809d-4316-a676-13b343b9b743-./_JH_5589__mediumsquare__.webp\",\"size\":85610}},\"altText\":\"A young man with tattoos smiles warmly as he hugs another man in an outdoor baptismal pool, surrounded by a supportive crowd in front of a modern building.\",\"mimetype\":\"image/jpeg\",\"totalSize\":1342681},\"name\":\"A Joyful Embrace During an Outdoor Baptism Ceremony\",\"createdAt\":\"2026-04-12T21:28:44.488Z\",\"deletedAt\":null,\"mediaType\":\"image\"},\"blocks\":[{\"id\":\"4cd8ed38-9c7b-482a-85db-8e95c62b0b89\",\"data\":{\"text\":\"Baptism\",\"level\":4},\"type\":\"heading\",\"tagName\":\"h4\"},{\"id\":\"b2077476-6a9a-4fb9-a64c-b5e9a3cfc47f\",\"data\":{\"buttons\":[{\"id\":\"c30cfa89-d78c-424f-aec9-1f9b465daa81\",\"url\":\"baptism\",\"href\":\"#hello\",\"icon\":{\"id\":\"arrow-right\",\"library\":\"fa\"},\"text\":\"Learn More\",\"color\":{\"type\":\"brand\",\"value\":\"primary\"},\"target\":\"\",\"variant\":\"action\",\"iconPosition\":\"right\"}]},\"type\":\"buttons\"}]},{\"id\":\"a22d804e-ce3b-452b-89c0-d7b13edf33fe\",\"Media\":{\"id\":867601,\"meta\":{\"key\":\"accounts/3084/ZgfxMiwaePM\",\"ETag\":\"accounts/3084/ZgfxMiwaePM\",\"path\":\"accounts/3084/ZgfxMiwaePM\",\"size\":1262849,\"crops\":{\"mediumsquare\":{\"key\":\"accounts/3084/ZgfxMiwaePM__mediumsquare\",\"ETag\":\"c9d6aac4e7eff94d27a58af1c8de4236\",\"path\":\"accounts/3084/ZgfxMiwaePM__mediumsquare\",\"size\":81714}},\"totalSize\":1344563},\"name\":\"ZgfxMiwaePM\",\"createdAt\":\"2026-04-12T21:27:28.899Z\",\"deletedAt\":null,\"mediaType\":\"image\"},\"blocks\":[{\"id\":\"a3082b13-ceec-45d6-a833-581703ba74db\",\"data\":{\"text\":\"Join a Group\",\"level\":4},\"type\":\"heading\",\"tagName\":\"h4\"},{\"id\":\"04c5c82c-19b8-4216-9baa-31cd0f566882\",\"data\":{\"buttons\":[{\"id\":\"81b33dbe-42e2-477c-af89-d200c1b8f247\",\"url\":\"/small-groups\",\"href\":\"#hello\",\"icon\":{\"id\":\"arrow-right\",\"library\":\"fa\"},\"text\":\"Learn More\",\"type\":\"page\",\"color\":{\"type\":\"brand\",\"value\":\"primary\"},\"target\":\"\",\"variant\":\"action\",\"iconPosition\":\"right\"}]},\"type\":\"buttons\"}]},{\"id\":\"1633165a-4bcc-498d-8d66-c26eb41be412\",\"Media\":{\"id\":784978,\"meta\":{\"key\":\"accounts/3084/7eca2d12-7b0c-4d91-a0b6-fb06ad208635-./_JH_1797.jpg\",\"path\":\"accounts/3084/7eca2d12-7b0c-4d91-a0b6-fb06ad208635-./_JH_1797.jpg\",\"size\":1339918,\"crops\":{\"postcard\":{\"key\":\"accounts/3084/7eca2d12-7b0c-4d91-a0b6-fb06ad208635-./_JH_1797__postcard__.webp\",\"ETag\":\"274b964d3cd5bf7926f96063437d75a6\",\"path\":\"accounts/3084/7eca2d12-7b0c-4d91-a0b6-fb06ad208635-./_JH_1797__postcard__.webp\",\"size\":28042},\"largepreview\":{\"key\":\"accounts/3084/7eca2d12-7b0c-4d91-a0b6-fb06ad208635-./_JH_1797__largepreview__.webp\",\"ETag\":\"7e61dea3c85ae57b5698d8bff095fe51\",\"path\":\"accounts/3084/7eca2d12-7b0c-4d91-a0b6-fb06ad208635-./_JH_1797__largepreview__.webp\",\"size\":1199020},\"mediumsquare\":{\"key\":\"accounts/3084/7eca2d12-7b0c-4d91-a0b6-fb06ad208635-./_JH_1797__mediumsquare__.webp\",\"ETag\":\"9939335022e32152c038aae14fb53f8b\",\"path\":\"accounts/3084/7eca2d12-7b0c-4d91-a0b6-fb06ad208635-./_JH_1797__mediumsquare__.webp\",\"size\":93800}},\"altText\":\"Three diverse volunteers, two women and a man, stand smiling in front of the glass doors of a modern building, wearing 'Dream Team' lanyards.\",\"mimetype\":\"image/jpeg\",\"totalSize\":2660780},\"name\":\"A Welcoming Group of Three Volunteers\",\"createdAt\":\"2026-02-16T18:25:37.244Z\",\"deletedAt\":null,\"mediaType\":\"image\"},\"blocks\":[{\"id\":\"5a20ad2d-d92f-4b5a-bdf9-105af173cc5d\",\"data\":{\"text\":\"Join the Team\",\"level\":4},\"type\":\"heading\",\"tagName\":\"h4\"},{\"id\":\"37e1bf95-ed6e-4879-955b-e9993f63531d\",\"data\":{\"buttons\":[{\"id\":\"15ba981c-0403-42bc-9a7e-2715d153a627\",\"url\":\"/dream-team\",\"href\":\"#hello\",\"icon\":{\"id\":\"arrow-right\",\"library\":\"fa\"},\"text\":\"Learn More\",\"type\":\"page\",\"color\":{\"type\":\"brand\",\"value\":\"primary\"},\"target\":\"\",\"variant\":\"action\",\"iconPosition\":\"right\"}]},\"type\":\"buttons\"}]},{\"id\":\"3255337d-5368-42d6-b5a1-63e8a045c4ae\",\"Media\":{\"id\":749466,\"meta\":{\"key\":\"accounts/3084/d12f42a7-d618-4de2-abac-9faad5757d07-./2M7A1591(2).png\",\"path\":\"accounts/3084/d12f42a7-d618-4de2-abac-9faad5757d07-./2M7A1591(2).png\",\"size\":9608023,\"crops\":{\"largepreview\":{\"key\":\"accounts/3084/d12f42a7-d618-4de2-abac-9faad5757d07-./2M7A1591(2)__largepreview__.webp\",\"ETag\":\"23f71bde9d0cbd06c78598348490d6ae\",\"path\":\"accounts/3084/d12f42a7-d618-4de2-abac-9faad5757d07-./2M7A1591(2)__largepreview__.webp\",\"size\":308148},\"mediumsquare\":{\"key\":\"accounts/3084/d12f42a7-d618-4de2-abac-9faad5757d07-./2M7A1591(2)__mediumsquare__.webp\",\"ETag\":\"f51fb45279244a3e5f834d3a4dcb9225\",\"path\":\"accounts/3084/d12f42a7-d618-4de2-abac-9faad5757d07-./2M7A1591(2)__mediumsquare__.webp\",\"size\":103836}},\"altText\":\"A woman in a pink sweater stands by a stage, placing an offering in a large wicker basket while a band performs for the congregation in the background.\",\"mimetype\":\"image/png\",\"totalSize\":10020007},\"name\":\"Giving an Offering During a Worship Service\",\"createdAt\":\"2026-01-27T15:44:53.353Z\",\"deletedAt\":null,\"mediaType\":\"image\"},\"blocks\":[{\"id\":\"dd43d1b3-ad8f-4c72-8acc-c44d8f296d00\",\"data\":{\"text\":\"Generosity\",\"level\":4},\"type\":\"heading\",\"tagName\":\"h4\"},{\"id\":\"96d69e41-ed8f-49d0-bebb-6d61aaffdaf6\",\"data\":{\"buttons\":[{\"id\":\"7c10513e-7383-4291-9dd2-75d78e2c1084\",\"url\":\"/give\",\"href\":\"#hello\",\"icon\":{\"id\":\"arrow-right\",\"library\":\"fa\"},\"text\":\"Learn More\",\"type\":\"page\",\"color\":{\"type\":\"brand\",\"value\":\"primary\"},\"target\":\"\",\"variant\":\"action\",\"iconPosition\":\"right\"}]},\"type\":\"buttons\"}]},{\"id\":\"bc515199-54cd-4786-aeec-67dc64571127\",\"Media\":{\"id\":860056,\"meta\":{\"key\":\"accounts/3084/3a7977d7-4b72-4bc8-bcdd-75f028121b65-./_JH_3276.jpg\",\"path\":\"accounts/3084/3a7977d7-4b72-4bc8-bcdd-75f028121b65-./_JH_3276.jpg\",\"size\":1321362,\"crops\":{\"largepreview\":{\"key\":\"accounts/3084/3a7977d7-4b72-4bc8-bcdd-75f028121b65-./_JH_3276__largepreview__.webp\",\"ETag\":\"6e476c145ef636dc885307ef39fe2bce\",\"path\":\"accounts/3084/3a7977d7-4b72-4bc8-bcdd-75f028121b65-./_JH_3276__largepreview__.webp\",\"size\":1290468},\"mediumsquare\":{\"key\":\"accounts/3084/3a7977d7-4b72-4bc8-bcdd-75f028121b65-./_JH_3276__mediumsquare__.webp\",\"ETag\":\"bd9493fed38ba21971c87970a3356a83\",\"path\":\"accounts/3084/3a7977d7-4b72-4bc8-bcdd-75f028121b65-./_JH_3276__mediumsquare__.webp\",\"size\":89106}},\"mimetype\":\"image/jpeg\",\"totalSize\":2700936},\"name\":\"./_JH_3276.jpg\",\"createdAt\":\"2026-04-07T01:54:05.341Z\",\"deletedAt\":null,\"mediaType\":\"image\"},\"blocks\":[{\"id\":\"7d795294-6c4e-4b2e-b1f9-c11e77aa3030\",\"data\":{\"text\":\"Events\",\"level\":4},\"type\":\"heading\",\"tagName\":\"h4\"},{\"id\":\"cedd9a65-30ef-46a4-a4a1-53898f96c8be\",\"data\":{\"buttons\":[{\"id\":\"e28578e8-391f-475d-8d39-ca699fec57d1\",\"url\":\"/events\",\"href\":\"#hello\",\"icon\":{\"id\":\"arrow-right\",\"library\":\"fa\"},\"text\":\"Learn More\",\"type\":\"page\",\"color\":{\"type\":\"brand\",\"value\":\"primary\"},\"target\":\"\",\"variant\":\"action\",\"iconPosition\":\"right\"}]},\"type\":\"buttons\"}]}],\"shape\":\"square\",\"layout\":\"smartcolumns\"},\"settings\":{\"id\":\"32f549fc-af90-4cd7-81f7-bd10da201378\",\"classes\":\"custom-columns\"}},\"type\":\"imagelist\"}],\"account\":\"$5:props:children:0:props:account\"}],\"$L31\",false,\"$L32\"],\"$L33\",\"$L34\"]}]}]\n"])</script><script>self.__next_f.push([1,"2c:[\"$\",\"div\",null,{\"data-website\":\"alerts\",\"children\":[\"$L35\",[\"$\",\"$L23\",null,{\"account\":\"$5:props:children:0:props:account\"}],[\"$\",\"$L24\",null,{\"account\":\"$5:props:children:0:props:account\"}]]}]\n"])</script><script>self.__next_f.push([1,"31:[\"$\",\"$L1f\",null,{\"footer\":{\"id\":\"fb3901ba-60a6-4ae3-a14e-5f3ab62c19d7\",\"name\":\"footer\",\"settingType\":\"footer\",\"meta\":{},\"content\":[{\"id\":\"placeholder-footer-icons\",\"data\":{\"intro\":{\"blocks\":[{\"id\":\"0bcbfc95-2978-45d4-b1a4-5558e6f20727\",\"data\":{\"text\":\"\u003cspan style=\\\"line-height: 2rem;\\\"\u003e\u003c/span\u003e\u003cspan style=\\\"font-weight: normal;\\\"\u003e\u003ci\u003eWe Exist to Lead People Far From God into a Full Life in Christ.\u003c/i\u003e\u003c/span\u003e\",\"level\":3},\"type\":\"heading\",\"tagName\":\"h3\"},{\"id\":\"8eefdd1c-6062-4aef-9a10-a45408eda3dc\",\"data\":{\"text\":\"\u003cspan style=\\\"font-weight: normal;\\\"\u003eKnow God. Find Freedom. Discover Purpose. Make a Difference.\u003ci\u003e\u003c/i\u003e\u003c/span\u003e\",\"level\":4},\"type\":\"heading\",\"tagName\":\"h4\"}]},\"outro\":{},\"styles\":{\"bg\":{\"type\":\"color\",\"color\":{\"type\":\"brand\",\"value\":\"tertiary\"}},\"align\":\"default\"},\"content\":{\"align\":\"default\",\"items\":[{\"id\":\"list-2\",\"Icon\":{\"iconId\":\"phone\",\"library\":\"fa\"},\"blocks\":[{\"id\":\"7278aefa-4810-458a-b593-28e040f8aa72\",\"data\":{\"text\":\"Call Us\",\"level\":4},\"type\":\"heading\"},{\"id\":\"1af2cf39-aa9c-4b8d-b69c-eb23a16e713d\",\"data\":{\"text\":\"\u003ca href=\\\"tel:540-786-5111\\\"\u003e540-786-5111\u003c/a\u003e\"},\"type\":\"paragraph\"}]},{\"id\":\"list-3\",\"Icon\":{\"iconId\":\"map=marker-alt\",\"library\":\"fa\"},\"blocks\":[{\"id\":\"01ecc295-3f59-4206-afb5-d09d4a7edf47\",\"data\":{\"text\":\"Find Us\",\"level\":4},\"type\":\"heading\"},{\"id\":\"e8812208-5168-4ff4-b298-873bc023e383\",\"data\":{\"text\":\"\u003ca href=\\\"https://maps.app.goo.gl/GMaBiZBhn5gUUdxg9\\\" target=\\\"_blank\\\"\u003e1400 Central Park Blvd. \u003cbr\u003e Fredericksburg, VA 22401\u003c/a\u003e\"},\"type\":\"paragraph\"}]},{\"id\":\"list-1\",\"Icon\":{\"iconId\":\"envelope\",\"library\":\"fa\"},\"blocks\":[{\"id\":\"h\",\"data\":{\"text\":\"Email\",\"level\":4},\"type\":\"heading\"},{\"id\":\"p\",\"data\":{\"text\":\"\u003ca href=\\\"mailto:info@lifepoint.org\\\"\u003einfo@lifepoint.org\u003c/a\u003e\"},\"type\":\"paragraph\"}]}],\"shape\":\"default\",\"layout\":\"columns\"},\"settings\":{\"classes\":\"\"}},\"type\":\"iconlist\"},{\"id\":\"placeholder-footer\",\"data\":{\"styles\":{\"bg\":{\"type\":\"color\",\"color\":{\"type\":\"brand\",\"value\":\"tertiary\"}},\"adv\":true,\"align\":\"default\",\"padding\":{\"t\":2}},\"content\":{\"menu\":\"f7199761-b0b5-4586-8234-9a70b8a10dea\",\"social\":[{\"id\":\"c3455c15-aad9-4abd-bee9-007ef6e2c632\",\"url\":\"https://www.facebook.com/lifepointva\",\"icon\":{\"id\":\"facebook\",\"library\":\"fab\"}},{\"id\":\"d0c643e3-5d19-47c0-a2ac-703706348ac4\",\"url\":\"https://www.instagram.com/lifepointva/\",\"icon\":{\"id\":\"instagram\",\"library\":\"fab\"}}],\"copyright\":\"Lifepoint Church\"}},\"type\":\"footer\"}],\"private\":null,\"createdAt\":\"2025-02-06T01:25:24.471Z\",\"updatedAt\":\"2026-02-23T12:43:50.882Z\",\"deletedAt\":null},\"account\":\"$5:props:children:0:props:account\"}]\n"])</script><script>self.__next_f.push([1,"32:null\n36:Tc0a,"])</script><script>self.__next_f.push([1,"@media(min-width: 768px){\r\n    .topbar.transparent{\r\n        width: var(--theme-container-width);\r\n        margin: 2em auto;\r\n        border-bottom: 1px solid;\r\n        left: 50%;\r\n        transform: translatex(-50%);\r\n    }\r\n\r\n    .topbar.transparent + #blocks header{\r\n        padding-top: 12em!important;\r\n    }\r\n\r\n    .custom-episode .container{\r\n        display: flex;\r\n        flex-direction: row;\r\n        align-items: center;\r\n    }\r\n\r\n    .custom-episode .container \u003e div{\r\n        margin: 0px;\r\n    }\r\n\r\n    .custom-episode .row-defaults *:not([data-buttons]){\r\n        width: 100%!important;\r\n    }\r\n\r\n    .custom-episode .row-content{\r\n        padding-left: 2em;\r\n                flex: 1;\r\n    }\r\n\r\n    .custom-episode .row-defaults{\r\n        width: 40%;\r\n    }\r\n\r\n    .image-full-width .container{\r\n        max-width: 100%;\r\n    }\r\n\r\n    .image-full-width .row-inner{\r\n        padding-top: 1rem;\r\n        padding-bottom: 0px;\r\n    }\r\n\r\n    .custom-bg{\r\n        position: relative;\r\n    }\r\n\r\n    .custom-bg::before{\r\n        content: \"\";\r\n        background-image: url(\"https://media.thechurchcoassets.com/accounts/3084/be42f117-8500-44fd-8c3b-313f14f254b9-./Life%20Point%20Bg.jpg\");\r\n        background-size: 120%;\r\n        background-position: center;\r\n        display: block;\r\n        position: absolute;\r\n        top: 0px;\r\n        bottom: 0px;\r\n        left: 0px;\r\n        right: 0px;\r\n        opacity: 0.05;\r\n    }\r\n}\r\n\r\n.custom-marquee [data-marquee]{\r\n    padding-top: 2em;\r\n    padding-bottom: 2em;\r\n}\r\n\r\n.custom-marquee + .block-marquee .text-container{\r\n    animation-direction: reverse;\r\n}\r\n\r\n.custom-episode .card .content *{\r\n    display: none;\r\n}\r\n\r\n.custom-episode .card .content{\r\n    margin-top: 0px;\r\n}\r\n\r\n.custom-episode .card{\r\n    padding: 0px;\r\n}\r\n\r\n.custom-episode .card::before,\r\n.custom-episode .card::after,\r\n.custom-episode .card .content::before,\r\n.custom-episode .card .content::after{\r\n    content: none;\r\n}\r\n\r\n.custom-columns [data-listitem]{\r\n    background-color: var(--base-color-bg);\r\n    color: var(--base-color-text);\r\n    box-shadow: 0px 0px 20px rgba(0,0,0, 0.1);\r\n    border-radius: 10px;\r\n}\r\n\r\n.custom-columns [data-listitem] .content{\r\n    padding: 1em 2em;\r\n}\r\n\r\n.custom-icons [data-listitem]{\r\n    background-color: var(--base-color-bg);\r\n    color: var(--base-color-text);\r\n    box-shadow: 0px 0px 20px rgba(0,0,0, 0.1);\r\n    padding: 2em;\r\n    border-radius: 10px;\r\n}\r\n\r\n.custom-icons [data-listitem] .feature.icon [data-themed-icon]{\r\n    background-color: var(--primary-color-bg);\r\n    color: var(--primary-color-text);\r\n    width: 2em;\r\n    height: 2em;\r\n    border-radius: 100px;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    padding: 1.2em;\r\n}\r\n\r\n.custom-marquee [data-marquee]{\r\n    overflow: hidden!important;\r\n}\r\n\r\n@media(min-width: 768px){\r\n    .fix-featured .card:first-child{\r\n        gap: 1rem;\r\n    }\r\n}\r\n\r\nfooter a{\r\n    text-decoration: none!important;\r\n}\r\n.chicago {font-family: \"Chicago\", Serif !important;\r\n\tfont-weight: 400 !important;\r\n\tfont-style: normal !important;}"])</script><script>self.__next_f.push([1,"33:[\"$\",\"$L20\",null,{\"brand\":\"$5:props:children:0:props:brand\",\"customCSS\":{\"id\":\"b3133892-282a-46d2-a489-4b555081ae1d\",\"name\":\"customcss\",\"settingType\":\"customcss\",\"meta\":{\"css\":\"$36\"},\"content\":[],\"private\":null,\"createdAt\":\"2025-02-06T01:39:23.951Z\",\"updatedAt\":\"2025-07-28T20:59:40.204Z\",\"deletedAt\":null},\"theme\":\"$5:props:children:0:props:theme\",\"inAdmin\":false}]\n34:false\n2d:[[\"$\",\"$L25\",null,{\"code\":\"\u003clink href=\\\"https://fonts.cdnfonts.com/css/helvetica-neue-55\\\" rel=\\\"stylesheet\\\"\u003e\"}],false,\"\"]\n2e:[[\"$\",\"script\",null,{\"children\":\"window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}\"}],[\"$\",\"$L26\",null,{\"gtmId\":\"GTM-54TJ56QN\"}]]\n2f:[[\"$\",\"script\",null,{\"async\":true,\"src\":\"https://www.googletagmanager.com/gtag/js?id=G-QY0HRC0982\"}],[\"$\",\"script\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"\\n                window.dataLayer = window.dataLayer || [];\\n                function gtag(){dataLayer.push(arguments);}\\n\\n                \\n                gtag('js', new Date());\\n                gtag('config', 'G-QY0HRC0982',{'groups':'globaltracking'});\\n                gtag('config', 'G-JCDCQM8D0K',{'groups':'customer'});\\n            \"}}]]\n35:[\"$\",\"$L28\",null,{\"notifications\":[],\"banners\":[],\"popups\":[]}]\n37:T7e2,"])</script><script>self.__next_f.push([1,"\n        \n            @font-face {\n                font-family: helvetica neue;\n                src: url('https://media.thechurchcoassets.com/accounts/3084/617dcdac-344f-460c-8c59-f837f32d7302-./Helvetica.woff') format('woff');\n                font-weight: 400;\n                \n            }\n        \n            @font-face {\n                font-family: helvetica neue;\n                src: url('https://media.thechurchcoassets.com/accounts/3084/bc90dee1-518c-4404-a444-a8f7a010f5d5-./Helvetica-Bold.woff') format('woff');\n                font-weight: 700;\n                \n            }\n        \n            @font-face {\n                font-family: Chicago;\n                src: url('https://media.thechurchcoassets.com/accounts/3084/a7d76125-10dc-48e3-81f1-54b2cc267bd4-./ChicagoAthleticSlabSerif2-8OjMn.woff') format('woff');\n                font-weight: 700;\n                font-style: normal;\n            }\n        \n            @font-face {\n                font-family: Chicago;\n                src: url('https://media.thechurchcoassets.com/accounts/3084/bf4b1f86-9a81-4ff3-8dbc-6da1bc580725-./ChicagoAthleticRegular-YqOz2.woff') format('woff');\n                font-weight: 400;\n                font-style: normal;\n            }\n        \n            @font-face {\n                font-family: Christmas 205;\n                src: url('https://media.thechurchcoassets.com/accounts/3084/1e8e5a0b-b7b3-46f8-b4e6-d6baab049d0c-./DarlineScript-AgedSlanted.otf') format('opentype');\n                font-weight: 100;\n                font-style: normal;\n            }\n        \n        .helvetica-neue-regular{font-family: \"helvetica neue\", sans-serif;font-weight: 400;}.helvetica-neue-bold{font-family: \"helvetica neue\", sans-serif;font-weight: 700;}.chicago-bold{font-family: \"Chicago\", Serif;font-weight: 700;font-style: normal;}.chicago-regular{font-family: \"Chicago\", Serif;font-weight: 400;font-style: normal;}.christmas-205-thin{font-family: \"Christmas 205\", sans-serif;font-weight: 100;font-style: normal;}\n    "])</script><script>self.__next_f.push([1,"30:[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"$37\"}}]\n"])</script><script id="_next-gtm-init" data-nscript="afterInteractive">
+      (function(w,l){
+        w[l]=w[l]||[];
+        w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
+        
+      })(window,'dataLayer');</script><script src="./getInvolved6_files/gtm.js.download" id="_next-gtm" data-ntpc="GTM" data-nscript="afterInteractive"></script><next-route-announcer style="position: absolute;"><template shadowrootmode="open"><div aria-live="assertive" id="__next-route-announcer__" role="alert" style="position: absolute; border: 0px; height: 1px; margin: -1px; padding: 0px; width: 1px; clip: rect(0px, 0px, 0px, 0px); overflow: hidden; white-space: nowrap; overflow-wrap: normal;"></div></template></next-route-announcer><iframe name="__privateStripeMetricsController1490" frameborder="0" allowtransparency="true" scrolling="no" role="presentation" allow="payment *" src="./getInvolved6_files/m-outer-3437aaddcdf6922d623e172c2d6f9278.html" aria-hidden="true" tabindex="-1" style="border-width: medium !important; border-style: none !important; border-color: currentcolor !important; border-image: initial !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; visibility: hidden !important; position: fixed !important; height: 1px !important; pointer-events: none !important; user-select: none !important;"></iframe></body></html>

@@ -62,7 +62,7 @@ const features = [
     <div>
                 <h3 className='font-bold text-black'>{features.title}</h3>
                 <p className='font-bold text-gray-700'>{features.description}</p>
-             <span className="cursor-pointer font-bold text-[#8d8d8d] text-2xl py-2 border-b-2 border-[#bdbdbd] hover:border-transparent transition-all duration-300 w-max">
+             <span className="cursor-pointer font-bold text-[#8d8d8d] lg:text-2xl text-xl py-2 border-b-2 border-[#bdbdbd] hover:border-transparent transition-all duration-300 w-max">
   Learn More
 </span>
 </div>

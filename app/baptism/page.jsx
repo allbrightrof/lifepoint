@@ -3,6 +3,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import BaptismSection from "@/components/Baptism/BaptismSection";
 import { baptismDetails } from "@/data/features";
+import {baptism} from "@/data/features";
 import BelievePar from "@/components/Belif/BelievePar";
 
 const page = () => {
@@ -23,9 +24,8 @@ const page = () => {
                signifying that we have died to our own way of living and have been raised to life in Him. </p>
              <p className='text-center p-5 mx-auto text-black text-sm sm:text-base lg:text-lg'>If you are interested in learning more, select your campus below and a member of our team will reach out to you. </p>
        </div>
-    <BaptismSection/>
+    <BaptismSection data={baptism}/>
     <div className="relative w-full h-96">
-
   <Image
     src="/baptisim2.jpg"
     alt="baptism"

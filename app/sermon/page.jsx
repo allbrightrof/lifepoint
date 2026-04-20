@@ -26,7 +26,7 @@ const filteredGroup = teachingSeries.filter((item) => {
     <div className="relative w-full min-h-screen">
           <video
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src="https://res.cloudinary.com/dth0uegpp/video/upload/v1776646136/it_s_your_move___sermon_loop_2_j9noy1.mp4"
+        src="https://res.cloudinary.com/dtksauqq7/video/upload/v1776725831/it_s_your_move___sermon_loop_2_hzboae.mp4"
         autoPlay
         loop
         muted

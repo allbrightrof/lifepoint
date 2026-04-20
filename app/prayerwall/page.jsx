@@ -25,11 +25,11 @@ const Page = () => {
         <Image src="/prayerwall.jpg" alt="one" width={400} height={300} className="absolute top-0 left-0 w-full h-full object-cover mb-2" />
         <div className="absolute top-0 left-0 w-full h-full z-10 flex flex-col justify-center items-center px-4 sm:px-8 lg:px-16 py-20">
          <h2 className='text-center font-bold text-white text-3xl sm:text-4xl lg:text-7xl p-5'>Prayer Wall</h2>
-         <p className='p-5 max-w-7xl text-white mx-auto text-sm sm:text-base lg:text-2xl'>Prayer Changes Everything. </p>
+         <p className='p-5 max-w-7xl text-white mx-auto text-xl sm:text-base lg:text-2xl'>Prayer Changes Everything. </p>
   </div>
   </div>
           <div className="p-6 flex flex-col gap-4 items-center bg-white">
-    <h3 className="text-2xl font-bold">It’s our honor to pray with you.</h3>
+    <h3 className="text-2xl font-bold text-black">It’s our honor to pray with you.</h3>
 
     <p className="text-black text-xl max-w-2xl">
 Our online prayer wall is a space to pray together. You can share your prayer requests and take time to pray for others in our church family and community.
@@ -48,22 +48,22 @@ Our online prayer wall is a space to pray together. You can share your prayer re
     
     <div className="bg-white w-[90%] max-w-2xl p-6 relative flex flex-col gap-4">
 
-      {/* CLOSE */}
+  
       <button
         onClick={() => setShowForm(false)}
-        className="absolute top-3 right-3 text-xl font-bold"
+        className="absolute top-3 right-3 text-xl text-black font-bold"
       >
         ✕
       </button>
 
-      <h3 className="text-xl font-bold">Submit Prayer</h3>
+      <h3 className="text-xl font-bold text-black">Submit Prayer</h3>
 
 
       <div className="flex gap-4">
         <input
           type="text"
           placeholder="Name"
-          className="border-5 border-black p-3 w-full"
+          className="border-5 border-black p-3 w-full text-black"
           onChange={(e) =>
             setFormData({ ...formData, name: e.target.value })
           }
@@ -72,7 +72,7 @@ Our online prayer wall is a space to pray together. You can share your prayer re
         <input
           type="email"
           placeholder="Email"
-          className="border-5 border-black p-3 w-full"
+          className="border-5 border-black p-3 w-full text-black"
           onChange={(e) =>
             setFormData({ ...formData, email: e.target.value })
           }
@@ -82,14 +82,14 @@ Our online prayer wall is a space to pray together. You can share your prayer re
       <input
         type="text"
         placeholder="Phone Number"
-        className="border-5 border-black p-3 w-full"
+        className="border-5 border-black p-3 w-full text-black"
         onChange={(e) =>
           setFormData({ ...formData, phone: e.target.value })
         }
       />
 
       <select
-        className="border-5 border-black p-3"
+        className="border-5 border-black p-3 text-black"
         onChange={(e) =>
           setFormData({ ...formData, share: e.target.value })
         }
@@ -100,7 +100,7 @@ Our online prayer wall is a space to pray together. You can share your prayer re
       </select>
 
       <select
-        className="border-5 border-black p-3"
+        className="border-5 border-black p-3 text-black"
         onChange={(e) =>
           setFormData({ ...formData, type: e.target.value })
         }
@@ -112,7 +112,7 @@ Our online prayer wall is a space to pray together. You can share your prayer re
 
       <textarea
         placeholder="Write your prayer request..."
-        className="border-5 border-black p-3 h-32"
+        className="border-5 border-black p-3 h-32 text-black"
         onChange={(e) =>
           setFormData({ ...formData, message: e.target.value })
         }
@@ -123,7 +123,7 @@ Our online prayer wall is a space to pray together. You can share your prayer re
           setPrayers([...prayers, formData]);
           setShowForm(false);
         }}
-        className="bg-black text-white py-3"
+        className="bg-black text-white py-3 font-bold"
       >
         Submit
       </button>

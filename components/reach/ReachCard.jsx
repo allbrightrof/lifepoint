@@ -15,50 +15,50 @@ const ReachCard = ({ item, variant , icon}) => {
           className={`absolute inset-0 border 
           ${isEvents ? "border-black/40" : "border-white/40"}`}
         ></div>
-{/* TOP - disappear */}
+
 <span className={`absolute top-0 left-0 w-full h-1 origin-left scale-x-100 opacity-100
 group-hover:scale-x-0 group-hover:opacity-0
 transition duration-500 ease-in-out
 ${isEvents ? "bg-black" : "bg-white"}`}></span>
 
-{/* BOTTOM - disappear */}
+
 <span className={`absolute bottom-0 left-0 w-full h-1 origin-right scale-x-100 opacity-100
 group-hover:scale-x-0 group-hover:opacity-0
 transition duration-500 ease-in-out
 ${isEvents ? "bg-black" : "bg-white"}`}></span>
 
-{/* LEFT - disappear */}
+
 <span className={`absolute top-0 left-0 h-full w-1 origin-top scale-y-100 opacity-100
 group-hover:scale-y-0 group-hover:opacity-0
 transition duration-500 ease-in-out
 ${isEvents ? "bg-black" : "bg-white"}`}></span>
 
-{/* RIGHT - disappear */}
+
 <span className={`absolute top-0 right-0 h-full w-1 origin-bottom scale-y-100 opacity-100
 group-hover:scale-y-0 group-hover:opacity-0
 transition duration-500 ease-in-out
 ${isEvents ? "bg-black" : "bg-white"}`}></span>
 
 
-{/* TOP - return */}
+
 <span className={`absolute top-0 left-0 w-full h-1 origin-left scale-x-0 opacity-0
 group-hover:scale-x-100 group-hover:opacity-100
 transition duration-700 delay-150 ease-in-out
 ${isEvents ? "bg-black" : "bg-white"}`}></span>
 
-{/* BOTTOM - return */}
+
 <span className={`absolute bottom-0 left-0 w-full h-1 origin-right scale-x-0 opacity-0
 group-hover:scale-x-100 group-hover:opacity-100
 transition duration-700 delay-150 ease-in-out
 ${isEvents ? "bg-black" : "bg-white"}`}></span>
 
-{/* LEFT - return */}
+
 <span className={`absolute top-0 left-0 h-full w-1 origin-top scale-y-0 opacity-0
 group-hover:scale-y-100 group-hover:opacity-100
 transition duration-700 delay-150 ease-in-out
 ${isEvents ? "bg-black" : "bg-white"}`}></span>
 
-{/* RIGHT - return */}
+
 <span className={`absolute top-0 right-0 h-full w-1 origin-bottom scale-y-0 opacity-0
 group-hover:scale-y-100 group-hover:opacity-100
 transition duration-700 delay-150 ease-in-out

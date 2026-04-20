@@ -570,6 +570,35 @@ export const verses = [
         image: "/baptisim4.jpg",
     }
   ];
+    export const Involved = [
+    {
+      id:1,
+      name: "Baptism",
+        image: "/getin1.jpg",
+    },
+     {
+      id:2,
+      name: "Join a Group",
+        image: "/getin2.jpg",
+    },
+     {
+      id:3,
+      name: "Join the Team",
+       image: "/getin3.jpg",
+    },  {
+      id:4,
+      name: "Generosity",
+       image: "/getin4.jpg",
+    }, {
+      id:5,
+      name: "Events",
+        image: "/getin5.jpg",
+    }, {
+      id:6,
+      name: "Join Team Quick",
+       image: "/getin2.jpg",
+    }
+  ];
   export const baptismDetails = [
   {
     id: 1,

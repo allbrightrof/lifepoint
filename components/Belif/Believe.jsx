@@ -2,7 +2,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faTimes } from "@fortawesome/free-solid-svg-icons";
 
-const Believe = ({ title, content, isOpen, onClick, variant = "dark" }) => {
+const Believe = ({ title, content, content1, content2, content3, content4, content5, isOpen, onClick, variant = "dark" }) => {
     const styles = {
     dark: {
       container: "bg-[#8d8d8d]",
@@ -36,6 +36,11 @@ const Believe = ({ title, content, isOpen, onClick, variant = "dark" }) => {
            {isOpen && (
         <div className="px-3 pb-4">
           <p className="text-gray-600">{content}</p>
+             <p className="text-white pb-2">{content5}</p>
+           <li className="text-white">{content1}</li>
+            <li className="text-white">{content2}</li>
+             <li className="text-white">{content3}</li>
+              <li className="text-white">{content4}</li>
         </div>
       )}
     </div>

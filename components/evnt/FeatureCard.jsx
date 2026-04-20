@@ -14,7 +14,7 @@ const EventCard = ({ event }) => {
       </p>
       
       <p className="text-gray-600">
-        {event.date} at {event.time}
+        {event.date}  {event.time}
       </p>
      <button className="flex items-center gap-2 bg-[#8d8d8d] text-white px-4 py-2 rounded-3xl cursor-pointer w-auto self-start">
     Read More<FontAwesomeIcon icon={faArrowRight} className="w-3 h-3" />

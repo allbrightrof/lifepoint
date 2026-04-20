@@ -78,7 +78,7 @@ const Page = () => {
                   <Image src="/shawnjen.jpg" alt="shawnjen" width={800} height={800}/>
                   </div>
     </div>
-<EvtPict evenData={pictures}/>
+<EvtPict evenData={pictures}/>  
 
 </div>
   <Footer />

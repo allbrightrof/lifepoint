@@ -3,6 +3,7 @@ import Footer from "@/components/layout/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import TestFeatures from '@/components/team/TestFeatures'
+import { events } from "@/data/features";
 import Image from 'next/image'
 const Page = () => {
   return (
@@ -13,7 +14,7 @@ const Page = () => {
     <p className='text-center font-bold text-2xl sm:text-3xl lg:text-3xl p-5'>Our Locations</p>
     <h2 className='text-center font-bold text-3xl sm:text-4xl lg:text-7xl p-5'>One Church, <br />Multiple Locations</h2>
  </div>  
-     <TestFeatures variant="[#f4f4f4]" />
+     <TestFeatures variant="[#f4f4f4]" data={events} />
      </div>
        <div className="w-full px-4  bg-white sm:px-8 lg:px-16 py-10 text-black flex flex-col items-center ">
             <Image src="/online.jpg" alt="online Events" width={400} height={300}/>

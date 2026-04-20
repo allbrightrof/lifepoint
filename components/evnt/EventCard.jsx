@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import Image from "next/image";
 import TestFeatures from "@/components/team/TestFeatures";
+import { events } from "@/data/features";
 const EventCard = () => {
   
 
@@ -14,7 +15,7 @@ const EventCard = () => {
     <h2 className='text-center font-bold text-3xl sm:text-4xl lg:text-5xl p-5'>One Church, Many Rooms.</h2>
     <p className='text-center p-5 max-w-3xl mx-auto text-sm sm:text-base lg:text-lg'>New here? Plan your visit to find service times, locations, and what to expect at a location near you! </p>
  </div>
-<TestFeatures />
+<TestFeatures data={events} />
     <div className="w-full px-4 sm:px-8 lg:px-16 py-13 text-white flex  flex-col items-center">
        <Image src="/online.jpg" alt="online Events" width={400} height={300}/>
            <h2 className='text-center font-bold text-3xl text-white sm:text-3xl lg:text-3xl p-5'>Join Us Online</h2>

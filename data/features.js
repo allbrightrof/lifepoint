@@ -78,6 +78,43 @@ export const events = [
   link: "/events/louisville"
 }
 ];
+export const givingCard = [{
+  id: 1,
+  title: "Give Online",
+  address: "Give safely and securely with a one time gift or set-up recurring giving.",
+  image: "/giving1.jpg",
+  link: "/events/louisville"
+},{
+  id: 2,
+  title: "Mail-In",
+  address: "Checks can be mailed to our church office; be sure to include your campus designation in the memo line. ",
+  image: "/giving2.jpg",
+  link: "/events/louisville"
+},{
+  id: 3,
+  title: "In-Person",
+  address: "You can give in person at any of our locations during the weekend worship experience.",
+  image: "/giving3.jpg",
+  link: "/events/louisville"
+},{
+  id: 4,
+  title: "Lifepoint App",
+  address: "With the Lifepoint app, giving is easier than ever. Make your gift recurring, use Apple Pay, and more—all right in the app!.",
+  image: "/giving4.jpg",
+  link: "/events/louisville"
+},{
+  id: 5,
+  title: "Non-Cash Giving",
+  address: "You don’t have to limit your giving to dollars and cents. We can accept non-cash gifts, including stocks, crypto and Donor-Advised Funds.",
+  image: "/giving5.jpg",
+  link: "/events/louisville"
+},{
+  id: 6,
+  title: "Lifepoint App",
+  address: "With the Lifepoint app, giving is easier than ever. Make your gift recurring, use Apple Pay, and more—all right in the app!.",
+  image: "/giving4.jpg",
+  link: "/events/louisville"
+}];
 
 export const features = [
   {
@@ -237,6 +274,24 @@ export const team = [
     position: "Campus Pastor, Louisville",
     image: "/letapalmer.jpg",
     group: "campus"
+  },  {
+    id: 18,
+    name: "Littles",
+    position: "Infants - 3 Years Old",
+    image: "/kid2.jpg",
+    group: "kid"
+  }, {
+    id: 19,
+    name: "Middles",
+    position: "4 Years Old - Kindergarten",
+    image: "/kid3.jpg",
+    group: "kid"
+  }, {
+    id: 20,
+    name: "Bigs",
+    position: "1st - 5th Grade",
+    image: "/kid4.jpg",
+    group: "kid"
   }
 ];
 export const beliefs = [
@@ -260,6 +315,44 @@ export const beliefs = [
     icon:  faBible
   }
 ];
+export const kidsPts = [
+  {
+    id: 1,
+    title: "In KidsPoint Your Family Can Expect",
+    content1: `Fun, relational, and age-appropriate teaching about God and His love`,
+    content2: `A support system for you and your child as he/she takes next steps in their faith journey`,
+    content3:`Dream Team who are called to your child’s spiritual development`,
+    content4:`A safe, secure environment with background-checked leaders that love and care for your child`
+  },
+    {
+    id: 2,
+    title: "Are You A First Family",
+    content5: `We are so glad you and your family will be spending Sunday with us!`,
+    content1: `We believe the best way to help your kids develop a strong spiritual foundation is by partnering with you. Together, we can encourage, train, and pray for them as they grow in their faith.`,
+    content2:`You will be escorted to your children’s Kidspoint environments, where they will be introduced to their leaders.`,
+    content3:`We will guide you to your seat in the worship experience.`,
+    content4:`After service, come back to Kidspoint where you will be able to pick up your child using our secure checkout system.`
+  }, {
+    id: 3,
+    title: "Patnering With Parents",
+    content5: `We believe the best way to help your kids develop a strong spiritual foundation is by partnering with you. Together, we can encourage, train, and pray for them as they grow in their faith. `,
+    content1: `Pick a consistent service time and location to help your child build a relationship with their Small Group leader and other kids their age`,
+    content2:`Text “Kidspoint” to 94-000 to sign up for weekly text updates featuring each Sunday’s Kidspoint lesson and follow up questions or activities to do as a family`,
+    content3:`Download the Bible App for Kids.`,
+    content4:`Stay connected to Kidspoint by following us on Instagram, Facebook, and on our Kidspoint YouTube channel.`
+    
+  }
+];
+
+export const given = [{
+      id: 1,
+    title: "Access Your Year-To-Date giving statement",
+    content5: `Download It Online`,
+    content1: `Go to lifepointchurch.ccbchurch.com/goto/login`,
+    content2:`This login is not the same as your giving login, so you may need to request to create a new account.`,
+    content3:`Once logged in, click on “Give” on the left side of the page.`,
+    content4:`Select a date range and “Deductible Only,” then choose “Run Report.”`
+}];
 
 export const beliefDetails = [
   {
@@ -757,6 +850,83 @@ export const missionTrips = [
     image: "/variety6.jpg"
   }
 ];
+export const eventsTrips = [
+  
+  {
+    id: 1,
+    name: "The Journey Series",
+    title: "A Campus Near You",
+    date: "June 1-6, 2026",
+    image: "/eventpic2.jpg",
+    group: "campus"
+  },
+  {
+    id: 2,
+    name: "The Journey Series",
+    title: "Faith & Growth Summit",
+    date: "June 10-12, 2026",
+    image: "/eventpic3.jpg",
+    group: "campus"
+  },
+  {
+    id: 3,
+    name: "The Journey Series",
+    title: "Next Gen Leaders",
+    date: "June 15-18, 2026",
+    image: "/eventpic4.jpg",
+    group: "campus"
+  },
+
+  {
+    id: 4,
+    name: "City Outreach",
+    title: "Lagos Revival Night",
+    date: "July 2-3, 2026",
+    image: "/eventpic5.jpg",
+    group: "city"
+  },
+  {
+    id: 5,
+    name: "City Outreach",
+    title: "Abuja Impact Rally",
+    date: "July 8-9, 2026",
+    image: "/eventpic6.jpg",
+    group: "city"
+  },
+  {
+    id: 6,
+    name: "City Outreach",
+    title: "Ibadan Praise Fest",
+    date: "July 14-15, 2026",
+    image: "/eventpic7.jpg",
+    group: "city"
+  },
+
+  {
+    id: 7,
+    name: "Global Experience",
+    title: "Dubai Faith Conference",
+    date: "August 5-7, 2026",
+    image: "/eventpic8.jpg",
+    group: "global"
+  },
+  {
+    id: 8,
+    name: "Global Experience",
+    title: "London Worship Gathering",
+    date: "August 12-14, 2026",
+    image: "/eventpic9.jpg",
+    group: "global"
+  },
+  {
+    id: 9,
+    name: "Global Experience",
+    title: "New York Prayer Summit",
+    date: "August 20-22, 2026",
+    image: "/eventpic10.jpg",
+    group: "global"
+  }
+];
 export const mediaOne = [
   {
     id: 1,
@@ -777,5 +947,375 @@ export const mediaOne = [
     id: 4,
     image: "/one6.jpg",
     title: "Fredericksburg North Event"
+  }
+];
+export const teachingSeries = [
+  {
+    id: 1,
+    name: "Well Rested",
+    title: "Life is full of trials and difficulties, and when we strive to get through it all in our own power, we will always be left wanting. Thankfully, we have access to a higher power that strengthens us beyond our limitations and gives us true rest even in the middle of life’s chaos.",
+    date: "June 2, 2026",
+    image: "/sermon1.jpg",
+    group: "At the Movies"
+  },
+  {
+    id: 2,
+    name: "A Different Spirit",
+    title: "In a world where everyone follows the crowd, God has called us to live differently and walk boldly in His truth. Through the Holy Spirit, we are empowered to think, act, and respond in ways that reflect His nature daily.",
+    date: "June 5, 2026",
+    image: "/sermon2.jpg",
+    group: "This Is A Move"
+  },
+  {
+    id: 3,
+    name: "Worship While Wounded",
+    title: "Pain is something we all experience, but it should never define us or control our lives. When we choose to worship even while hurting, we invite God into our situation and allow His healing power to transform us from within.",
+    date: "June 8, 2026",
+    image: "/sermon4.jpg",
+    group: "Nights Of Worship"
+  },
+  {
+    id: 4,
+    name: "Grace Over Grind",
+    title: "We often think success comes from constant effort and pressure, but God calls us into a life of grace. When we stop striving and start trusting Him, we begin to experience peace, clarity, and strength that goes beyond our understanding.",
+    date: "June 10, 2026",
+    image: "/sermon5.jpg",
+    group: "Moment With Jesus"
+  },
+  {
+    id: 5,
+    name: "Faith In The Fire",
+    title: "The fire you are facing is not meant to destroy you but to refine your faith and character. In the middle of the pressure, God is building something in you that will prepare you for greater things ahead.",
+    date: "June 12, 2026",
+    image: "/sermon6.jpg",
+    group: "Come Together"
+  },
+  {
+    id: 6,
+    name: "The Secret Place",
+    title: "In a noisy world full of distractions, God is calling us back to intimacy with Him. It is in the quiet place that we find direction, strength, and a deeper understanding of His purpose for our lives.",
+    date: "June 14, 2026",
+    image: "/sermon7.jpg",
+    group: "Moment With Jesus"
+  },
+  {
+    id: 7,
+    name: "Still Standing",
+    title: "Life may knock you down, but through God’s strength you can always rise again. No matter what you face, His power sustains you and keeps you standing firm against every challenge.",
+    date: "June 16, 2026",
+    image: "/sermon8.jpg",
+    group: "This is my story"
+  },
+  {
+    id: 8,
+    name: "Unshakable",
+    title: "When your life is built on God’s truth, no storm can move you. Even in uncertain times, you can remain confident knowing that He is your firm foundation.",
+    date: "June 18, 2026",
+    image: "/sermon9.jpg",
+    group: "Alters"
+  },
+  {
+    id: 9,
+    name: "Closer Than You Think",
+    title: "Many people feel distant from God, but the truth is He is always near. When we open our hearts and become aware of His presence, we realize He has been with us all along.",
+    date: "June 20, 2026",
+    image: "/sermon10.jpg",
+    group: "One Question At A Time"
+  },
+  {
+    id: 10,
+    name: "The Waiting Room",
+    title: "Waiting seasons can feel frustrating and uncertain, but they are never wasted in God’s plan. During these moments, He is shaping your character and preparing you for what is coming next.",
+    date: "June 22, 2026",
+    image: "/sermon1.jpg",
+    group: "Come Together"
+  },
+  {
+    id: 11,
+    name: "Called Out",
+    title: "You were never created to blend in with the world around you. God has uniquely designed you to stand out and reflect His light in every place you go.",
+    date: "June 24, 2026",
+    image: "/sermon2.jpg",
+    group: "This Is A Move"
+  },
+  {
+    id: 12,
+    name: "Overflow",
+    title: "God doesn’t just meet your needs, He exceeds them in ways you never imagined. When you trust Him fully, you begin to experience a life of abundance and overflow.",
+    date: "June 26, 2026",
+    image: "/sermon3.jpg",
+    group: "Nights Of Worship"
+  },
+  {
+    id: 13,
+    name: "Breaking Chains",
+    title: "Many people live bound by fear, doubt, and past mistakes, but God has already provided freedom. When you walk in His truth, every chain holding you back begins to fall.",
+    date: "June 28, 2026",
+    image: "/sermon4.jpg",
+    group: "Alters"
+  },
+  {
+    id: 14,
+    name: "Eyes On Jesus",
+    title: "Distractions will always try to pull your focus away, but peace comes when you fix your eyes on Jesus. He is the source of clarity, direction, and strength in every situation.",
+    date: "July 1, 2026",
+    image: "/sermon5.jpg",
+    group: "Moment With Jesus"
+  },
+  {
+    id: 15,
+    name: "Faith Moves",
+    title: "Faith is not just something you believe, it is something you act on. When you step out in obedience, you create space for God to move powerfully in your life.",
+    date: "July 3, 2026",
+    image: "/sermon6.jpg",
+    group: "This Is A Move"
+  },
+  {
+    id: 16,
+    name: "The Comeback",
+    title: "Every setback you face is an opportunity for a greater comeback through God’s power. What looks like an ending is often just the beginning of something greater.",
+    date: "July 5, 2026",
+    image: "/sermon7.jpg",
+    group: "This is my story"
+  },
+  {
+    id: 17,
+    name: "Deep Waters",
+    title: "God is calling you beyond surface-level faith into deeper trust and intimacy. It is in the deep places that you discover His true power and presence.",
+    date: "July 7, 2026",
+    image: "/sermon8.jpg",
+    group: "Come Together"
+  },
+  {
+    id: 18,
+    name: "No Limits",
+    title: "The only limits in your life are the ones you place on God. When you fully trust Him, you begin to see possibilities that go beyond human understanding.",
+    date: "July 9, 2026",
+    image: "/sermon9.jpg",
+    group: "This Is A Move"
+  },
+  {
+    id: 19,
+    name: "Heart Check",
+    title: "God is more concerned with your heart than your outward actions. When your heart is aligned with Him, everything else in your life begins to fall into place.",
+    date: "July 11, 2026",
+    image: "/sermon10.jpg",
+    group: "One Question At A Time"
+  },
+  {
+    id: 20,
+    name: "Unfiltered Faith",
+    title: "Faith is not about perfection but about authenticity and trust in God. When you come to Him as you are, He begins to transform you from the inside out.",
+    date: "July 13, 2026",
+    image: "/sermon1.jpg",
+    group: "This is my story"
+  },
+  {
+    id: 21,
+    name: "Fire Within",
+    title: "The Holy Spirit places a fire within you that fuels your purpose and passion. When you stay connected to Him, that fire continues to grow and impact those around you.",
+    date: "July 15, 2026",
+    image: "/sermon2.jpg",
+    group: "Nights Of Worship"
+  },
+  {
+    id: 22,
+    name: "Purpose Driven",
+    title: "Your life is not random or meaningless, it is designed with purpose by God. When you discover that purpose, everything about your life begins to make sense.",
+    date: "July 17, 2026",
+    image: "/sermon3.jpg",
+    group: "Alters"
+  },
+  {
+    id: 23,
+    name: "Stand Firm",
+    title: "In a world that constantly changes, God calls you to remain steady and unshaken. Standing firm in His word gives you confidence no matter what comes your way.",
+    date: "July 19, 2026",
+    image: "/sermon4.jpg",
+    group: "Come Together"
+  },
+  {
+    id: 24,
+    name: "Grace Wins",
+    title: "No matter how far you feel you have fallen, God’s grace is always greater. His love covers your past and gives you a fresh start every single day.",
+    date: "July 21, 2026",
+    image: "/sermon5.jpg",
+    group: "Moment With Jesus"
+  },
+  {
+    id: 25,
+    name: "The Turnaround",
+    title: "God has the power to turn your worst situations into something good. What you thought was over can become the beginning of a powerful testimony.",
+    date: "July 23, 2026",
+    image: "/sermon6.jpg",
+    group: "This is my story"
+  },
+  {
+    id: 26,
+    name: "Anchored",
+    title: "When your life is anchored in God, no storm can sweep you away. His presence keeps you grounded and secure through every challenge.",
+    date: "July 25, 2026",
+    image: "/sermon7.jpg",
+    group: "At the Movies"
+  },
+  {
+    id: 27,
+    name: "Unstoppable",
+    title: "A life fully surrendered to God cannot be stopped by circumstances. When He is leading you, every obstacle becomes an opportunity for growth.",
+    date: "July 27, 2026",
+    image: "/sermon8.jpg",
+    group: "This Is A Move"
+  },
+  {
+    id: 28,
+    name: "The Invitation",
+    title: "God is constantly inviting you into a deeper relationship with Him. When you respond, you begin to experience His love in a new and powerful way.",
+    date: "July 29, 2026",
+    image: "/sermon9.jpg",
+    group: "Moment With Jesus"
+  },
+  {
+    id: 29,
+    name: "Chosen",
+    title: "You are not overlooked or forgotten, you are chosen by God for a purpose. When you embrace that truth, your confidence and identity are transformed.",
+    date: "July 31, 2026",
+    image: "/sermon10.jpg",
+    group: "Alters"
+  },
+  {
+    id: 30,
+    name: "Victory Lap",
+    title: "Take time to celebrate what God has already done in your life. Every victory is a reminder of His faithfulness and power.",
+    date: "August 2, 2026",
+    image: "/sermon1.jpg",
+    group: "Nights Of Worship"
+  },
+  {
+    id: 31,
+    name: "The Reset",
+    title: "Sometimes life requires a reset to bring you back into alignment with God. When you surrender control, He begins to restore what was lost.",
+    date: "August 4, 2026",
+    image: "/sermon1.jpg",
+    group: "One Question At A Time"
+  },
+  {
+    id: 32,
+    name: "Faith Over Fear",
+    title: "Fear may try to control your decisions, but faith gives you the courage to move forward. Trusting God allows you to overcome even your greatest fears.",
+    date: "August 6, 2026",
+    image: "/sermon2.jpg",
+    group: "Come Together"
+  },
+  {
+    id: 33,
+    name: "More Than Enough",
+    title: "God is not limited by your situation or resources. He is more than enough to meet every need and exceed every expectation.",
+    date: "August 8, 2026",
+    image: "/sermon3.jpg",
+    group: "Moment With Jesus"
+  },
+  {
+    id: 34,
+    name: "Rise Again",
+    title: "Falling does not define you, rising again does. With God’s strength, you can always get back up and keep moving forward.",
+    date: "August 10, 2026",
+    image: "/sermon4.jpg",
+    group: "This is my story"
+  },
+  {
+    id: 35,
+    name: "Unseen Battles",
+    title: "Not every battle is visible, but every battle matters. God equips you with spiritual strength to overcome what others cannot see.",
+    date: "August 12, 2026",
+    image: "/sermon5.jpg",
+    group: "Alters"
+  },
+  {
+    id: 36,
+    name: "The Overflow Life",
+    title: "God desires for you to live a life that overflows with joy, peace, and purpose. When you stay connected to Him, that overflow becomes your reality.",
+    date: "August 14, 2026",
+    image: "/sermon6.jpg",
+    group: "This Is A Move"
+  },
+  {
+    id: 37,
+    name: "Stay Lit",
+    title: "Your spiritual fire must be maintained daily through prayer and connection with God. When you stay consistent, your passion never fades.",
+    date: "August 16, 2026",
+    image: "/sermon7.jpg",
+    group: "Nights Of Worship"
+  },
+  {
+    id: 38,
+    name: "The Bridge",
+    title: "Jesus is the bridge between your current reality and God’s promises. Through Him, everything that once seemed impossible becomes possible.",
+    date: "August 18, 2026",
+    image: "/sermon8.jpg",
+    group: "At the Movies"
+  },
+  {
+    id: 39,
+    name: "Walk By Faith",
+    title: "Faith is trusting God even when you cannot see the full picture. When you take steps forward, He reveals the path ahead little by little.",
+    date: "August 20, 2026",
+    image: "/sermon9.jpg",
+    group: "Come Together"
+  },
+  {
+    id: 40,
+    name: "Refined",
+    title: "Pressure is not meant to break you but to refine you into something better. God uses every challenge to shape your character and strengthen your faith.",
+    date: "August 22, 2026",
+    image: "/sermon10.jpg",
+    group: "Alters"
+  },
+  {
+    id: 41,
+    name: "Open Heavens",
+    title: "When heaven opens over your life, everything begins to shift. God’s favor, provision, and presence become evident in ways you cannot deny.",
+    date: "August 24, 2026",
+    image: "/sermon1.jpg",
+    group: "Nights Of Worship"
+  },
+  {
+    id: 42,
+    name: "Living Water",
+    title: "Nothing in this world can truly satisfy your soul except Jesus. When you come to Him, He fills every empty place with lasting peace and joy.",
+    date: "August 26, 2026",
+    image: "/sermon2.jpg",
+    group: "Moment With Jesus"
+  },
+  {
+    id: 43,
+    name: "Kingdom Mindset",
+    title: "God calls you to think beyond temporary things and focus on eternal purpose. When your mindset shifts, your entire life begins to change.",
+    date: "August 28, 2026",
+    image: "/sermon4.jpg",
+    group: "One Question At A Time"
+  },
+  {
+    id: 44,
+    name: "Forward Only",
+    title: "God is calling you to move forward and leave the past behind. When you trust Him, every step ahead becomes clearer and more purposeful.",
+    date: "August 30, 2026",
+    image: "/sermon6.jpg",
+    group: "This Is A Move"
+  },
+  {
+    id: 45,
+    name: "Fully Surrendered",
+    title: "True freedom begins when you fully surrender your life to God. In letting go of control, you gain peace and direction like never before.",
+    date: "September 1, 2026",
+    image: "/sermon9.jpg",
+    group: "Come Together"
+  },
+  {
+    id: 46,
+    name: "New Beginnings",
+    title: "With God, every day is an opportunity to start fresh and move forward. No matter your past, He offers you a new beginning filled with hope and purpose.",
+    date: "September 3, 2026",
+    image: "/sermon10.jpg",
+    group: "This is my story"
   }
 ];

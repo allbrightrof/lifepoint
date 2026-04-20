@@ -102,7 +102,7 @@ For The One
 </div>
                   <div className="relative" onMouseEnter={() => setActiveMenu("nextgen")} onMouseLeave={() => setActiveMenu(null)}>
 <Link
-  href="/about"
+  href="/"
   className="cursor-pointer py-2 border-b-2 border-transparent hover:border-white/500 transition-all duration-300"
 >
   Next Gen
@@ -114,37 +114,30 @@ For The One
 
  
       <div className="bg-white text-black shadow-lg min-w-max p-3 font-bold border rounded-lg border-white">
-        <a href="/about/history" className="block px-4 py-2 hover:bg-gray-100">Kids Point</a>
-        <a href="/about/team" className="block px-4 py-2 hover:bg-gray-100"> Youth Group</a>
-        <a href="/about/contact" className="block px-4 py-2 hover:bg-gray-100">Life Point Challenge</a>
+          <Link href="/kidspoint" className="block px-4 py-2 hover:bg-gray-100">
+Kids Point
+</Link>
+         <Link href="/youth" className="block px-4 py-2 hover:bg-gray-100">
+Youth
+</Link>
+      <Link href="/" className="block px-4 py-2 hover:bg-gray-100">
+Lifepoint College
+</Link>
       </div>
     </div>
   )}
 </div>
              <div className="relative" onMouseEnter={() => setActiveMenu("events")} onMouseLeave={() => setActiveMenu(null)}>
 <Link
-  href="/about"
+  href="/events"
   className="cursor-pointer py-2 border-b-2 border-transparent hover:border-white/500 transition-all duration-300"
 >
   Events
 </Link>
-
-  {activeMenu=== "events" && (
-    <div className="absolute left-0 top-full pt-2">
-      
-      <div className="h-2"></div>
-
-        <div className="bg-white text-black shadow-lg min-w-max p-3 font-bold border rounded-lg border-white">
-        <a href="/about/history" className="block px-4 py-2 hover:bg-gray-100">Events First</a>
-        <a href="/about/history" className="block px-4 py-2 hover:bg-gray-100">Events Second</a>
-        <a href="/about/history" className="block px-4 py-2 hover:bg-gray-100">Events Third</a>
-      </div>
-    </div>
-  )}
 </div>
                       <div className="relative" onMouseEnter={() => setActiveMenu("care")} onMouseLeave={() => setActiveMenu(null)}>
  <Link
-  href="/about"
+  href="/"
   className="cursor-pointer py-2 border-b-2 border-transparent hover:border-white/500 transition-all duration-300"
 >
   Care
@@ -156,37 +149,30 @@ For The One
       <div className="h-2"></div>
 
        <div className="bg-white text-black shadow-lg min-w-max p-3 font-bold border rounded-lg border-white">
-        <a href="/about/history" className="block px-4 py-2 hover:bg-gray-100">Care</a>
-        <a href="/about/team" className="block px-4 py-2 hover:bg-gray-100">Prayer Request</a>
-        <a href="/about/contact" className="block px-4 py-2 hover:bg-gray-100">Benovelence</a>
+         <Link href="/care" className="block px-4 py-2 hover:bg-gray-100">
+Care
+</Link>
+           <Link href="/prayerwall" className="block px-4 py-2 hover:bg-gray-100">
+Prayer Request
+</Link>
+         <Link href="/benevolence" className="block px-4 py-2 hover:bg-gray-100">
+Benevolence
+</Link>     
       </div>
     </div>
   )}
 </div>
                <div className="relative" onMouseEnter={() => setActiveMenu("give")} onMouseLeave={() => setActiveMenu(null)}>
 <Link
-  href="/about"
+  href="/give"
   className="cursor-pointer py-2 border-b-2 border-transparent hover:border-white/500 transition-all duration-300"
 >
   Give
 </Link>
-
-  {activeMenu === "give" && (
-    <div className="absolute left-0 top-full pt-2">
-      
-      <div className="h-2"></div>
-
-    <div className="bg-white text-black shadow-lg min-w-max p-3 font-bold border rounded-lg border-white">
-        <a href="/about/history" className="block px-4 py-2 hover:bg-gray-100">Give</a>
-        <a href="/about/team" className="block px-4 py-2 hover:bg-gray-100">Give Request</a>
-        <a href="/about/contact" className="block px-4 py-2 hover:bg-gray-100">Prayer</a>
-      </div>
-    </div>
-  )}
 </div>
                <div className="relative" onMouseEnter={() => setActiveMenu("sermons")} onMouseLeave={() => setActiveMenu(null)}>
 <Link
-  href="/about"
+  href="/sermon"
   className="cursor-pointer py-2 border-b-2 border-transparent hover:border-white/500 transition-all duration-300"
 >
   Sermons
@@ -198,27 +184,23 @@ For The One
       <div className="h-2"></div>
 
   <div className="bg-white text-black shadow-lg min-w-max p-3 font-bold border rounded-lg border-white">
-         <a href="/about/history" className="block px-4 py-2 hover:bg-gray-100">Sermons</a>
-        <a href="/about/team" className="block px-4 py-2 hover:bg-gray-100">Watch Live</a>
+             <Link href="/sermon" className="block px-4 py-2 hover:bg-gray-100">
+Sermons
+</Link>  
+           <Link href="/" className="block px-4 py-2 hover:bg-gray-100">
+Watch Live
+</Link>  
       </div>
     </div>
   )}
 </div>
          <div className="relative" onMouseEnter={() => setActiveMenu("home")} onMouseLeave={() => setActiveMenu(null)}>
 <Link
-  href="/home"
+  href="/"
   className="cursor-pointer py-2 border-b-2 border-transparent hover:border-white/500 transition-all duration-300"
 >
   Home
 </Link>
-
-  {activeMenu === "home" && (
-    <div className="absolute left-0 top-full pt-2">
-      
-      <div className="h-2"></div>
-
-    </div>
-  )}
 </div>
 
             </div>
@@ -326,37 +308,29 @@ For The One
  
   {mobileGen === "nextGen" && (
     <div className="pl-6 flex flex-col">
-      <a href="/about/history" className="py-2">History</a>
-      <a href="/about/team" className="py-2">Team</a>
-      <a href="/about/contact" className="py-2">Contact</a>
+      <Link href="/kidspoint" className="block px-4 py-2 hover:bg-gray-100">
+Kids Point
+</Link>
+      <Link href="/youth" className="block px-4 py-2 hover:bg-gray-100">
+Youth
+</Link>
+    <Link href="/" className="block px-4 py-2 hover:bg-gray-100">
+Life Point Challenge
+</Link>
     </div>
   )}
 
 </div>
-            <div className="w-full">
 
   <div
-    className="flex items-center justify-between cursor-pointer py-2 px-3"
+    className="flex w-full items-center justify-between cursor-pointer py-2 px-3"
     onClick={() => setMobileGen(mobileGen === "events" ? null : "events")}
   >
+    <Link href="/events">
     <span> Events</span>
-
-   <FontAwesomeIcon
-      icon={mobileGen === "events" ? faChevronUp : faChevronDown}
-      className="transition-transform duration-300"
-    />
+     </Link>
   </div>
 
- 
-  {mobileGen === "events" && (
-    <div className="pl-6 flex flex-col">
-      <a href="/about/history" className="py-2">History</a>
-      <a href="/about/team" className="py-2">Team</a>
-      <a href="/about/contact" className="py-2">Contact</a>
-    </div>
-  )}
-
-</div>
 
      <div className="w-full">
 
@@ -375,35 +349,29 @@ For The One
  
   {mobileGen === "care" && (
     <div className="pl-6 flex flex-col">
-      <a href="/about/history" className="py-2">History</a>
-      <a href="/about/team" className="py-2">Team</a>
-      <a href="/about/contact" className="py-2">Contact</a>
+        <Link href="/care" className="block px-4 py-2 hover:bg-gray-100">
+Care
+</Link>
+     <Link href="/prayerwall" className="block px-4 py-2 hover:bg-gray-100">
+Prayer Request
+</Link>
+      <Link href="/benevolence" className="block px-4 py-2 hover:bg-gray-100">
+Benevolence
+</Link>
     </div>
   )}
 
 </div>
-     <div className="w-full">
+    
 
   <div
-    className="flex items-center justify-between cursor-pointer py-2 px-3"
+    className="flex w-full items-center justify-between cursor-pointer py-2 px-3"
     onClick={() => setMobileGen(mobileGen === "give" ? null : "give")}
   >
-    <span>  Give </span>
+       <Link href="/give">
+    <span> Give</span>
+     </Link>
 
-   <FontAwesomeIcon
-      icon={mobileGen === "give" ? faChevronUp : faChevronDown}
-      className="transition-transform duration-300"
-    />
-  </div>
-
- 
-  {mobileGen === "give" && (
-    <div className="pl-6 flex flex-col">
-      <a href="/about/history" className="py-2">History</a>
-      <a href="/about/team" className="py-2">Team</a>
-      <a href="/about/contact" className="py-2">Contact</a>
-    </div>
-  )}
 
 </div>
      <div className="w-full">
@@ -423,37 +391,27 @@ For The One
  
   {mobileGen === "sermons" && (
     <div className="pl-6 flex flex-col">
-      <a href="/about/history" className="py-2">History</a>
-      <a href="/about/team" className="py-2">Team</a>
-      <a href="/about/contact" className="py-2">Contact</a>
+       <Link href="/sermon" className="block px-4 py-2 hover:bg-gray-100">
+Sermons
+</Link>
+       <Link href="/" className="block px-4 py-2 hover:bg-gray-100">
+Watch Live
+</Link>
     </div>
   )}
 
 </div>
-     <div className="w-full">
+
 
   <div
-    className="flex items-center justify-between cursor-pointer py-2 px-3"
+    className="flex w-full items-center justify-between cursor-pointer py-2 px-3"
     onClick={() => setMobileGen(mobileGen === "home" ? null : "home")}
   >
+    <Link href="/">
     <span>Home</span>
-
-   <FontAwesomeIcon
-      icon={mobileGen === "home" ? faChevronUp : faChevronDown}
-      className="transition-transform duration-300"
-    />
+     </Link>
   </div>
 
- 
-  {mobileGen === "home" && (
-    <div className="pl-6 flex flex-col">
-      <a href="/about/history" className="py-2">History</a>
-      <a href="/about/team" className="py-2">Team</a>
-      <a href="/about/contact" className="py-2">Contact</a>
-    </div>
-  )}
-
-</div>
     </div>
   )
 

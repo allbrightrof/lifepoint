@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-, "app/Dreamteam/page.jsx"  ],
+, "app/Dreamteam/page.jsx", "app/locations/page.jsx", "app/baptism/page.jsx", "app/beliefs/page.jsx"  ],
   "exclude": ["node_modules"]
 }

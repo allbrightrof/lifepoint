@@ -7,6 +7,7 @@ import TwoSection from "@/components/salvation/TwoSection";
 import { smallEvents } from "@/data/features";
 import { missionTrips } from "@/data/features";
 import ReachPar from "@/components/reach/ReachPar";
+import { faCalendarDays} from "@fortawesome/free-solid-svg-icons";
 
 const page = () => {
   return (
@@ -52,7 +53,7 @@ const page = () => {
  </div>
  <div className="bg-[#8d8d8d] w-full lg:p-15 sm:p-5 p-5 md:p-10">
   <h2 className="mx-auto text-2xl md:text-4xl lg:text-5xl text-white text-center max-w-3xl font-bold">Upcoming Local <br/> Outreach Opportunities</h2>
- <ReachPar data={smallEvents} />
+ <ReachPar data={smallEvents}  icon={faCalendarDays}/>
  </div>
     <div className="w-full bg-white p-5 md:p-8 lg:p-15">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row">
@@ -107,7 +108,7 @@ const page = () => {
     </div>
  <div className="bg-[#8d8d8d] w-full lg:p-15 sm:p-5 p-5 md:p-10">
   <h2 className="mx-auto text-2xl md:text-4xl lg:text-5xl text-white text-center max-w-3xl font-bold">Upcoming Local <br/> Outreach Opportunities</h2>
- <ReachPar data={missionTrips} />
+ <ReachPar data={missionTrips} icon={faCalendarDays}/>
  </div>
     <Footer />
     </>

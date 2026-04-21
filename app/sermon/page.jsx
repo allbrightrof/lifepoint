@@ -51,12 +51,12 @@ const filteredGroup = teachingSeries.filter((item) => {
     className="w-full sm:w-1/2 px-5 py-4 bg-white text-black 
     border-4 border-black rounded-none outline-none"
   />
-
-<select
-  onChange={(e) => setSelectedAsset(e.target.value)}
-  className="w-full sm:w-1/2 px-5 py-4 h-[60px] bg-white text-black 
-  border-4 border-black rounded-none text-xl leading-none outline-none appearance-none"
->
+<div className="relative w-full sm:w-1/2">
+  <select
+    onChange={(e) => setSelectedAsset(e.target.value)}
+    className="w-full px-5 py-4 h-[60px] bg-white text-black 
+    border-4 border-black rounded-none text-xl leading-none outline-none appearance-none"
+  >
     <option value="all">All</option>
     <option value="Alters">Alters</option>
     <option value="At the Movies">At the Movies</option>
@@ -68,6 +68,10 @@ const filteredGroup = teachingSeries.filter((item) => {
     <option value="This is my story">This is my story</option>
   </select>
 
+  <span className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-black">
+    ▼
+  </span>
+</div>
 </div>
         <ReachPar
   data={filteredGroup}

@@ -43,22 +43,26 @@ const Page = () => {
         </h2>
 
 <div className="flex flex-col sm:flex-row justify-center w-full gap-4 mb-6">
-
+<div className="relative w-full sm:w-1/2">
   <select
-    onChange={(e) => setSelectedGroup(e.target.value)}
-    className="w-full sm:w-1/2 px-5 py-6 bg-white text-black 
-    border-4 border-black rounded-none outline-none"
+    onChange={(e) => setSelectedAsset(e.target.value)}
+    className="w-full px-5 py-4 h-[60px] bg-white text-black 
+    border-4 border-black rounded-none text-xl leading-none outline-none appearance-none"
   >
     <option value="all">All Groups</option>
     <option value="campus">Campus</option>
     <option value="city">City</option>
     <option value="global">Global</option>
   </select>
-
+  <span className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-black">
+    ▼
+  </span>
+</div>
+<div className="relative w-full sm:w-1/2">
   <select
-    onChange={(e) => setSelectedName(e.target.value)}
-    className="w-full sm:w-1/2 px-5 py-6 bg-white text-black 
-    border-4 border-black rounded-none outline-none"
+    onChange={(e) => setSelectedAsset(e.target.value)}
+    className="w-full px-5 py-4 h-[60px] bg-white text-black 
+    border-4 border-black rounded-none text-xl leading-none outline-none appearance-none"
   >
     <option value="all">All Names</option>
     <option value="The Journey Series">Journey Series</option>
@@ -66,6 +70,10 @@ const Page = () => {
     <option value="Global Experience">Global Experience</option>
   </select>
 
+  <span className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-black">
+    ▼
+  </span>
+</div>
 </div>
 
        <ReachPar data={filteredData} variant="events"  icon={ faLocationDot }/>

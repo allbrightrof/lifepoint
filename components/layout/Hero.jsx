@@ -4,7 +4,8 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import Link from "next/link";
 const Hero = () => {
   return (
-    <div className="relative w-full min-h-screen">
+    <>
+  <div className="relative w-full min-h-[90vh] sm:min-h-screen">
 
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
@@ -39,8 +40,9 @@ const Hero = () => {
           </Link>
         </div>
       </div>
-
-      <div className="bg-[#f9f9f9] py-10 w-full px-4 sm:px-8 lg:px-20">
+  
+    </div>
+       <div className="bg-[#f9f9f9] py-10 w-full px-4 sm:px-8 lg:px-20">
         <div>
           <h2 className="text-center font-bold text-3xl sm:text-4xl lg:text-5xl p-5">
             Who We Are
@@ -53,17 +55,20 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-center items-center gap-3 mt-4 text-white">
+        <div className="flex flex-wrap bg-white justify-center items-center gap-3 mt-4 text-white">
+          <Link href="/beliefs">
           <button className="flex items-center gap-2 bg-black text-white px-4 py-2 rounded-3xl hover:bg-gray-800 transition">
             Our Beliefs <FontAwesomeIcon icon={faArrowRight} />
           </button>
-
+</Link>
+<Link href="/leadership">
           <button className="flex items-center gap-2 bg-black text-white px-4 py-2 rounded-3xl hover:bg-gray-800 transition">
             Our Leadership <FontAwesomeIcon icon={faArrowRight} />
           </button>
+          </Link>
         </div>
       </div>
-    </div>
+      </>
   );
 }
 

@@ -4,6 +4,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import Image from "next/image";
 import TestFeatures from "@/components/team/TestFeatures";
 import { events } from "@/data/features";
+import Link from "next/link";
 const EventCard = () => {
   
 
@@ -21,6 +22,9 @@ const EventCard = () => {
            <h2 className='text-center font-bold text-3xl text-white sm:text-3xl lg:text-3xl p-5'>Join Us Online</h2>
              <p className='text-center p-5 max-w-3xl mx-auto text-sm sm:text-base lg:text-lg'>If you can’t be in the room, you can still be a part of what God is doing. Join us online for messages and worship from wherever you are.</p>
                <p className='text-center p-5 max-w-3xl mx-auto text-sm sm:text-base lg:text-lg'>Sundays 10:00am, 1:00pm & 8:00pm</p>
+                 <Link href="/online-experience"> <button className="flex items-center gap-2  hover:shadow-[0_0_30px_rgba(0,0,0,0.15)] hover:-translate-y-1 transition duration-300 bg-[#8d8d8d] text-white px-4 py-2 rounded-3xl cursor-pointer w-auto">
+    Read More<FontAwesomeIcon icon={faArrowRight} className="w-3 h-3" />
+  </button> </Link> 
     </div>
         </div>
     <div className="bg-[#ffffff] py-10 w-full px-4 sm:px-8 lg:px-20 flex flex-col items-end justify-center-s">
@@ -31,12 +35,12 @@ const EventCard = () => {
                          build meaningful friendships, and discover their purpose in Jesus.
                          Every age matters, and every week is designed with them in mind.</p>
             <div className="flex gap-4 text-[#bdbdbd]">
-             <span className="cursor-pointer py-2 border-b-2 border-[#bdbdbd] hover:border-transparent transition-all duration-300">
+           <Link href="/kidspoint"><span className="cursor-pointer py-2 border-b-2 border-[#bdbdbd] hover:border-transparent transition-all duration-300">
   Kids Point
-<FontAwesomeIcon icon={faArrowRight} className="text-[#bdbdbd]"/> </span>
-                 <span className="cursor-pointer py-2 border-b-2 border-[#bdbdbd] hover:border-transparent transition-all duration-300">
+<FontAwesomeIcon icon={faArrowRight} className="text-[#bdbdbd]"/> </span> </Link> 
+             <Link href="/youth"><span className="cursor-pointer py-2 border-b-2 border-[#bdbdbd] hover:border-transparent transition-all duration-300">
   Youth
-<FontAwesomeIcon icon={faArrowRight}  className="text-[#bdbdbd]"/> </span>
+<FontAwesomeIcon icon={faArrowRight}  className="text-[#bdbdbd]"/> </span> </Link>  
             </div>
     </div>
     </>

@@ -9,7 +9,7 @@ const page = () => {
   return (
     <>
   <Navbar variant = "transparent" />
-    <div className="relative w-full min-h-screen">
+    <div className="relative w-full min-h-[90vh] sm:min-h-screen">
          <video
         className="absolute top-0 left-0 w-full h-full object-cover"
         src="https://res.cloudinary.com/dth0uegpp/video/upload/v1776467242/document_5985507204420083186_u8tp1q.mp4"

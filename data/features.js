@@ -14,7 +14,8 @@ import {
   faHeart,
   faCalendarDays,
   faDroplet,        
-  faHandSparkles   
+  faHandSparkles,
+  faCamera   
 } from "@fortawesome/free-solid-svg-icons";
 
 export const events = [
@@ -115,6 +116,20 @@ export const givingCard = [{
   image: "/giving4.jpg",
   link: "/events/louisville"
 }];
+ export const experience = [
+  {
+    id: 1,
+    title: "10:00 AM EST",
+    icon: faCamera
+  },  {
+    id: 2,
+    title: "10:00 AM EST",
+    icon: faCamera
+  },  {
+    id: 3,
+    title: "10:00 AM EST",
+    icon: faCamera
+  }];
 
 export const features = [
   {

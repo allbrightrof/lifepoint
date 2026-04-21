@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart,  faCalendarDays,  faWater,  faUsers, faHandsPraying, faMessage} from '@fortawesome/free-solid-svg-icons';
 import EvtPict from "@/components/evnt/EvtPict";
 import {pictures} from "@/data/features";
+import Link from 'next/link';
 const EventDetails = () => {
 
 const features = [
@@ -53,18 +54,18 @@ const features = [
                          build meaningful relationships,
                          and take your first step toward getting involved.</p>
     </div>
-     <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 p-5 lg:p-20 sm:p-5  md:p-5">
+     <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 p-5 lg:p-20 sm:p-5  md:p-5 ">
         {features.map((features) => (
-            <div key={features.id} className='bg-white flex flex-col gap-4 rounded-lg shadow p-12'>
+            <div key={features.id} className='bg-white flex flex-col gap-4 rounded-lg shadow p-12 hover:shadow-[0_0_30px_rgba(0,0,0,0.15)] hover:-translate-y-1 transition duration-300'>
          <div className="w-14 h-14 rounded-full bg-[#8d8d8d] flex items-center justify-center">
         <FontAwesomeIcon icon={features.icon} className='text-white' />
     </div>
     <div>
                 <h3 className='font-bold text-black'>{features.title}</h3>
                 <p className='font-bold text-gray-700'>{features.description}</p>
-             <span className="cursor-pointer font-bold text-[#8d8d8d] lg:text-2xl text-xl py-2 border-b-2 border-[#bdbdbd] hover:border-transparent transition-all duration-300 w-max">
+          <Link href="/events"> <span className="cursor-pointer font-bold text-[#8d8d8d] lg:text-2xl text-xl py-2 border-b-2 border-[#bdbdbd] hover:border-transparent transition-all duration-300 w-max">
   Learn More
-</span>
+</span>  </Link>
 </div>
             </div>
         ))}

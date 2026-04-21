@@ -24,7 +24,7 @@ const Page = () => {
   return (
     <>
       <Navbar variant="transparent" />
-      <div className="relative w-full min-h-screen">
+     <div className="relative w-full min-h-[90vh] sm:min-h-screen">
         <Image
           src="/eventpic1.jpg"
           alt="one"

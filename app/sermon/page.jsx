@@ -23,10 +23,10 @@ const filteredGroup = teachingSeries.filter((item) => {
   return (
     <>
   <Navbar variant = "transparent" />
-    <div className="relative w-full min-h-screen">
+    <div className="relative w-full min-h-[90vh] sm:min-h-screen">
           <video
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src="https://res.cloudinary.com/dtksauqq7/video/upload/v1776725831/it_s_your_move___sermon_loop_2_hzboae.mp4"
+        src="https://res.cloudinary.com/dth0uegpp/video/upload/v1776419078/semonloop_bqnkq9.mp4"
         autoPlay
         loop
         muted

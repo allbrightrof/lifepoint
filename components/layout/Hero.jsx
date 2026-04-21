@@ -44,11 +44,11 @@ const Hero = () => {
     </div>
        <div className="bg-[#f9f9f9] py-10 w-full px-4 sm:px-8 lg:px-20">
         <div>
-          <h2 className="text-center font-bold text-3xl sm:text-4xl lg:text-5xl p-5">
+          <h2 className="text-center text-black font-bold text-3xl sm:text-4xl lg:text-5xl p-5">
             Who We Are
           </h2>
 
-          <p className="text-center p-5 max-w-3xl mx-auto text-sm sm:text-base lg:text-lg">
+          <p className="text-center p-5 max-w-3xl mx-auto text-sm sm:text-base text-black lg:text-lg">
             Lifepoint Church exists to lead people far from God into a full life in Christ.
             Were a community built on faith, passionate about seeing lives changed by Jesus.
             No matter your story, you belong here. Theres a place for you to grow, find purpose, and take your next step in faith.

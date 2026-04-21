@@ -52,11 +52,11 @@ const filteredGroup = teachingSeries.filter((item) => {
     border-4 border-black rounded-none outline-none"
   />
 
-  <select
-    onChange={(e) => setSelectedAsset(e.target.value)}
-    className="w-full sm:w-1/2 px-5 py-4 bg-white text-black 
-    border-4 border-black rounded-none text-xl outline-none"
-  >
+<select
+  onChange={(e) => setSelectedAsset(e.target.value)}
+  className="w-full sm:w-1/2 px-5 py-4 h-[60px] bg-white text-black 
+  border-4 border-black rounded-none text-xl leading-none outline-none appearance-none"
+>
     <option value="all">All</option>
     <option value="Alters">Alters</option>
     <option value="At the Movies">At the Movies</option>

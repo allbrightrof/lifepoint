@@ -46,7 +46,7 @@ const Page = () => {
 
   <select
     onChange={(e) => setSelectedGroup(e.target.value)}
-    className="w-full sm:w-1/2 px-5 py-4 bg-white text-black 
+    className="w-full sm:w-1/2 px-5 py-6 bg-white text-black 
     border-4 border-black rounded-none outline-none"
   >
     <option value="all">All Groups</option>
@@ -57,7 +57,7 @@ const Page = () => {
 
   <select
     onChange={(e) => setSelectedName(e.target.value)}
-    className="w-full sm:w-1/2 px-5 py-4 bg-white text-black 
+    className="w-full sm:w-1/2 px-5 py-6 bg-white text-black 
     border-4 border-black rounded-none outline-none"
   >
     <option value="all">All Names</option>

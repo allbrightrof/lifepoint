@@ -6,7 +6,7 @@ const BeliefCard = ({ data }) => {
       {data.map((belief) => (
         <div
           key={belief.id}
-          className="bg-white rounded-2xl shadow-[0_0_20px_rgba(0,0,0,0.1)] hover:shadow-[0_0_30px_rgba(0,0,0,0.15)] hover:-translate-y-1 transition duration-300 p-8 flex flex-col items-center justify-center text-center gap-4"
+          className="bg-white rounded-2xl p-8 flex flex-col items-center justify-center text-center gap-4 shadow-[0_0_20px_rgba(0,0,0,0.1)] hover:shadow-[0_0_30px_rgba(0,0,0,0.15)] hover:-translate-y-1 active:scale-95 transition duration-300"
         >
           <div className="w-16 h-16 rounded-full bg-[#8d8d8d] flex items-center justify-center">
             <FontAwesomeIcon icon={belief.icon} className="text-white text-xl" />

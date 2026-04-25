@@ -11,6 +11,7 @@ const page = () => {
      <Navbar variant = "transparent" />
       <div className="relative w-full min-h-[90vh] sm:min-h-screen">
              <Image src="/beliefs.jpg" alt="our beliefs" width={400} height={300} className="absolute top-0 left-0 w-full h-full object-cover mb-2" />
+               <div className="absolute inset-0 bg-black/40"></div>
              <div className="absolute top-0 left-0 w-full h-full z-10 flex flex-col justify-center items-center px-4 sm:px-8 lg:px-16 py-20">
               <h2 className='text-center font-bold text-white text-3xl sm:text-4xl lg:text-7xl p-5'>Our Beliefs</h2>
        </div>
@@ -27,7 +28,7 @@ const page = () => {
        <div>
       <BeliefCard data={features} />
       </div>
-      <div className="bg-[#f4f4f4]">
+      <div className="bg-[#f4f4f4] lg:py-20 sm:py-8">
         <div className="flex flex-col items-center max-w-2xl mx-auto">
        <h2 className='text-center font-bold text-black text-xl sm:text-xl lg:text-5xl p-5'>What We Believe</h2>
              <p className='text-center p-5 mx-auto  text-black text-sm sm:text-base lg:text-lg'>At Lifepoint Church, we believe in the life-changing power of Jesus Christ 

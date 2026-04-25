@@ -34,13 +34,13 @@ const EventCard = () => {
                          we’re passionate about creating safe, fun, and engaging environments where kids and teens can grow in their faith,
                          build meaningful friendships, and discover their purpose in Jesus.
                          Every age matters, and every week is designed with them in mind.</p>
-            <div className="flex gap-4 text-[#bdbdbd]">
-           <Link href="/kidspoint"><span className="cursor-pointer py-2 border-b-2 border-[#bdbdbd] hover:border-transparent transition-all duration-300">
+            <div className="flex gap-4 text-[#8d8d8d]">
+           <Link href="/kidspoint"><span className="cursor-pointer font-bold py-2 border-b-2 border-[#8d8d8d] hover:border-transparent transition-all duration-300">
   Kids Point
-<FontAwesomeIcon icon={faArrowRight} className="text-[#bdbdbd]"/> </span> </Link> 
-             <Link href="/youth"><span className="cursor-pointer py-2 border-b-2 border-[#bdbdbd] hover:border-transparent transition-all duration-300">
+<FontAwesomeIcon icon={faArrowRight} className="text-[#8d8d8d] font-bold"/> </span> </Link> 
+             <Link href="/youth"><span className="cursor-pointer font-bold py-2 border-b-2 border-[#8d8d8d] hover:border-transparent transition-all duration-300">
   Youth
-<FontAwesomeIcon icon={faArrowRight}  className="text-[#bdbdbd]"/> </span> </Link>  
+<FontAwesomeIcon icon={faArrowRight}  className="text-[#8d8d8d] font-bold"/> </span> </Link>  
             </div>
     </div>
     </>

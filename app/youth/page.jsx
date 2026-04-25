@@ -18,6 +18,7 @@ const page = () => {
         muted
         playsInline
       />
+        <div className="absolute inset-0 bg-black/40"></div>
   </div>
   <div className="bg-[#f5f5f5] flex flex-col items-center py-16 lg:px-20 sm:px-10 px-10">
     <div className="max-w-3xl text-center">

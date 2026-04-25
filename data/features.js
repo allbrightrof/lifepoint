@@ -13,9 +13,11 @@ import {
   faComments,
   faHeart,
   faCalendarDays,
-  faDroplet,        
-  faHandSparkles,
-  faCamera   
+  faCamera,
+  faLocationDot,
+  faWater,
+   faHandsPraying,
+   faMessage
 } from "@fortawesome/free-solid-svg-icons";
 
 export const events = [
@@ -26,7 +28,7 @@ export const events = [
   date: "Sundays",
   time: "9:00am and 10:45am",
   image: "/event1.jpg",
-  link: "/events/culpeper"
+  link: "/Culpeper"
 },
 
 {
@@ -36,7 +38,7 @@ export const events = [
   date: "Sundays",
   time: "9:00am and 10:45am",
   image: "/event2.jpg",
-  link: "/events/fredericksburg"
+  link: "/Fredericksburg"
 },
 
 {
@@ -46,7 +48,7 @@ export const events = [
   date: "Sundays",
   time: "9:00am and 10:30am",
   image: "/event3.jpg",
-  link: "/events/fredericksburg-north"
+  link: "/Fredericksburg"
 },
 
 {
@@ -56,7 +58,7 @@ export const events = [
   date: "Sundays",
   time: "9:00am and 11:15am",
   image: "/event4.jpg",
-  link: "/events/richmond"
+  link: "/Richmond"
 },
 
 {
@@ -66,7 +68,7 @@ export const events = [
   date: "Sundays",
   time: "10:00am and 11:45am",
   image: "/event5.jpg",
-  link: "/events/spotsylvania"
+  link: "/Spotsylvania"
 },
 
 {
@@ -76,7 +78,7 @@ export const events = [
   date: "Sundays",
   time: "9:00am and 11:45am",
   image: "/event6.jpg",
-  link: "/events/louisville"
+  link: "/Louisville"
 }
 ];
 export const givingCard = [{
@@ -131,42 +133,50 @@ export const givingCard = [{
     icon: faCamera
   }];
 
+
 export const features = [
   {
     id: 1,
     title: "Get Involved",
     description: "Take your next step and find your place in what God is doing here.",
-    icon: faHeart
+    icon: faHeart,
+      link: "/getInvolved"
   },
   {
     id: 2,
     title: "Upcoming Events",
     description: "Events at Lifepoint help you grow, connect, and move forward in faith.",
-    icon: faCalendarDays
+    icon: faCalendarDays,
+      link: "/events"
   },
-{
-  id: 3,
-  title: "Water Baptism",
-  description: "Go public with your faith and celebrate new life.",
-  icon: faDroplet
-},
-   {
-      id: 4,
-      title: "Small Groups",
-      description: "Build community and grow in faith by joining a small group today.",
-      icon: faUsers
-    },
   {
-  id: 5,
-  title: "Need Prayer",
-  description: "Whatever you’re facing, we believe prayer changes everything.",
-  icon: faHandSparkles
-},{
-  id: 6,
-  title: "Share Your Story",
-  description: "Your story matters. Share with us what God has done in your life.",
-  icon: faComments
-}
+    id: 3,
+    title: "Water Baptism",
+    description: "Go public with your faith and celebrate new life through baptism.",
+    icon: faWater,
+      link: "/baptism"
+  },
+  {
+    id: 4,
+    title: "Small Groups",
+    description: "Build community and grow in faith by joining a small group today.",
+    icon: faUsers,
+      link: "/small-group"
+  },
+  {
+    id: 5,
+    title: "Need Prayer",
+    description: "Whatever you’re facing, we believe prayer changes everything.",
+    icon: faHandsPraying,
+      link: "/prayerwall"
+  },
+  {
+    id: 6,
+    title: "Share Your Story",
+    description: "Your story matters. Share with us what God has done in your life.",
+    icon: faMessage,
+      link: "/"
+  }
 ];
 
 export const team = [
@@ -307,6 +317,207 @@ export const team = [
     position: "1st - 5th Grade",
     image: "/kid4.jpg",
     group: "kid"
+  },
+    {
+    id: 21,
+    name: "Aaron Judkins",
+    position: "Campus Pastor",
+    image: "/culpeper8.jpg",
+    group: "campusstaff"
+  },,
+    {
+    id: 22,
+    name: "Joseph Garcia",
+    position: "Production Director",
+    image: "/culpeper9.jpg",
+    group: "campusstaff"
+  },  {
+    id: 23,
+    name: "Charlse Monsato",
+    position: "Kidspoint Director",
+    image: "/culpeper10.jpg",
+    group: "campusstaff"
+  },  {
+    id: 24,
+    name: "Madison Sissem",
+    position: "Youth Director",
+    image: "/culpeper11.jpg",
+    group: "campusstaff"
+  }, {
+    id: 25,
+    name: "Jenn Steller",
+    position: "Next Step Director",
+    image: "/culpeper12.jpg",
+    group: "campusstaff"
+  }, {
+    id: 26,
+    name: "Elijah Willis",
+    position: "Worship Leader",
+    image: "/culpeper13.jpg",
+    group: "campusstaff"
+  }, {
+    id: 27,
+    name: "Michael Gregory",
+    position: "Campus Pastor",
+    image: "/frede9.jpg",
+    group: "campusstaffs"
+  }, {
+    id: 28,
+    name: "Paul Patti",
+    position: "Associate Campus Pastor",
+    image: "/frede10.jpg",
+    group: "campusstaffs"
+  }, {
+    id: 29,
+    name: "Matthew Furukawa",
+    position: "Production Director",
+    image: "/frede11.jpg",
+    group: "campusstaffs"
+  },{
+    id: 30,
+    name: "Alvin Hamilton",
+    position: "Youth Director",
+    image: "/frede12.jpg",
+    group: "campusstaffs"
+  },{
+    id: 31,
+    name: "Michel Izquieta",
+    position: "Kidspoint Director",
+    image: "/frede13.jpg",
+    group: "campusstaffs"
+  },{
+    id: 32,
+    name: "Savon Norwood",
+    position: "Next Steps Director",
+    image: "/frede14.jpg",
+    group: "campusstaffs"
+  },{
+    id: 33,
+    name: "Becky Shafrift",
+    position: "Worship Leader",
+    image: "/frede15.jpg",
+    group: "campusstaffs"
+  },{
+    id: 34,
+    name: "Melissa Herbolsheimer",
+    position: "Next Steps Director",
+    image: "/frede16.jpg",
+    group: "campusstaffs"
+  },{
+    id: 35,
+    name: "Kelsey Day",
+    position: "Kidspoint Director",
+    image: "/frede13.jpg",
+    group: "campusstaffs"
+  },
+  {
+    id: 36,
+    name: "Gerald Hackett",
+    position: "Campus Pastor Richmond Campus",
+    image: "/rich1.jpg",
+    group: "richmond"
+  }, {
+    id: 37,
+    name: "Miriam Compton",
+    position: "Kidspoint Director",
+    image: "/rich2.jpg",
+    group: "richmond"
+  }, {
+    id: 38,
+    name: "Peyton Haygood",
+    position: "Youth Director",
+    image: "/rich3.jpg",
+    group: "richmond"
+  }, {
+    id: 39,
+    name: "Barry Thomas",
+    position: "Next Steps Director",
+    image: "/rich4.jpg",
+    group: "richmond"
+  }, {
+    id: 40,
+    name: "Sarah Thompson",
+    position: "Worship Leader",
+    image: "/rich5.jpg",
+    group: "richmond"
+  }, {
+    id: 41,
+    name: "Maraj Johson",
+    position: "Worship Leader",
+    image: "/rich2.jpg",
+    group: "richmond"
+  }, {
+    id: 42,
+    name: "Billy Riner",
+    position: "Campus Pastor",
+    image: "/spot5.jpg",
+    group: "spotsylvania"
+  },{
+    id: 43,
+    name: "James Chandler",
+    position: "Production Director",
+    image: "/spot6.jpg",
+    group: "spotsylvania"
+  },{
+    id: 44,
+    name: "Kenny Randleman",
+    position: "Worship Director",
+    image: "/spot7.jpg",
+    group: "spotsylvania"
+  },{
+    id: 45,
+    name: "Calandra Rollins",
+    position: "Kidspoint Director",
+    image: "/spot8.jpg",
+    group: "spotsylvania"
+  },{
+    id: 46,
+    name: "Matt Thwing",
+    position: "Next Steps Director",
+    image: "/spot9.jpg",
+    group: "spotsylvania"
+  },{
+    id: 47,
+    name: "Riche James",
+    position: "Next Steps Director",
+    image: "/spot6.jpg",
+    group: "spotsylvania"
+  },{
+    id: 48,
+    name: "Caleb Brown",
+    position: "Campus Pastor",
+    image: "/louis4.jpg",
+    group: "spotsy"
+  },{
+    id: 49,
+    name: "Amanda Glasmeier",
+    position: "Operations Admin",
+    image: "/louis5.jpg",
+    group: "spotsy"
+  },{
+    id: 50,
+    name: "Jazmin Saldivar",
+    position: "Next Steps Director",
+    image: "/louis6.jpg",
+    group: "spotsy"
+  },{
+    id: 51,
+    name: "Cameron Tolle",
+    position: "Kidspoint Director",
+    image: "/louis7.jpg",
+    group: "spotsy"
+  },{
+    id: 52,
+    name: " Tolle Jules",
+    position: "Kidspoint Director",
+    image: "/louis5.jpg",
+    group: "spotsy"
+  },{
+    id: 53,
+    name: " Tolle Kampar",
+    position: "Next Step Director",
+    image: "/louis6.jpg",
+    group: "spotsy"
   }
 ];
 export const beliefs = [
@@ -535,6 +746,51 @@ export const pictures = [
     title: "Richmond Event"
   }
 ];
+export const morePictures = [
+  {
+    id: 1,
+    image: "/culpeper4.jpg",
+    title: "Culpeper Event"
+  },
+  {
+    id: 2,
+    image: "/culpeper5.jpg",
+    title: "Fredericksburg Event"
+  },
+  {
+    id: 3,
+    image: "/culpeper6.jpg",
+    title: "Fredericksburg North Event"
+  },
+  {
+    id: 4,
+    image: "/culpeper7.jpg",
+    title: "Richmond Event"
+  }
+];
+export const morePic = [
+  {
+    id: 1,
+    image: "/frede4.jpg",
+    title: "Culpeper Event"
+  },
+  {
+    id: 2,
+    image: "/frede5.jpg",
+    title: "Fredericksburg Event"
+  },
+  {
+    id: 3,
+    image: "/frede6.jpg",
+    title: "Fredericksburg North Event"
+  },
+  {
+    id: 4,
+    image: "/frede7.jpg",
+    title: "Richmond Event"
+  }
+];
+
 export const verses = [
     {
       text: `FIf you declare with your mouth, “Jesus is Lord,” and believe in your 
@@ -1361,5 +1617,133 @@ export const teachingSeries = [
     date: "September 3, 2026",
     image: "/sermon10.jpg",
     group: "This is my story"
+  }
+];
+export const six = [
+  {
+    id: 1,
+    name: "Our Beliefs",
+    position: "We stand on the truth of God’s Word and the life-changing power of Jesus Christ.",
+    image: "/culpeper1.jpg",
+    group: "leadership"
+  },  {
+    id: 2,
+    name: "Our Mission",
+    position: "We exist to lead people far from God into a full life in Christ.",
+    image: "/culpeper2.jpg",
+    group: "leadership"
+  },  {
+    id: 3,
+    name: "Our Pastors",
+    position: "Our pastors lead with vision, humility, and a heart to serve God’s people.",
+    image: "/culpeper3.jpg",
+    group: "leadership"
+  },  {
+    id: 4,
+    name: "Our Beliefs",
+    position: "We stand on the truth of God’s Word and the life-changing power of Jesus Christ.",
+    image: "/frede1.jpg",
+    group: "frederick"
+  },  {
+    id: 5,
+    name: "Our Mission",
+    position: "We exist to lead people far from God into a full life in Christ.",
+    image: "/frede2.jpg",
+    group: "frederick"
+  },  {
+    id: 6,
+    name: "Our Pastors",
+    position: "Our pastors lead with vision, humility, and a heart to serve God’s people.",
+    image: "/frede3.jpg",
+    group: "frederick"
+  }, {
+    id: 7,
+    name: "Our Beliefs",
+    position: "We stand on the truth of God’s Word and the life-changing power of Jesus Christ.",
+    image: "/spot2.jpg",
+    group: "spott"
+  }, {
+    id: 8,
+    name: "Our Mission",
+    position: "We exist to lead people far from God into a full life in Christ.",
+    image: "/spot3.jpg",
+    group: "spott"
+  },{
+    id: 9,
+    name: "Our Pastors",
+    position: "Our pastors lead with vision, humility, and a heart to serve God’s people.",
+    image: "/spot4.jpg",
+    group: "spott"
+  },{
+    id: 10,
+    name: "Our Beliefs",
+    position: "We stand on the truth of God’s Word and the life-changing power of Jesus Christ.",
+    image: "/spot2.jpg",
+    group: "spotty"
+  }, {
+    id: 11,
+    name: "Our Mission",
+    position: "We exist to lead people far from God into a full life in Christ.",
+    image: "/spot3.jpg",
+    group: "spotty"
+  },{
+    id: 12,
+    name: "Our Pastors",
+    position: "Our pastors lead with vision, humility, and a heart to serve God’s people.",
+    image: "/spot4.jpg",
+    group: "spotty"
+  },{
+    id: 13,
+    name: "Campus Events",
+    position: "Explore what’s happening at our Louisville location and find your next step.",
+    image: "/louis1.jpg",
+    group: "spotty"
+  }, {
+    id: 14,
+    name: "OCampus Small Groups",
+    position: "Find your people and develop meaningful connection.",
+    image: "/louis2.jpg",
+    group: "spotty"
+  },{
+    id: 15,
+    name: "Campus Growth Track",
+    position: "Growth Track was created to help you discover your unique design.",
+    image: "/louis3.jpg",
+    group: "spotty"
+  },
+];
+export const TwoCards = [{
+  id:1,
+  name:"Fredericksburg",
+  direction:"1400 Central Park Blvd Fredericksburg VA 22401",
+  details:"Service Times: 8:15am, 10:00am & 11:45am",
+   icon:  faLocationDot
+},{
+  id:2,
+  name:"Fredericksburg North",
+  direction:"Stafford High 63 Stafford Indians Ln. Fredericksburg, VA 22405",
+  details:"Service Times: 10:30am",
+    icon:  faLocationDot
+}];
+export const moreInfo = [
+  {
+    id: 1,
+    image: "/spot10.jpg",
+    title: "Culpeper Event"
+  },
+  {
+    id: 2,
+    image: "/spot11.jpg",
+    title: "Fredericksburg Event"
+  },
+  {
+    id: 3,
+    image: "/spot12.jpg",
+    title: "Fredericksburg North Event"
+  },
+  {
+    id: 4,
+    image: "/spot13.jpg",
+    title: "Richmond Event"
   }
 ];

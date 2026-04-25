@@ -1,49 +1,11 @@
 'use client'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHeart,  faCalendarDays,  faWater,  faUsers, faHandsPraying, faMessage} from '@fortawesome/free-solid-svg-icons';
 import EvtPict from "@/components/evnt/EvtPict";
 import {pictures} from "@/data/features";
+import {features} from "@/data/features";
 import Link from 'next/link';
 const EventDetails = () => {
 
-const features = [
-  {
-    id: 1,
-    title: "Get Involved",
-    description: "Take your next step and find your place in what God is doing here.",
-    icon: faHeart
-  },
-  {
-    id: 2,
-    title: "Upcoming Events",
-    description: "Events at Lifepoint help you grow, connect, and move forward in faith.",
-    icon: faCalendarDays
-  },
-  {
-    id: 3,
-    title: "Water Baptism",
-    description: "Go public with your faith and celebrate new life through baptism.",
-    icon: faWater
-  },
-  {
-    id: 4,
-    title: "Small Groups",
-    description: "Build community and grow in faith by joining a small group today.",
-    icon: faUsers
-  },
-  {
-    id: 5,
-    title: "Need Prayer",
-    description: "Whatever you’re facing, we believe prayer changes everything.",
-    icon: faHandsPraying
-  },
-  {
-    id: 6,
-    title: "Share Your Story",
-    description: "Your story matters. Share with us what God has done in your life.",
-    icon: faMessage
-  }
-];
   return (
     <>
     <div className='bg-[#f4f4f4]'>
@@ -62,8 +24,9 @@ const features = [
     </div>
     <div>
                 <h3 className='font-bold text-black'>{features.title}</h3>
-                <p className='font-bold text-gray-700'>{features.description}</p>
-          <Link href="/events"> <span className="cursor-pointer font-bold text-[#8d8d8d] lg:text-2xl text-xl py-2 border-b-2 border-[#bdbdbd] hover:border-transparent transition-all duration-300 w-max">
+                <p className='font-bold text-gray-700 py-4'>{features.description}</p>
+         <Link
+  href={features.link}><span className="cursor-pointer font-bold text-[#8d8d8d] py-2 border-b-2 border-[#bdbdbd] hover:border-transparent transition-all duration-300 w-max">
   Learn More
 </span>  </Link>
 </div>

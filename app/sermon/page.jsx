@@ -32,6 +32,7 @@ const filteredGroup = teachingSeries.filter((item) => {
         muted
         playsInline
       />
+        <div className="absolute inset-0 bg-black/40"></div>
         <div className="absolute top-0 left-0 w-full h-full z-10 flex flex-col justify-center items-center px-4 sm:px-8 lg:px-16 py-20">
          <h2 className='text-center font-bold text-white text-3xl sm:text-4xl lg:text-7xl p-5'>Our Sermons</h2>
   </div>

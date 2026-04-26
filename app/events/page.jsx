@@ -32,6 +32,7 @@ const Page = () => {
           height={300}
           className="absolute top-0 left-0 w-full h-full object-cover"
         />
+          <div className="absolute inset-0 bg-black/40"></div>
         <div className="absolute top-0 left-0 w-full h-full z-10 flex justify-center items-center">
           <h2 className="text-white text-5xl font-bold">Events</h2>
         </div>
@@ -45,7 +46,7 @@ const Page = () => {
 <div className="flex flex-col sm:flex-row justify-center w-full gap-4 mb-6">
 <div className="relative w-full sm:w-1/2">
   <select
-    onChange={(e) => setSelectedAsset(e.target.value)}
+  onChange={(e) => setSelectedGroup(e.target.value)}
     className="w-full px-5 py-4 h-[60px] bg-white text-black 
     border-4 border-black rounded-none text-xl leading-none outline-none appearance-none"
   >
@@ -59,8 +60,8 @@ const Page = () => {
   </span>
 </div>
 <div className="relative w-full sm:w-1/2">
-  <select
-    onChange={(e) => setSelectedAsset(e.target.value)}
+<select
+  onChange={(e) => setSelectedName(e.target.value)}
     className="w-full px-5 py-4 h-[60px] bg-white text-black 
     border-4 border-black rounded-none text-xl leading-none outline-none appearance-none"
   >

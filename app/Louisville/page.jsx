@@ -21,7 +21,7 @@ const page = () => {
          <h2 className='text-center font-bold text-white text-3xl sm:text-4xl lg:text-7xl p-5'>Louisville Campus</h2>
   </div>
   </div>
-  <div className="grid grid-cols-1 gap-6 mt-10 bg-white sm:py-py-3 lg:py-10">
+  <div className="grid grid-cols-1 gap-6 lg:mt-10 bg-white sm:py-py-3 lg:py-10">
   <div className="p-6 flex flex-col gap-4 max-w-2xl text-center mx-auto items-center">
     
     <p className="text-black text-xl">

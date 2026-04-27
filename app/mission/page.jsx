@@ -33,7 +33,9 @@ const Page = () => {
                   <p className='text-center p-5 text-black mx-auto text-sm sm:text-base lg:text-lg'>Whether you have a deep relationship with God or are curious, 
                     come experience a service and feel free to ask questions. </p>
        </div>
+       <div className="bg-white w-full">
 <BeliefCard data={beliefs}/>
+</div>
    <div className="bg-white">
         <div className="flex flex-col items-center max-w-2xl mx-auto">
        <h2 className='text-center font-bold text-black text-xl sm:text-xl lg:text-5xl p-5'>What We Believe</h2>

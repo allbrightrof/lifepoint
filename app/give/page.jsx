@@ -49,17 +49,16 @@ You can give a one-time gift or set up recurring giving. Together, we’re build
 
   {/* Top Heading */}
   <div className="text-center max-w-3xl mx-auto mb-10">
-    <h2 className="text-3xl md:text-4xl font-bold">
+    <h2 className="text-3xl md:text-4xl font-bold text-black">
       Take a Next Step in Generosity
     </h2>
   </div>
 
-  {/* Three Items */}
+
   <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-    {/* Item 1 */}
     <div className="flex flex-col gap-4">
-      <h3 className="text-xl font-semibold">
+      <h3 className="text-xl font-semibold text-black">
         What the Bible Says
       </h3>
       <p className="text-gray-700 leading-relaxed">
@@ -67,7 +66,6 @@ You can give a one-time gift or set up recurring giving. Together, we’re build
       </p>
     </div>
 
-    {/* Item 2 */}
     <div className="flex flex-col gap-4">
       <h3 className="text-xl font-semibold">
         Trust God in your Finances
@@ -82,9 +80,8 @@ You can give a one-time gift or set up recurring giving. Together, we’re build
     </button>
     </div>
 
-    {/* Item 3 */}
     <div className="flex flex-col gap-4">
-      <h3 className="text-xl font-semibold">
+      <h3 className="text-xl font-semibold text-black">
         Giving Beyond the Tithe
       </h3>
       <p className="text-gray-700 leading-relaxed">
@@ -93,8 +90,8 @@ You can give a one-time gift or set up recurring giving. Together, we’re build
     </div>
   </div>
 </div>
-   <div className="py-15 w-full bg-white flex flex-col gap-4 max-w-2xl items-center mx-auto">
-  <h3 className="lg:text-5xl text-2xl font-bold max-w-3xl text-center">
+   <div className="lg:py-15 sm:py-10 md:py-12 px-2  w-full bg-white flex flex-col gap-4 max-w-2xl items-center mx-auto">
+  <h3 className="lg:text-5xl text-2xl text-black font-bold max-w-3xl text-center">
     Want to know more about how your giving is making a difference?
   </h3>
 

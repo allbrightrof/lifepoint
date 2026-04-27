@@ -77,7 +77,7 @@ const page = () => {
   </div>
 </div>
   <div className="p-6 flex flex-col gap-4 items-center bg-white">
-    <h3 className="text-2xl font-bold">Benevolence</h3>
+    <h3 className="text-2xl font-bold text-black">Benevolence</h3>
 
     <p className="text-black text-xl max-w-2xl">
      Lifepoint Church provides care and support to church members facing unexpected life events or family crises.

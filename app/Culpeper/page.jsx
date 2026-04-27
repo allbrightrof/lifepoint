@@ -22,8 +22,8 @@ const page = () => {
          <h2 className='text-center font-bold text-white text-3xl sm:text-4xl lg:text-7xl p-5'>Culpeper Campus</h2>
   </div>
   </div>
-  <div className="grid grid-cols-1 gap-6 mt-10 bg-white sm:py-py-3 lg:py-10">
-  <div className="p-6 flex flex-col gap-4 max-w-2xl text-center mx-auto items-center">
+  <div className="grid grid-cols-1 gap-6 lg:mt-10 bg-white sm:py-py-3 lg:py-10">
+  <div className="p-6 sm:py-5 flex flex-col gap-4 max-w-2xl text-center mx-auto items-center">
     
     <p className="text-black text-xl">
 Welcome
@@ -44,7 +44,7 @@ Lifepoint Culpeper meets every Sunday morning at 9:00am and 10:45am at Culpeper 
   </div>
 </div>
     <div className="bg-[#f4f4f4] lg:py-20 sm:py-8">
-        <div className="flex flex-col items-center max-w-2xl mx-auto">
+        <div className="flex flex-col items-center max-w-2xl mx-auto sm:py-5 md:py-5">
        <h2 className='text-center font-bold text-black text-xl sm:text-xl lg:text-5xl p-5'>Campus Staff</h2>
              <p className='text-center p-5 mx-auto  text-black text-sm sm:text-base lg:text-lg'>At Lifepoint Church, we believe in the life-changing power of Jesus Christ 
                 and hold to the truth of Gods Word as our foundation for faith, hope, and purpose.</p>
@@ -56,7 +56,7 @@ Lifepoint Culpeper meets every Sunday morning at 9:00am and 10:45am at Culpeper 
                  <TeamFeature group="campusstaff"/>
                  </div>
      </div>
-         <div className="bg-[#ffffff] lg:py-20 p-4">
+         <div className="bg-[#ffffff] lg:py-20 p-4 sm:py-5">
         <div className="flex flex-col items-center max-w-2xl mx-auto">
        <h2 className='text-center font-bold text-black text-xl sm:text-xl lg:text-5xl'>Who We Are</h2>
              <p className='text-center p-5 mx-auto  text-black text-sm sm:text-base lg:text-lg'>Lifepoint Culpeper is one of six Lifepoint Church locations throughout the state of Virginia and Kentucky.
@@ -76,7 +76,7 @@ Lifepoint Culpeper meets every Sunday morning at 9:00am and 10:45am at Culpeper 
                 <EvtPict evenData={morePictures}/>
                   <div className="flex flex-col items-center w-full py-5 lg:py-10 bg-white">
        <h2 className='text-center font-bold text-black text-xl sm:text-xl lg:text-3xl p-5'>We believe prayer changes things. </h2>
-             <p className='text-center p-5 mx-auto  max-w-2xl text-whhite text-sm sm:text-base lg:text-lg'>No matter what you’re facing,
+             <p className='text-center p-5 mx-auto  max-w-2xl text-black text-whhite text-sm sm:text-base lg:text-lg'>No matter what you’re facing,
                our Campus team would love to pray for you. Let us know how we can be praying for you this week. </p>
                   <Link href="/prayerwall"> <button className="bg-[#8d8d8d] mt-2 cursor-pointer font-bold px-5 py-3 text-white w-fit transition rounded-3xl flex items-center gap-2">
 Prayer Request

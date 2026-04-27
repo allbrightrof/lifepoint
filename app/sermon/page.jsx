@@ -55,7 +55,7 @@ const filteredGroup = teachingSeries.filter((item) => {
 <div className="relative w-full sm:w-1/2">
   <select
     onChange={(e) => setSelectedAsset(e.target.value)}
-    className="w-full px-5 py-4 h-60 bg-white text-black 
+    className="w-full px-5 py-4 h-[60px] bg-white text-black 
     border-4 border-black rounded-none text-xl leading-none outline-none appearance-none"
   >
     <option value="all">All</option>

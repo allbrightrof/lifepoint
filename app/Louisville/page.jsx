@@ -39,15 +39,15 @@ However you landed here, we’re glad you did. Whether you’re looking for a ch
   </div>
 </div>
    <div className="bg-[#f4f4f4] lg:py-20 p-4">
-        <div className="flex flex-col items-center max-w-2xl mx-auto">
+        <div className="flex flex-col items-center py-8 max-w-2xl mx-auto">
        <h2 className='text-center font-bold text-black text-xl sm:text-xl lg:text-5xl'>Who We Are</h2>
              <p className='text-center p-5 mx-auto  text-black text-sm sm:text-base lg:text-lg'>Lifepoint Culpeper is one of six Lifepoint Church locations throughout the state of Virginia and Kentucky.
                We exist so that people far from God will become fully alive in Christ. </p>
                 </div>
                  <SixFeature group="spott"/>
      </div>
-                      <div className="bg-black lg:py-20 p-4">
-                         <div className="flex flex-col items-center max-w-2xl mx-auto">
+           <div className="bg-black lg:py-20 py-8 p-4">
+                         <div className="flex flex-col items-center py-10 max-w-2xl mx-auto">
                            <h2 className='text-center font-bold text-white text-xl sm:text-xl lg:text-5xl'>Campus Staff</h2>
                              <p className='text-center p-5 mx-auto  text-white text-sm sm:text-base lg:text-lg'>Our campus staff are passionate leaders who serve each location with care,
                                helping you feel connected, supported, and at home.</p>

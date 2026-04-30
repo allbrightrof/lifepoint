@@ -16,6 +16,9 @@ import {
   faCamera,
   faLocationDot,
   faWater,
+  faEye,
+  faSchool,
+  faDollarSign,
    faHandsPraying,
    faMessage
 } from "@fortawesome/free-solid-svg-icons";
@@ -324,7 +327,7 @@ export const team = [
     position: "Campus Pastor",
     image: "/culpeper8.jpg",
     group: "campusstaff"
-  },,
+  },
     {
     id: 22,
     name: "Joseph Garcia",
@@ -724,6 +727,45 @@ export const values = [
     ]
   }
 ];
+export const buildingValue = [
+    {
+    id: 1,
+    title: "Total Project Cost",
+    icon: faDollarSign,
+    paragraphs: [
+      "$16mm"
+    ]
+  },  {
+    id: 2,
+    title: "Love God",
+    icon: faUsers,
+    paragraphs: [
+      "Lot Size: 17.6 acres",
+      "Building Size: 34,350 sf",
+      "Seating Capacity: 622"
+    ]
+  },  {
+    id: 3,
+    title: "Campus Stats",
+    icon: faSchool,
+    paragraphs: [
+      "Salvations: 2000",
+      "Baptisms: 675",
+      "Adult Attendance (3/2019): 633",
+      "Adult Attendance (3/2026): 424"
+    ]
+  }, {
+    id: 4,
+    title: "Vision",
+    icon: faEye,
+    paragraphs: [
+      "By 2029, we are expecting:",
+      "Adult Attendance will grow to 750+",
+      "Campus Salvations will exceed 3200+",
+      "Campus Baptisms will exceed 1000+"
+    ]
+  },
+];
 export const pictures = [
   {
     id: 1,
@@ -1039,6 +1081,71 @@ While groups vary based on type, the goal of all groups is to develop relationsh
     content: `There is no long-term commitment required. The goal is to find the best group for you, which might mean exploring options. Because Small Groups meet on a semester basis with built-in breaks, this allows for group members to find a new group if their schedule or needs have changed.
 
 Freedom groups are unique, meeting 8-weeks and concluding with a one-day conference. Due to the nature of the program, these groups fill up quickly, making it harder to switch groups mid-semester.`
+  }
+];
+export const buildingGrp = [
+  {
+    id: 1,
+    title: "September 2023",
+    content: `After exploring all leasing and renovation options in the community, our team determined that new construction was the best and most economically beneficial option to provide a permanent location for the Culpeper campus.` 
+  },
+  {
+    id: 2,
+    title: "January 2024",
+    content: `Our team finalized the building floor plan and site plan. The site plan was later submitted to the County for permitting/review.`
+  },
+  {
+    id: 3,
+    title: "May 2024",
+    content: `The County approved the site plan and issued permitting. The church held an official groundbreaking ceremony later that month.`
+  },
+  {
+    id: 4,
+    title: "June 2024",
+    content: `The contractor began initial clearing and site work commenced.`
+  },
+  {
+    id: 5,
+    title: "August 2024",
+    content: `Architectural drawings were submitted to the County to apply for the building permits and to the general contractor to obtain updated pricing.`
+  },
+  {
+    id: 6,
+    title: "September  2024",
+    content: `The County approved our zoning permit, which allows them to then initiate the building permit review process.`
+  },
+  {
+    id: 7,
+    title: "October 2024",
+    content: `Executed a construction contract with our contractor.`
+  },  {
+    id: 8,
+    title: "December 2024",
+    content: `After nearly 2-years of negotiations, we obtained the sewer easement required to connect the existing sewer to the church property.`
+  },{
+    id: 9,
+    title: "February 2025",
+    content: `Obtained the foundation permit from the County, which allows our team to begin digging footers for the building.`
+  },{
+    id: 10,
+    title: "March 2025",
+    content: `The county issued our building permit, which allows construction to begin.
+
+The church executed an integration contract for audio, visual, lighting (AVL).`
+  },{
+    id: 11,
+    title: "April 2025",
+    content: `The initial stages of construction began by digging the building footers and delivery of the metal building.`
+  },{
+    id: 12,
+    title: "July 2025",
+    content: `The pad site was poured and metal framing was erected. Irrigation was installed and boring under the street was`
+  },{
+    id: 13,
+    title: "April 2026",
+    content: `The building is completely under roof and interior finishes are underway. 
+
+Installation of audio, visual, and lighting has begun.`
   }
 ];
 export const smallEvents = [
@@ -1625,91 +1732,106 @@ export const six = [
     name: "Our Beliefs",
     position: "We stand on the truth of God’s Word and the life-changing power of Jesus Christ.",
     image: "/culpeper1.jpg",
-    group: "leadership"
+    group: "leadership",
+    link:"/beliefs"
   },  {
     id: 2,
     name: "Our Mission",
     position: "We exist to lead people far from God into a full life in Christ.",
     image: "/culpeper2.jpg",
-    group: "leadership"
+    group: "leadership",
+     link:"/mission"
   },  {
     id: 3,
     name: "Our Pastors",
     position: "Our pastors lead with vision, humility, and a heart to serve God’s people.",
     image: "/culpeper3.jpg",
-    group: "leadership"
+    group: "leadership",
+     link:"/leadership"
   },  {
     id: 4,
     name: "Our Beliefs",
     position: "We stand on the truth of God’s Word and the life-changing power of Jesus Christ.",
     image: "/frede1.jpg",
-    group: "frederick"
+    group: "frederick",
+     link:"/beliefs"
   },  {
     id: 5,
     name: "Our Mission",
     position: "We exist to lead people far from God into a full life in Christ.",
     image: "/frede2.jpg",
-    group: "frederick"
+    group: "frederick",
+     link:"/mission"
   },  {
     id: 6,
     name: "Our Pastors",
     position: "Our pastors lead with vision, humility, and a heart to serve God’s people.",
     image: "/frede3.jpg",
-    group: "frederick"
+    group: "frederick",
+     link:"/leadership"
   }, {
     id: 7,
     name: "Our Beliefs",
     position: "We stand on the truth of God’s Word and the life-changing power of Jesus Christ.",
     image: "/spot2.jpg",
+     link:"/beliefs",
     group: "spott"
   }, {
     id: 8,
     name: "Our Mission",
     position: "We exist to lead people far from God into a full life in Christ.",
     image: "/spot3.jpg",
+     link:"/mission",
     group: "spott"
   },{
     id: 9,
     name: "Our Pastors",
     position: "Our pastors lead with vision, humility, and a heart to serve God’s people.",
     image: "/spot4.jpg",
-    group: "spott"
+    group: "spott",
+     link:"/leadership"
   },{
     id: 10,
     name: "Our Beliefs",
     position: "We stand on the truth of God’s Word and the life-changing power of Jesus Christ.",
     image: "/spot2.jpg",
-    group: "spotty"
+    group: "spotty",
+     link:"/beliefs"
   }, {
     id: 11,
     name: "Our Mission",
     position: "We exist to lead people far from God into a full life in Christ.",
     image: "/spot3.jpg",
-    group: "spotty"
+    group: "spotty",
+     link:"/mission"
   },{
     id: 12,
     name: "Our Pastors",
     position: "Our pastors lead with vision, humility, and a heart to serve God’s people.",
     image: "/spot4.jpg",
-    group: "spotty"
+    group: "spotty",
+     link:"/leadership"
   },{
     id: 13,
     name: "Campus Events",
     position: "Explore what’s happening at our Louisville location and find your next step.",
     image: "/louis1.jpg",
-    group: "spotty"
+    group: "spotty",
+     link:"/events"
   }, {
     id: 14,
-    name: "OCampus Small Groups",
+    name: "Campus Small Groups",
     position: "Find your people and develop meaningful connection.",
     image: "/louis2.jpg",
-    group: "spotty"
+    group: "spotty",
+     link:"/small-group"
   },{
     id: 15,
     name: "Campus Growth Track",
     position: "Growth Track was created to help you discover your unique design.",
     image: "/louis3.jpg",
-    group: "spotty"
+    group: "spotty",
+     link:"/"
   },
 ];
 export const TwoCards = [{

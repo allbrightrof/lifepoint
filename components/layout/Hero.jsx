@@ -55,7 +55,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="flex flex-wrap bg-white justify-center items-center gap-3 mt-4 text-white">
+        <div className="flex flex-wrap justify-center items-center gap-3 mt-4 text-white">
           <Link href="/beliefs">
           <button className="flex items-center gap-2 bg-black text-white px-4 py-2 rounded-3xl hover:bg-gray-800 transition">
             Our Beliefs <FontAwesomeIcon icon={faArrowRight} />

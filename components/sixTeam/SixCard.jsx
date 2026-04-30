@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import Link from "next/link";
 const SixCard = ({member}) => {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden">
@@ -21,10 +22,11 @@ const SixCard = ({member}) => {
         <p className="mt-2 max-w-md">
         {member.position}
         </p>
-         <button className="bg-[#8d8d8d] mt-2 cursor-pointer font-bold px-5 py-3 text-white w-fit transition rounded-3xl flex items-center gap-2">
+    <Link
+  href={member.link} className="bg-[#8d8d8d] mt-2 cursor-pointer font-bold px-5 py-3 text-white w-fit transition rounded-3xl flex items-center gap-2">
   Learn More
   <FontAwesomeIcon icon={faArrowRight} className="text-white" />
-</button>
+</Link>
       </div>
 
     </div>

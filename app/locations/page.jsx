@@ -3,6 +3,7 @@ import Footer from "@/components/layout/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import TestFeatures from '@/components/team/TestFeatures'
+import Link from "next/link";
 import { events } from "@/data/features";
 import Image from 'next/image'
 const Page = () => {
@@ -21,9 +22,9 @@ const Page = () => {
                 <h2 className='text-center font-bold text-3xl text-black sm:text-3xl lg:text-3xl p-2'>Join Us Online</h2>
                   <p className='text-center text-black p-2 max-w-3xl mx-auto text-sm sm:text-base lg:text-lg'>If you can’t be in the room, you can still be a part of what God is doing. Join us online for messages and worship from wherever you are.</p>
                     <p className='text-center p-2 text-black max-w-3xl mx-auto text-sm sm:text-base lg:text-lg'>Sundays 10:00am, 1:00pm & 8:00pm</p>
-           <button className="flex items-center gap-2 bg-[#8d8d8d] text-white px-4 py-2 rounded-3xl cursor-pointer w-auto">
+               <Link href="/online-experience"> <button className="flex items-center gap-2  hover:shadow-[0_0_30px_rgba(0,0,0,0.15)] hover:-translate-y-1 transition duration-300 bg-[#8d8d8d] text-white px-4 py-2 rounded-3xl cursor-pointer w-auto">
     Read More<FontAwesomeIcon icon={faArrowRight} className="w-3 h-3" />
-  </button>
+  </button> </Link> 
          </div>
     <Footer />
     </>

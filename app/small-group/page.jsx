@@ -14,8 +14,7 @@ const page = () => {
         <Image src="/smallgroup.jpg" alt="smallgroups" width={400} height={300} className="absolute top-0 left-0 w-full h-full object-cover mb-2" />
           <div className="absolute inset-0 bg-black/40"></div>
         <div className="absolute top-0 left-0 w-full h-full z-10 flex flex-col justify-center items-center px-4 sm:px-8 lg:px-16 py-20">
-          
-         <h2 className='text-center font-bold text-white text-3xl sm:text-4xl lg:text-7xl p-5'>You were made for relationship.</h2>
+             <h2 className='text-center font-bold text-white text-3xl sm:text-4xl lg:text-7xl p-5'>You were made for relationship.</h2>
   </div>
   </div>
  <div className="flex flex-col items-center bg-white max-w-2xl mx-auto py-20">

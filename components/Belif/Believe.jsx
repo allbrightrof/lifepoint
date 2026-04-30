@@ -33,16 +33,20 @@ const Believe = ({ title, content, content1, content2, content3, content4, conte
           className={`${current.icon} font-bold text-4xl`}
         />
         </div>
-           {isOpen && (
-        <div className="px-3 pb-4">
-          <p className="text-gray-600">{content}</p>
-             <p className="text-white pb-2">{content5}</p>
-           <li className="text-white">{content1}</li>
-            <li className="text-white">{content2}</li>
-             <li className="text-white">{content3}</li>
-              <li className="text-white">{content4}</li>
-        </div>
-      )}
+         {isOpen && (
+  <div className="px-3 pb-4">
+    <p className="text-gray-600">{content}</p>
+
+    {content5 && <p className="text-white pb-2">{content5}</p>}
+
+    <ul className="text-white list-disc pl-5">
+      {content1 && <li>{content1}</li>}
+      {content2 && <li>{content2}</li>}
+      {content3 && <li>{content3}</li>}
+      {content4 && <li>{content4}</li>}
+    </ul>
+  </div>
+)}
     </div>
   );
 };

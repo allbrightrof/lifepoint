@@ -8,6 +8,7 @@ import EvtPict from "../../components/evnt/EvtPict"
 import {pictures} from "@/data/features";
 import { beliefs } from "@/data/features";
 import { beliefDetails } from "@/data/features";
+import { values } from "@/data/features";
 const Page = () => {
   return (
     <>
@@ -63,7 +64,7 @@ const Page = () => {
              <p className='text-center p-5 mx-auto  text-black text-sm sm:text-base lg:text-lg'>At Lifepoint Church, we believe in the life-changing power of Jesus Christ 
                 and hold to the truth of God’s Word as our foundation for faith, hope, and purpose.</p>
                 </div>
-<ValueSection/>
+<ValueSection data={values}/>
   <div className="w-full bg-white px-4 sm:px-8 lg:px-16 py-13 text-black flex flex-col md:flex-row lg:flex-row items-center justify-center gap-3">
         <div className="full max-w-6xl flex flex-col items-start">
            <h6 className=' font-bold text-xl text-black sm:text-xl lg:text-3xl p-5'>Senior Pastors</h6>

@@ -1,11 +1,11 @@
-import { values } from "@/data/features";
+
 import ValueCard from "../../components/Value/ValueCard";
 
-const ValuesSection = () => {
+const ValuesSection = ({data}) => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-5 lg:p-20">
-      {values.map((value) => (
-        <ValueCard key={value.id} value={value} />
+      {data.map((datas) => (
+        <ValueCard key={datas.id} datas={datas} />
       ))}
     </div>
   );

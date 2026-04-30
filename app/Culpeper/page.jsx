@@ -68,10 +68,10 @@ Lifepoint Culpeper meets every Sunday morning at 9:00am and 10:45am at Culpeper 
        <h2 className='text-center font-bold text-white text-xl sm:text-xl lg:text-5xl p-5'>Culpeper Permanent <br/> Building Project</h2>
              <p className='text-center p-5 mx-auto  max-w-2xl text-white text-sm sm:text-base lg:text-lg'>Lifepoint Culpeper is one of six Lifepoint Church locations throughout the state of Virginia and Kentucky.
                We exist so that people far from God will become fully alive in Christ. </p>
-                   <button className="bg-white mt-2 cursor-pointer font-bold px-5 py-3 text-black w-fit transition rounded-3xl flex items-center gap-2">
+                   <Link href="/culpeper-building" className="bg-white mt-2 cursor-pointer font-bold px-5 py-3 text-black w-fit transition rounded-3xl flex items-center gap-2">
   Learn More
   <FontAwesomeIcon icon={faArrowRight} className="text-black" />
-</button>
+</Link>
                 </div>
                 <EvtPict evenData={morePictures}/>
                   <div className="flex flex-col items-center w-full py-5 lg:py-10 bg-white">
@@ -87,4 +87,4 @@ Prayer Request
   )
 }
 
-export default page
+export default page     

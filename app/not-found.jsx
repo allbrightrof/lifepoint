@@ -6,7 +6,7 @@ const notFound = () => {
   return (
     <>
   <Navbar variant = "white" />
- <div className="flex flex-col gap-4 lg:py-30 py-10 max-w-2xl text-center mx-auto items-center">
+ <div className="flex flex-col bg-white gap-4 lg:py-30 py-20 max-w-2xl text-center mx-auto items-center">
     <h3 className="text-xl font-bold lg:text-2xl text-black">404</h3>
 
     <p className="text-black text-xl">Sorry we couldnt find the page your were looking for.</p>
